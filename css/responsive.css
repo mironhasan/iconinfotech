@@ -1,0 +1,3402 @@
+/* ===============================================
+         INDEX PAGE RESPONSIVE PART START
+================================================= */
+
+@media (max-width: 575px) {
+    /*-----------------------------
+             MENU PART START
+    ------------------------------*/
+    .menu-part {
+        top: 0px;
+    }
+
+    .menu-logo img {
+        height: 45px;
+    }
+
+    .navbar-collapse {
+        text-align: center;
+        padding: 25px 0px;
+        background-color: #a1eb46;
+    }
+
+    .menu-part ul li {
+        margin-left: 0px;
+        margin-bottom: 5px !important;
+    }
+
+    .menu-part ul li a {
+        font-size: 14px;
+    }
+
+    .get-btn a {
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    /*-----------------------------
+             MENU PART END
+    ------------------------------*/
+
+    /*-----------------------------
+           BANNER PART START
+    ------------------------------*/
+    #banner-part {
+        padding: 125px 0px 60px;
+    }
+
+    .banner-shape-1 {
+        width: 150px;
+        height: 550px;
+    }
+
+    .banner-shape-2 {
+        top: 120px;
+        right: -115px;
+    }
+
+    .banner-content {
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .banner-content h1 {
+        font-size: 35px;
+        line-height: 42px;
+    }
+
+    .banner-content p {
+        font-size: 15px;
+    }
+
+    .banner-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .banner-btn a {
+        font-size: 16px;
+        padding: 12px 25px;
+    }
+
+    .banner-img {
+        display: none;
+    }
+    /*-----------------------------
+            BANNER PART END
+    ------------------------------*/
+
+    /*-----------------------------
+            DOMAIN PART START
+    ------------------------------*/
+    .domain-bg {
+        padding: 60px 0px;
+    }
+
+    .domain-content p {
+        font-size: 13px;
+    }
+
+    .domain-content h2 {
+        width: 190px;
+        font-size: 26px;
+        margin: 0 auto 45px !important;
+    }
+
+    .domain-input {
+        padding: 5px;
+    }
+
+    .domain-input i {
+        display: none;
+    }
+
+    .domain-input input {
+        height: 50px;
+        width: 150px;
+        padding-left: 15px;
+        border-radius: 30px 0px 0px 30px;
+    }
+
+    .domain-input input::placeholder {
+        font-size: 12px;
+    }
+
+    .custom-select-lg {
+        padding-left: 0.5rem !important;
+        padding-right: 2rem !important;
+        font-size: 14px !important;
+    }
+
+    .domain-input button {
+        font-size: 14px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .domain-content ul {
+        margin-top: 25px;
+    }
+
+    .domain-content ul li {
+        margin: 0px 12px;
+    }
+
+    .domain-content ul li p {
+        font-size: 14px;
+    }
+    /*-----------------------------
+            DOMAIN PART END
+    ------------------------------*/
+
+    /*-----------------------------
+            PRICE PART START
+    ------------------------------*/
+    #price-part {
+        padding: 60px 0px 0px;
+    }
+
+    .price-heading p {
+        font-size: 13px;
+    }
+
+    .price-heading h2 {
+        font-size: 26px;
+    }
+
+    .price-card {
+        margin-bottom: 30px;
+    }
+
+    .price-card h3 {
+        font-size: 22px;
+    }
+
+    .price-card h4 {
+        font-size: 40px;
+    }
+
+    .price-card h5 {
+        font-size: 14px;
+    }
+
+    .price-list {
+        width: 170px;
+    }
+
+    .price-list li i {
+        font-size: 12px;
+    }
+
+    .price-list li p {
+        font-size: 14px;
+    }
+
+    .pur-btn {
+        padding: 15px 50px;
+    }
+    /*-----------------------------
+            PRICE PART END
+    ------------------------------*/
+
+    /*-----------------------------
+            ABOUT PART START
+    ------------------------------*/
+    #about-part {
+        padding: 40px 0px 0px;
+    }
+
+    .about-shape-1 {
+        display: none;
+    }
+
+    .about-heading p {
+        font-size: 13px;
+    }
+
+    .about-heading h2 {
+        font-size: 26px;
+        margin-bottom: 25px !important;
+    }
+
+    .about-img img {
+        width: 125px;
+    }
+
+    .about-img::after {
+        width: 60px;
+        height: 60px;
+    }
+
+    .about-content {
+        text-align: center;
+    }
+
+    .about-text h3 {
+        font-size: 45px;
+        line-height: 48px;
+        margin-top: 25px;
+    }
+
+    .about-text h4 {
+        width: 290px;
+        font-size: 24px;
+        line-height: 30px;
+        margin: 0 auto 15px !important;
+    }
+
+    .about-text p {
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    .about-icon li {
+        margin: 0px 3px;
+    }
+
+    .about-icon li a i {
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 16px;
+    }
+    /*-----------------------------
+            ABOUT PART END
+    ------------------------------*/
+
+    /*-----------------------------
+            SERVICE PART START
+    ------------------------------*/
+    #service-part {
+        padding: 65px 0px 45px;
+    }
+
+    .service-heading p {
+        font-size: 13px;
+    }
+
+    .service-heading h2 {
+        font-size: 26px;
+    }
+
+    .service-parent {
+        justify-content: center;
+    }
+
+    .service-card {
+        padding: 50px 25px;
+        margin: 15px 15px;
+    }
+
+    .service-icon i {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 25px;
+    }
+
+    .service-card h3 {
+        font-size: 20px;
+    }
+
+    .service-card p {
+        font-size: 15px;
+    }
+    /*-----------------------------
+            SERVICE PART END
+    ------------------------------*/
+
+    /*-----------------------------
+            SEO PART START
+    ------------------------------*/
+    .seo-content p {
+        font-size: 13px;
+    }
+
+    .seo-content h2 {
+        font-size: 26px;
+    }
+
+    .seo-form {
+        display: inherit;
+        border-radius: 15px;
+        padding: 10px 15px;
+    }
+
+    .seo-form input {
+        width: 100%;
+        height: 55px;
+        border-right: none;
+        border-bottom: 1px solid #dddddd;
+    }
+
+    .seo-form button {
+        margin-top: 30px;
+    }
+    /*-----------------------------
+            SEO PART END
+    ------------------------------*/
+
+    /*-----------------------------
+         PORTFOLIO PART START
+    ------------------------------*/
+    #port-part {
+        padding: 60px 0px 0px;
+    }
+
+    .port-heading p {
+        font-size: 13px;
+    }
+
+    .port-heading h2 {
+        font-size: 26px;
+    }
+
+    .port-parent {
+        justify-content: center;
+    }
+    /*-----------------------------
+          PORTFOLIO PART END
+    ------------------------------*/
+
+    /*-----------------------------
+            TEAM PART START
+    ------------------------------*/
+    #team-part {
+        padding: 60px 0px 0px;
+    }
+
+    .team-heading p {
+        font-size: 13px;
+    }
+
+    .team-heading h2 {
+        font-size: 26px;
+    }
+
+    .team-heading h2 {
+        margin-bottom: 35px !important;
+    }
+
+    .team-parent .bamdik {
+        left: 0px;
+        top: 30%;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 16px;
+    }
+
+    .team-parent .dandik {
+        right: 0px;
+        top: 30%;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 16px;
+    }
+
+    .team-child {
+        width: 250px !important;
+        margin: 0px 20px;
+    }
+    /*-----------------------------
+             TEAM PART END
+    ------------------------------*/
+
+    /*-----------------------------
+             BLOG PART START
+    ------------------------------*/
+    #blog-part {
+        padding: 25px 0px 0px;
+    }
+
+    .blog-heading p {
+        font-size: 13px;
+    }
+
+    .blog-heading h2 {
+        font-size: 26px;
+        margin-bottom: 35px !important;
+    }
+
+    .blog-card {
+        margin-bottom: 30px;
+    }
+
+    .blog-content {
+        padding: 25px 25px;
+    }
+
+    .blog-text h3 {
+        font-size: 20px;
+    }
+
+    .blog-more a {
+        margin-top: 20px;
+    }
+    /*-----------------------------
+             BLOG PART END
+    ------------------------------*/
+
+    /*-----------------------------
+           COMPANY PART START
+    ------------------------------*/
+    #company-part {
+        padding: 60px 0px 0px;
+    }
+
+    .company-heading p {
+        font-size: 13px;
+    }
+
+    .company-heading h2 {
+        font-size: 26px;
+        margin-bottom: 25px !important;
+    }
+
+    .company-img a img {
+        height: 50px;
+    }
+
+    .company-img .bamdik {
+        display: none !important;
+    }
+
+    .company-img .dandik {
+        display: none !important;
+    }
+    /*-----------------------------
+            COMPANY PART END
+    ------------------------------*/
+
+    /*-----------------------------
+            CONTACT PART START
+    ------------------------------*/
+    #contact-part {
+        padding: 60px 0px;
+    }
+
+    .contact-heading p {
+        font-size: 13px;
+    }
+
+    .contact-heading h2 {
+        font-size: 26px;
+        margin-bottom: 25px !important;
+    }
+
+    .contact-info {
+        display: block;
+    }
+
+    .contact-info li {
+        display: block;
+        text-align: center;
+        margin-bottom: 25px !important;
+    }
+
+    .contact-info li::after {
+        display: none;
+    }
+
+    .contact-info li i {
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 16px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    .contact-content {
+        text-align: center;
+    }
+
+    .contact-content h3 {
+        font-size: 24px;
+    }
+
+    .contact-content p {
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    .contact-content img {
+        height: 230px;
+    }
+
+    .contact-input {
+        margin-left: 0px;
+    }
+
+    .name-input {
+        display: inherit;
+        margin-top: 30px;
+    }
+
+    .name-input input:nth-child(1) {
+        margin-right: 0px;
+    }
+
+    .contact-input button {
+        margin: 35px auto 0px;
+        display: inherit;
+    }
+    /*-----------------------------
+            CONTACT PART END
+    ------------------------------*/
+
+    /*-----------------------------
+            FOOTER PART START
+    ------------------------------*/
+    #footer-part {
+        padding: 60px 0px;
+        text-align: center;
+    }
+
+    .footer-logo {
+        margin-right: 0px;
+    }
+
+    .footer-logo a img {
+        height: 60px;
+    }
+
+    .footer-logo p {
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    .footer-icon {
+        margin-top: 25px;
+    }
+
+    .footer-icon li {
+        margin: 0px 5px;
+    }
+
+    .footer-contact {
+        margin-top: 45px;
+    }
+
+    .footer-blog {
+        margin-top: 30px;
+    }
+
+    .footer-text {
+        text-align: left;
+    }
+    /*-----------------------------
+            FOOTER PART END
+    ------------------------------*/
+}
+
+
+
+@media (min-width: 450px) and (max-width: 575px) {
+    #blog-part .container {
+        width: 450px;
+        margin: 0 auto;
+    }
+
+    #price-part .container {
+        width: 450px;
+        margin: 0 auto;
+    }
+
+    .footer-blog {
+        width: 400px;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    /*-----------------------------
+             MENU PART START
+    ------------------------------*/
+    .menu-part {
+        top: 0px;
+    }
+
+    .menu-logo img {
+        height: 45px;
+    }
+
+    .navbar-collapse {
+        text-align: center;
+        padding: 25px 0px;
+        background-color: #a1eb46;
+    }
+
+    .menu-part ul li {
+        margin-left: 0px;
+        margin-bottom: 5px !important;
+    }
+
+    .menu-part ul li a {
+        font-size: 14px;
+    }
+
+    .get-btn a {
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    /*-----------------------------
+             MENU PART END
+    ------------------------------*/
+
+    /*-----------------------------
+           BANNER PART START
+    ------------------------------*/
+    #banner-part {
+        padding: 125px 0px 60px;
+    }
+
+    .banner-shape-1 {
+        width: 150px;
+        height: 550px;
+    }
+
+    .banner-shape-2 {
+        top: 120px;
+        right: -115px;
+    }
+
+    .banner-content {
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .banner-content h1 {
+        font-size: 35px;
+        line-height: 42px;
+    }
+
+    .banner-content p {
+        font-size: 15px;
+    }
+
+    .banner-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .banner-btn a {
+        font-size: 16px;
+        padding: 12px 25px;
+    }
+
+    .banner-btn a:nth-child(1) {
+        box-shadow: 0px 5px 15px 0px #17171742;
+    }
+
+    .banner-img {
+        display: none;
+    }
+    /*-----------------------------
+            BANNER PART END
+    ------------------------------*/
+
+    /*-----------------------------
+            DOMAIN PART START
+    ------------------------------*/
+    .domain-bg {
+        padding: 60px 0px;
+    }
+
+    .domain-content p {
+        font-size: 13px;
+    }
+
+    .domain-content h2 {
+        width: 190px;
+        font-size: 26px;
+        margin: 0 auto 45px !important;
+    }
+
+    .domain-input {
+        padding: 5px;
+    }
+
+    .domain-input i {
+        font-size: 14px;
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+    }
+
+    .domain-input input {
+        height: 50px;
+        width: 250px;
+        padding-left: 15px;
+        border-radius: 30px 0px 0px 30px;
+    }
+
+    .domain-input input::placeholder {
+        font-size: 12px;
+    }
+
+    .custom-select-lg {
+        padding-left: 0.5rem !important;
+        padding-right: 2rem !important;
+        font-size: 14px !important;
+    }
+
+    .domain-input button {
+        font-size: 14px;
+        width: 100px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .domain-content ul {
+        margin-top: 25px;
+    }
+
+    .domain-content ul li {
+        margin: 0px 12px;
+    }
+
+    .domain-content ul li p {
+        font-size: 14px;
+    }
+    /*-----------------------------
+            DOMAIN PART END
+    ------------------------------*/
+
+    /*-----------------------------
+            PRICE PART START
+    ------------------------------*/
+    #price-part {
+        padding: 60px 0px 0px;
+    }
+
+    .price-heading p {
+        font-size: 13px;
+    }
+
+    .price-heading h2 {
+        font-size: 26px;
+    }
+
+    .price-card {
+        margin-bottom: 30px;
+    }
+
+    .price-card h3 {
+        font-size: 22px;
+    }
+
+    .price-card h4 {
+        font-size: 40px;
+    }
+
+    .price-card h5 {
+        font-size: 14px;
+    }
+
+    .price-list {
+        width: 170px;
+    }
+
+    .price-list li i {
+        font-size: 12px;
+    }
+
+    .price-list li p {
+        font-size: 14px;
+    }
+
+    .pur-btn {
+        padding: 15px 50px;
+    }
+    /*-----------------------------
+            PRICE PART END
+    ------------------------------*/
+
+    /*-----------------------------
+            ABOUT PART START
+    ------------------------------*/
+    #about-part {
+        padding: 40px 0px 0px;
+    }
+
+    .about-shape-1 {
+        display: none;
+    }
+
+    .about-heading p {
+        font-size: 13px;
+    }
+
+    .about-heading h2 {
+        font-size: 26px;
+        margin-bottom: 25px !important;
+    }
+
+    .about-img img {
+        width: 235px;
+    }
+
+    .about-img::after {
+        width: 60px;
+        height: 60px;
+    }
+
+    .about-content {
+        text-align: center;
+    }
+
+    .about-text h3 {
+        font-size: 45px;
+        line-height: 48px;
+        margin-top: 25px;
+    }
+
+    .about-text h4 {
+        width: 290px;
+        font-size: 24px;
+        line-height: 30px;
+        margin: 0 auto 15px !important;
+    }
+
+    .about-text p {
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    .about-icon li {
+        margin: 0px 3px;
+    }
+
+    .about-icon li a i {
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 16px;
+    }
+    /*-----------------------------
+            ABOUT PART END
+    ------------------------------*/
+
+    /*-----------------------------
+            SERVICE PART START
+    ------------------------------*/
+    #service-part {
+        padding: 65px 0px 45px;
+    }
+
+    .service-heading p {
+        font-size: 13px;
+    }
+
+    .service-heading h2 {
+        font-size: 26px;
+    }
+
+    .service-parent {
+        justify-content: center;
+    }
+
+    .service-card {
+        width: 225px;
+        padding: 50px 25px;
+        margin: 15px 15px;
+    }
+
+    .service-icon i {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 25px;
+    }
+
+    .service-card h3 {
+        font-size: 20px;
+    }
+
+    .service-card p {
+        font-size: 15px;
+    }
+    /*-----------------------------
+            SERVICE PART END
+    ------------------------------*/
+
+    /*-----------------------------
+            SEO PART START
+    ------------------------------*/
+    .seo-content p {
+        font-size: 13px;
+    }
+
+    .seo-content h2 {
+        font-size: 26px;
+    }
+
+    .seo-form {
+        display: inherit;
+        border-radius: 15px;
+        padding: 10px 15px;
+    }
+
+    .seo-form input {
+        width: 100%;
+        height: 55px;
+        border-right: none;
+        border-bottom: 1px solid #dddddd;
+    }
+
+    .seo-form button {
+        margin-top: 30px;
+    }
+    /*-----------------------------
+            SEO PART END
+    ------------------------------*/
+
+    /*-----------------------------
+         PORTFOLIO PART START
+    ------------------------------*/
+    #port-part {
+        padding: 60px 0px 0px;
+    }
+
+    .port-heading p {
+        font-size: 13px;
+    }
+
+    .port-heading h2 {
+        font-size: 26px;
+    }
+
+    .port-menu {
+        padding: 50px 0px 35px 40px;
+    }
+
+    .port-parent {
+        justify-content: center;
+    }
+
+    .view-btn a {
+        padding: 13px 25px;
+    }
+    /*-----------------------------
+          PORTFOLIO PART END
+    ------------------------------*/
+
+    /*-----------------------------
+            TEAM PART START
+    ------------------------------*/
+    #team-part {
+        padding: 60px 0px 0px;
+    }
+
+    .team-heading p {
+        font-size: 13px;
+    }
+
+    .team-heading h2 {
+        font-size: 26px;
+    }
+
+    .team-heading h2 {
+        margin-bottom: 35px !important;
+    }
+
+    .team-parent .bamdik {
+        left: 0px;
+        top: 30%;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 16px;
+    } 
+
+    .team-parent .dandik {
+        right: 0px;
+        top: 30%;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 16px;
+    }
+    /*-----------------------------
+             TEAM PART END
+    ------------------------------*/
+
+    /*-----------------------------
+             BLOG PART START
+    ------------------------------*/
+    #blog-part {
+        padding: 25px 0px 0px;
+    }
+
+    #blog-part .container {
+        width: 450px;
+        margin: 0 auto;
+    }
+
+    .blog-heading p {
+        font-size: 13px;
+    }
+
+    .blog-heading h2 {
+        font-size: 26px;
+        margin-bottom: 35px !important;
+    }
+
+    .blog-card {
+        margin-bottom: 30px;
+    }
+
+    .blog-content {
+        padding: 25px 25px;
+    }
+
+    .blog-text h3 {
+        font-size: 20px;
+    }
+
+    .blog-more a {
+        margin-top: 20px;
+    }
+    /*-----------------------------
+             BLOG PART END
+    ------------------------------*/
+
+    /*-----------------------------
+           COMPANY PART START
+    ------------------------------*/
+    #company-part {
+        padding: 60px 0px 0px;
+    }
+
+    .company-heading p {
+        font-size: 13px;
+    }
+
+    .company-heading h2 {
+        font-size: 26px;
+        margin-bottom: 25px !important;
+    }
+
+    .company-img a img {
+        height: 50px;
+    }
+
+    .company-img .bamdik {
+        display: none !important;
+    }
+
+    .company-img .dandik {
+        display: none !important;
+    }
+    /*-----------------------------
+            COMPANY PART END
+    ------------------------------*/
+
+    /*-----------------------------
+            CONTACT PART START
+    ------------------------------*/
+    #contact-part {
+        padding: 60px 0px;
+    }
+
+    .contact-heading p {
+        font-size: 13px;
+    }
+
+    .contact-heading h2 {
+        font-size: 26px;
+        margin-bottom: 25px !important;
+    }
+
+    .contact-info {
+        display: inherit;
+    }
+
+    .contact-info li {
+        display: inherit;
+        text-align: center;
+        margin-bottom: 25px !important;
+    }
+
+    .contact-info li::after {
+        display: none;
+    }
+
+    .contact-info li i {
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 16px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    .contact-content {
+        text-align: center;
+    }
+
+    .contact-content h3 {
+        font-size: 24px;
+    }
+
+    .contact-content p {
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    .contact-content img {
+        height: 230px;
+    }
+
+    .contact-input {
+        margin-left: 0px;
+    }
+
+    .name-input {
+        display: inherit;
+        margin-top: 30px;
+    }
+
+    .name-input:nth-child(1) {
+        margin-right: 0px;
+    }
+
+    .contact-input button {
+        margin: 35px auto 0px;
+        display: inherit;
+    }
+    /*-----------------------------
+            CONTACT PART END
+    ------------------------------*/
+
+    /*-----------------------------
+            FOOTER PART START
+    ------------------------------*/
+    #footer-part {
+        padding: 60px 0px;
+        text-align: center;
+    }
+
+    .footer-logo {
+        margin-right: 0px;
+    }
+
+    .footer-logo a img {
+        height: 60px;
+    }
+
+    .footer-logo p {
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    .footer-icon {
+        margin-top: 25px;
+    }
+
+    .footer-icon li {
+        margin: 0px 5px;
+    }
+
+    .footer-contact {
+        margin-top: 45px;
+    }
+
+    .footer-blog {
+        width: 450px;
+        margin: 30px auto 0px;
+    }
+
+    .footer-text {
+        text-align: left;
+    }
+    /*-----------------------------
+            FOOTER PART END
+    ------------------------------*/
+}
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /*-----------------------------
+             MENU PART START
+    ------------------------------*/
+    .menu-part {
+        top: 0px;
+    }
+
+    .menu-logo img {
+        height: 45px;
+    }
+
+    .navbar-collapse {
+        text-align: center;
+        padding: 25px 0px;
+        background-color: #a1eb46;
+    }
+
+    .menu-part ul li {
+        margin-left: 0px;
+        margin-bottom: 5px !important;
+    }
+
+    .menu-part ul li a {
+        font-size: 14px;
+    }
+
+    .get-btn a {
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    /*-----------------------------
+             MENU PART END
+    ------------------------------*/
+
+    /*-----------------------------
+           BANNER PART START
+    ------------------------------*/
+    #banner-part {
+        padding: 125px 0px 60px;
+    }
+
+    .banner-shape-1 {
+        width: 150px;
+        height: 550px;
+    }
+
+    .banner-shape-2 {
+        top: 120px;
+        right: -115px;
+    }
+
+    .banner-content {
+        margin-top: 0px;
+    }
+
+    .banner-content h1 {
+        font-size: 35px;
+        line-height: 42px;
+    }
+
+    .banner-content p {
+        font-size: 15px;
+    }
+
+    .banner-btn {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .banner-btn a {
+        font-size: 16px;
+        padding: 12px 25px;
+    }
+
+    .banner-btn a:nth-child(1) {
+        box-shadow: 0px 5px 15px 0px #17171742;
+    }
+    /*-----------------------------
+            BANNER PART END
+    ------------------------------*/
+
+    /*-----------------------------
+            DOMAIN PART START
+    ------------------------------*/
+    .domain-bg {
+        padding: 60px 0px;
+    }
+
+    .domain-content p {
+        font-size: 13px;
+    }
+
+    .domain-content h2 {
+        width: 190px;
+        font-size: 26px;
+        margin: 0 auto 45px !important;
+    }
+
+    .domain-input {
+        padding: 5px;
+    }
+
+    .domain-input i {
+        font-size: 14px;
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+    }
+
+    .domain-input input {
+        height: 50px;
+        width: 250px;
+        padding-left: 15px;
+        border-radius: 30px 0px 0px 30px;
+    }
+
+    .domain-input input::placeholder {
+        font-size: 12px;
+    }
+
+    .custom-select-lg {
+        padding-left: 0.5rem !important;
+        padding-right: 2rem !important;
+        font-size: 14px !important;
+    }
+
+    .domain-input button {
+        font-size: 14px;
+        width: 100px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .domain-content ul {
+        margin-top: 25px;
+    }
+
+    .domain-content ul li {
+        margin: 0px 12px;
+    }
+
+    .domain-content ul li p {
+        font-size: 14px;
+    }
+    /*-----------------------------
+            DOMAIN PART END
+    ------------------------------*/
+
+    /*-----------------------------
+            PRICE PART START
+    ------------------------------*/
+    #price-part {
+        padding: 60px 0px 0px;
+    }
+
+    .price-heading p {
+        font-size: 13px;
+    }
+
+    .price-heading h2 {
+        font-size: 26px;
+    }
+
+    .price-card {
+        margin-bottom: 30px;
+    }
+
+    .price-card h3 {
+        font-size: 22px;
+    }
+
+    .price-card h4 {
+        font-size: 40px;
+    }
+
+    .price-card h5 {
+        font-size: 14px;
+    }
+
+    .price-list {
+        width: 170px;
+    }
+
+    .price-list li i {
+        font-size: 12px;
+    }
+
+    .price-list li p {
+        font-size: 14px;
+    }
+
+    .pur-btn {
+        padding: 15px 25px;
+    }
+    /*-----------------------------
+            PRICE PART END
+    ------------------------------*/
+
+    /*-----------------------------
+            ABOUT PART START
+    ------------------------------*/
+    #about-part {
+        padding: 40px 0px 0px;
+    }
+
+    .about-shape-1 {
+        display: none;
+    }
+
+    .about-heading p {
+        font-size: 13px;
+    }
+
+    .about-heading h2 {
+        font-size: 26px;
+        margin-bottom: 25px !important;
+    }
+
+    .about-img img {
+        width: 145px;
+    }
+
+    .about-img::after {
+        width: 60px;
+        height: 60px;
+    }
+
+    .about-text h3 {
+        font-size: 45px;
+        line-height: 48px;
+        margin-top: 25px;
+    }
+
+    .about-text h4 {
+        width: 290px;
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 15px !important;
+    }
+
+    .about-text p {
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    .about-icon li {
+        margin: 0px 3px;
+    }
+
+    .about-icon li a i {
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 16px;
+    }
+    /*-----------------------------
+            ABOUT PART END
+    ------------------------------*/
+
+    /*-----------------------------
+            SERVICE PART START
+    ------------------------------*/
+    #service-part {
+        padding: 65px 0px 45px;
+    }
+
+    .service-heading p {
+        font-size: 13px;
+    }
+
+    .service-heading h2 {
+        font-size: 26px;
+    }
+
+    .service-parent {
+        justify-content: center;
+    }
+
+    .service-card {
+        width: 315px;
+        padding: 50px 25px;
+        margin: 15px 15px;
+    }
+
+    .service-icon i {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 25px;
+    }
+
+    .service-card h3 {
+        font-size: 20px;
+    }
+
+    .service-card p {
+        font-size: 15px;
+    }
+    /*-----------------------------
+            SERVICE PART END
+    ------------------------------*/
+
+    /*-----------------------------
+            SEO PART START
+    ------------------------------*/
+    .seo-content p {
+        font-size: 13px;
+    }
+
+    .seo-content h2 {
+        font-size: 26px;
+    }
+
+    .seo-form {
+        display: inherit;
+        border-radius: 15px;
+        padding: 10px 15px;
+    }
+
+    .seo-form input {
+        width: 100%;
+        height: 55px;
+        border-right: none;
+        border-bottom: 1px solid #dddddd;
+    }
+
+    .seo-form button {
+        margin-top: 30px;
+    }
+    /*-----------------------------
+            SEO PART END
+    ------------------------------*/
+
+    /*-----------------------------
+         PORTFOLIO PART START
+    ------------------------------*/
+    #port-part {
+        padding: 60px 0px 0px;
+    }
+
+    .port-heading p {
+        font-size: 13px;
+    }
+
+    .port-heading h2 {
+        font-size: 26px;
+    }
+
+    .port-menu {
+        padding: 50px 0px 35px 40px;
+    }
+
+    .port-parent {
+        justify-content: center;
+    }
+
+    .port-img {
+        width: 195px;
+    }
+
+    .port-cover {
+        width: 215px;
+    }
+
+    .view-btn a {
+        padding: 13px 25px;
+    }
+    /*-----------------------------
+          PORTFOLIO PART END
+    ------------------------------*/
+
+    /*-----------------------------
+            TEAM PART START
+    ------------------------------*/
+    #team-part {
+        padding: 60px 0px 0px;
+    }
+
+    .team-heading p {
+        font-size: 13px;
+    }
+
+    .team-heading h2 {
+        font-size: 26px;
+    }
+
+    .team-heading h2 {
+        margin-bottom: 35px !important;
+    }
+
+    .team-img img {
+        width: 200px;
+    }
+
+    .team-parent .bamdik {
+        left: 0px;
+        top: 30%;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 16px;
+    } 
+
+    .team-parent .dandik {
+        right: 0px;
+        top: 30%;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 16px;
+    }
+    /*-----------------------------
+             TEAM PART END
+    ------------------------------*/
+
+    /*-----------------------------
+             BLOG PART START
+    ------------------------------*/
+    #blog-part {
+        padding: 25px 0px 0px;
+    }
+
+    .blog-heading p {
+        font-size: 13px;
+    }
+
+    .blog-heading h2 {
+        font-size: 26px;
+        margin-bottom: 35px !important;
+    }
+
+    .blog-card {
+        margin-bottom: 30px;
+    }
+
+    .blog-content {
+        padding: 25px 25px;
+    }
+
+    .blog-text h3 {
+        font-size: 20px;
+    }
+
+    .blog-more a {
+        margin-top: 20px;
+    }
+    /*-----------------------------
+             BLOG PART END
+    ------------------------------*/
+
+    /*-----------------------------
+           COMPANY PART START
+    ------------------------------*/
+    #company-part {
+        padding: 60px 0px 0px;
+    }
+
+    .company-heading p {
+        font-size: 13px;
+    }
+
+    .company-heading h2 {
+        font-size: 26px;
+        margin-bottom: 25px !important;
+    }
+
+    .company-img a img {
+        height: 50px;
+    }
+
+    .company-img .bamdik {
+        display: none !important;
+    }
+
+    .company-img .dandik {
+        display: none !important;
+    }
+    /*-----------------------------
+            COMPANY PART END
+    ------------------------------*/
+
+    /*-----------------------------
+            CONTACT PART START
+    ------------------------------*/
+    #contact-part {
+        padding: 60px 0px;
+    }
+
+    .contact-heading p {
+        font-size: 13px;
+    }
+
+    .contact-heading h2 {
+        font-size: 26px;
+        margin-bottom: 25px !important;
+    }
+
+    .contact-info li {
+        display: block;
+        margin-bottom: 25px !important;
+    }
+
+    .contact-info li::after {
+        display: none;
+    }
+
+    .contact-info li i {
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 16px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    .contact-content {
+        text-align: center;
+    }
+
+    .contact-content h3 {
+        font-size: 24px;
+    }
+
+    .contact-content p {
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    .contact-content img {
+        height: 230px;
+    }
+
+    .contact-input {
+        margin-left: 0px;
+    }
+
+    .name-input {
+        display: inherit;
+        margin-top: 30px;
+    }
+
+    .name-input:nth-child(1) {
+        margin-right: 0px;
+    }
+
+    .contact-input button {
+        margin: 35px auto 0px;
+        display: inherit;
+    }
+    /*-----------------------------
+            CONTACT PART END
+    ------------------------------*/
+
+    /*-----------------------------
+            FOOTER PART START
+    ------------------------------*/
+    #footer-part {
+        padding: 60px 0px;
+        text-align: center;
+    }
+
+    .footer-logo {
+        margin-right: 0px;
+    }
+
+    .footer-logo a img {
+        height: 60px;
+    }
+
+    .footer-logo p {
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    .footer-icon {
+        margin-top: 25px;
+    }
+
+    .footer-icon li {
+        margin: 0px 5px;
+    }
+
+    .footer-contact {
+        margin-top: 45px;
+    }
+
+    .footer-blog {
+        margin-top: 45px;
+    }
+
+    .footer-text {
+        text-align: left;
+    }
+    /*-----------------------------
+            FOOTER PART END
+    ------------------------------*/
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .get-btn a {
+        padding: 15px 30px;
+    }
+
+    .banner-content h1 {
+        font-size: 55px;
+        line-height: 62px;
+    }
+
+    .about-img img {
+        width: 205px;
+    }
+
+    .service-card {
+        width: 280px;
+    }
+
+    .view-btn a {
+        padding: 15px 30px;
+    }
+
+    .port-img {
+        width: 200px;
+    }
+
+    .team-img img {
+        width: 200px;
+    }
+
+    .team-parent .bamdik {
+        left: -5px;
+    }
+
+    .team-parent .dandik {
+        right: -5px;
+    }
+
+    .company-img a img {
+        height: 85px;
+    }
+
+    .company-img .bamdik {
+        left: -5px;
+    }
+
+    .company-img .dandik {
+        right: -5px;
+    }
+
+    .contact-info li::after {
+        display: none;
+    }
+
+}
+/* ==============================================
+          INDEX PAGE RESPONSIVE PART END
+================================================= */
+
+
+
+/* ==============================================
+        SOFTWARE PAGE RESPONSIVE PART START
+================================================= */
+
+@media (max-width: 575px) {
+    /* ----------------------------
+           BANNER PART START 
+    ------------------------------ */
+    .soft-content h1 {
+        font-size: 35px;
+    }
+
+    .soft-content ul li a {
+        font-size: 16px;
+    }
+
+    .soft-content ul li i {
+        font-size: 14px;
+    }
+
+    .soft-content {
+        margin-top: 60px;
+    }
+    /* ----------------------------
+            BANNER PART END  
+    ------------------------------ */
+
+    /* ----------------------------
+            SOFT PART START  
+    ------------------------------ */
+    #soft-part {
+        padding: 60px 0px 0px;
+    }
+
+    .soft-heading h2 {
+        font-size: 30px;
+    }
+
+    .soft-heading p {
+        font-size: 15px;
+    }
+
+    .soft-img img {
+        width: 90%;
+    }
+
+    .soft-img img:nth-child(2) {
+        width: 100px;
+    }
+
+    .soft-img img:nth-child(3) {
+        width: 70px;
+    }
+
+    .soft-img img:nth-child(4) {
+        width: 200px;
+    }
+    /* ----------------------------
+            SOFT PART END  
+    ------------------------------ */
+
+    /* ----------------------------
+            ITEM PART START  
+    ------------------------------ */
+    #item-part {
+        padding: 250px 0px 40px;
+    }
+
+    .item-text {
+        padding: 50px 40px;
+    }
+    /* ----------------------------
+            ITEM PART END  
+    ------------------------------ */
+
+    /* ----------------------------
+            FEATURE PART START  
+    ------------------------------ */
+    #feature-part {
+        padding: 50px 0px;
+    }
+
+    .feature-heading p {
+        font-size: 13px;
+    }
+
+    .feature-heading h2 {
+        font-size: 30px;
+    }
+
+    .feature ul li {
+        display: block;
+    }
+
+    .feature ul li i {
+        margin-bottom: 15px;
+    }
+
+    .feature-text {
+        margin-left: 0px;
+    }
+
+    .feature-text p {
+        width: 100%;
+    }
+    /* ----------------------------
+            FEATURE PART END  
+    ------------------------------ */
+
+    /* ----------------------------
+            COUNT PART START  
+    ------------------------------ */
+    .count-overlay {
+        padding: 50px 0px;
+    }
+
+    .count-content {
+        text-align: center;
+    }
+
+    .count-content ul {
+        display: block;
+    }
+
+    .count-content li {
+        margin-bottom: 30px !important;
+    }
+
+    .count-content li:last-child {
+        margin-bottom: 0px !important;
+    }
+
+    .count-content ul li::after {
+        display: none;
+    }
+
+    .count-content ul li i {
+        margin-bottom: 0px;
+    }
+
+    .count-content ul li h4 {
+        font-size: 35px;
+        margin-bottom: 0px !important;
+    }
+
+    .count-content ul li p span {
+        display: inline-block;
+    }
+    /* ----------------------------
+            COUNT PART END  
+    ------------------------------ */
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    /* ----------------------------
+           BANNER PART START 
+    ------------------------------ */
+    .soft-content h1 {
+        font-size: 35px;
+    }
+
+    .soft-content ul li a {
+        font-size: 16px;
+    }
+
+    .soft-content ul li i {
+        font-size: 14px;
+    }
+
+    .soft-content {
+        margin-top: 60px;
+    }
+    /* ----------------------------
+            BANNER PART END  
+    ------------------------------ */
+
+    /* ----------------------------
+            SOFT PART START  
+    ------------------------------ */
+    #soft-part {
+        padding: 60px 0px 0px;
+    }
+
+    .soft-heading h2 {
+        font-size: 30px;
+    }
+
+    .soft-heading p {
+        font-size: 15px;
+    }
+
+    .soft-img img {
+        width: 90%;
+    }
+
+    .soft-img img:nth-child(2) {
+        width: 100px;
+    }
+
+    .soft-img img:nth-child(3) {
+        width: 70px;
+    }
+
+    .soft-img img:nth-child(4) {
+        width: 200px;
+    }
+    /* ----------------------------
+            SOFT PART END  
+    ------------------------------ */
+
+    /* ----------------------------
+            ITEM PART START  
+    ------------------------------ */
+    #item-part {
+        padding: 250px 0px 40px;
+    }
+
+    .item-text {
+        padding: 50px 40px;
+    }
+    /* ----------------------------
+            ITEM PART END  
+    ------------------------------ */
+
+    /* ----------------------------
+            FEATURE PART START  
+    ------------------------------ */
+    #feature-part {
+        padding: 50px 0px;
+    }
+
+    .feature-heading p {
+        font-size: 13px;
+    }
+
+    .feature-heading h2 {
+        font-size: 30px;
+    }
+
+    .feature ul li {
+        display: block;
+    }
+
+    .feature ul li i {
+        margin-bottom: 15px;
+    }
+
+    .feature-text {
+        margin-left: 0px;
+    }
+
+    .feature-text p {
+        width: 100%;
+    }
+    /* ----------------------------
+            FEATURE PART END  
+    ------------------------------ */
+
+    /* ----------------------------
+            COUNT PART START  
+    ------------------------------ */
+    .count-overlay {
+        padding: 50px 0px;
+    }
+
+    .count-content {
+        text-align: center;
+    }
+
+    .count-content ul {
+        display: block;
+    }
+
+    .count-content li {
+        margin-bottom: 30px !important;
+    }
+
+    .count-content li:last-child {
+        margin-bottom: 0px !important;
+    }
+
+    .count-content ul li::after {
+        display: none;
+    }
+
+    .count-content ul li i {
+        margin-bottom: 0px;
+    }
+
+    .count-content ul li h4 {
+        font-size: 35px;
+        margin-bottom: 0px !important;
+    }
+
+    .count-content ul li p span {
+        display: inline-block;
+    }
+    /* ----------------------------
+            COUNT PART END  
+    ------------------------------ */
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* ----------------------------
+           BANNER PART START 
+    ------------------------------ */
+    .soft-content h1 {
+        font-size: 35px;
+    }
+
+    .soft-content ul li a {
+        font-size: 16px;
+    }
+
+    .soft-content ul li i {
+        font-size: 14px;
+    }
+
+    .soft-content {
+        margin-top: 60px;
+    }
+    /* ----------------------------
+            BANNER PART END  
+    ------------------------------ */
+
+    /* ----------------------------
+            SOFT PART START  
+    ------------------------------ */
+    #soft-part {
+        padding: 60px 0px 0px;
+    }
+
+    .soft-heading h2 {
+        font-size: 30px;
+    }
+
+    .soft-heading p {
+        font-size: 15px;
+    }
+
+    .soft-img img {
+        width: 90%;
+    }
+
+    .soft-img img:nth-child(2) {
+        width: 150px;
+    }
+
+    .soft-img img:nth-child(3) {
+        width: 150px;
+    }
+
+    .soft-img img:nth-child(4) {
+        width: 300px;
+    }
+    /* ----------------------------
+            SOFT PART END  
+    ------------------------------ */
+
+    /* ----------------------------
+            ITEM PART START  
+    ------------------------------ */
+    #item-part {
+        padding: 250px 0px 40px;
+    }
+
+    .item-text {
+        padding: 50px 40px;
+    }
+    /* ----------------------------
+            ITEM PART END  
+    ------------------------------ */
+
+    /* ----------------------------
+            FEATURE PART START  
+    ------------------------------ */
+    #feature-part {
+        padding: 50px 0px;
+    }
+
+    .feature-heading p {
+        font-size: 13px;
+    }
+
+    .feature-heading h2 {
+        font-size: 30px;
+    }
+
+    .feature ul li {
+        display: block;
+    }
+
+    .feature ul li i {
+        margin-bottom: 15px;
+    }
+
+    .feature-text {
+        margin-left: 0px;
+    }
+
+    .feature-text p {
+        width: 100%;
+    }
+    /* ----------------------------
+            FEATURE PART END  
+    ------------------------------ */
+
+    /* ----------------------------
+            COUNT PART START  
+    ------------------------------ */
+    .count-overlay {
+        padding: 50px 0px;
+    }
+
+    .count-content {
+        text-align: center;
+    }
+
+    .count-content li {
+        margin: 0px 25px;
+    }
+
+    .count-content ul li::after {
+        display: none;
+    }
+
+    .count-content ul li i {
+        margin-bottom: 0px;
+    }
+
+    .count-content ul li h4 {
+        font-size: 35px;
+        margin-bottom: 0px !important;
+    }
+
+    .count-content ul li p span {
+        display: inline-block;
+    }
+    /* ----------------------------
+            COUNT PART END  
+    ------------------------------ */
+}
+/* ==============================================
+        SOFTWARE PAGE RESPONSIVE PART END
+================================================= */
+
+
+
+/* ==============================================
+    DESIGN-DEVELOP PAGE RESPONSIVE PART START
+================================================= */
+
+@media (max-width: 575px) {
+    /* --------------------------
+            WEB PART START
+    ---------------------------- */
+    #web-part {
+        padding: 60px 0px 0px;
+    }
+
+    .web-heading p {
+        font-size: 13px;
+    }
+
+    .web-heading h1 {
+        font-size: 28px;
+    }
+
+    .web-slider .dandik {
+        display: block;
+        font-size: 16px;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        right: 0px;
+    }
+
+    .web-slider .bamdik {
+        display: block;
+        font-size: 16px;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        left: 0px;
+    }
+    /* --------------------------
+             WEB PART END
+    ---------------------------- */
+
+    /* --------------------------
+        DEVELOP-ITEM PART START
+    ---------------------------- */
+    #develop-item {
+        padding: 70px 0px 30px;
+    }
+    /* --------------------------
+         DEVELOP-ITEM PART END
+    ---------------------------- */
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    /* --------------------------
+            WEB PART START
+    ---------------------------- */
+    #web-part {
+        padding: 60px 0px 0px;
+    }
+
+    .web-heading p {
+        font-size: 13px;
+    }
+
+    .web-heading h1 {
+        font-size: 28px;
+    }
+
+    .web-slider .dandik {
+        display: block;
+        font-size: 16px;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        right: 0px;
+    }
+
+    .web-slider .bamdik {
+        display: block;
+        font-size: 16px;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        left: 0px;
+    }
+    /* --------------------------
+             WEB PART END
+    ---------------------------- */
+
+    /* --------------------------
+        DEVELOP-ITEM PART START
+    ---------------------------- */
+    #develop-item {
+        padding: 70px 0px 30px;
+    }
+    /* --------------------------
+         DEVELOP-ITEM PART END
+    ---------------------------- */
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* --------------------------
+            WEB PART START
+    ---------------------------- */
+    #web-part {
+        padding: 60px 0px 0px;
+    }
+
+    .web-heading p {
+        font-size: 13px;
+    }
+
+    .web-heading h1 {
+        font-size: 28px;
+    }
+
+    .web-slider .dandik {
+        display: block;
+        font-size: 16px;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        right: 0px;
+    }
+
+    .web-slider .bamdik {
+        display: block;
+        font-size: 16px;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        left: 0px;
+    }
+    /* --------------------------
+             WEB PART END
+    ---------------------------- */
+
+    /* --------------------------
+        DEVELOP-ITEM PART START
+    ---------------------------- */
+    #develop-item {
+        padding: 70px 0px 30px;
+    }
+    /* --------------------------
+         DEVELOP-ITEM PART END
+    ---------------------------- */
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* --------------------------
+            WEB PART START
+    ---------------------------- */
+    .web-slider .dandik {
+        display: block;
+        font-size: 16px;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        right: 0px;
+    }
+
+    .web-slider .bamdik {
+        display: block;
+        font-size: 16px;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        left: 0px;
+    }
+    /* --------------------------
+             WEB PART END
+    ---------------------------- */
+}
+/* ==============================================
+      DESIGN DEVELOP PAGE RESPONSIVE PART END
+================================================= */
+
+
+
+/* ==============================================
+      DOMAIN-HOST PAGE RESPONSIVE PART START
+================================================= */
+
+@media (max-width: 575px) {
+    /* ----------------------------
+           DOMAIN PART START
+    ------------------------------ */
+    .domain-content h3 {
+        font-size: 35px;
+    }
+
+    .domain-content h4 {
+        width: 100%;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    /* ----------------------------
+            DOMAIN PART END
+    ------------------------------ */
+
+    /* ----------------------------
+          INNER-HOST PART START
+    ------------------------------ */
+    #inner-host-part {
+        padding: 60px 0px 0px;
+    }
+
+    .inner-host-heading p {
+        font-size: 13px;
+    }
+    
+    .inner-host-heading h1 {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    #develop-item {
+        padding: 30px 0px 30px;
+    }
+    /* ----------------------------
+           INNER-HOST PART END
+    ------------------------------ */
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* ----------------------------
+           DOMAIN PART START
+    ------------------------------ */
+    .domain-content h3 {
+        font-size: 35px;
+    }
+
+    .domain-content h4 {
+        width: 100%;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    /* ----------------------------
+            DOMAIN PART END
+    ------------------------------ */
+
+    /* ----------------------------
+          INNER-HOST PART START
+    ------------------------------ */
+    #inner-host-part {
+        padding: 60px 0px 0px;
+    }
+
+    .inner-host-heading p {
+        font-size: 13px;
+    }
+    
+    .inner-host-heading h1 {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    #develop-item {
+        padding: 30px 0px 30px;
+    }
+    /* ----------------------------
+           INNER-HOST PART END
+    ------------------------------ */
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    /* ----------------------------
+           DOMAIN PART START
+    ------------------------------ */
+    .domain-content h3 {
+        font-size: 35px;
+    }
+
+    .domain-content h4 {
+        width: 100%;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    /* ----------------------------
+            DOMAIN PART END
+    ------------------------------ */
+
+    /* ----------------------------
+          INNER-HOST PART START
+    ------------------------------ */
+    #inner-host-part {
+        padding: 60px 0px 0px;
+    }
+
+    .inner-host-heading p {
+        font-size: 13px;
+    }
+    
+    .inner-host-heading h1 {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    #develop-item {
+        padding: 30px 0px 30px;
+    }
+    /* ----------------------------
+           INNER-HOST PART END
+    ------------------------------ */
+}
+/* ==============================================
+      DOMAIN-HOST PAGE RESPONSIVE PART END
+================================================= */
+
+
+
+/* ==============================================
+      WORD-THEME PAGE RESPONSIVE PART START
+================================================= */
+
+@media (max-width: 575px) {
+    /* ------------------------
+          WORD PART START
+    -------------------------- */
+    #word-part {
+        padding: 60px 0px;
+    }
+    .word-heading img {
+        width: 100%;
+    }
+
+    .word-heading h1 {
+        font-size: 20px;
+    }
+
+    .word-heading p {
+        font-size: 16px;
+    }
+
+    .word-search i {
+        display: none;
+    }
+
+    .word-search {
+        display: block;
+        padding: 25px 15px;
+        border-radius: 25px;
+    }
+
+    .word-search input {
+        width: 100%;
+        border-bottom: 1px solid #dddddd;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .word-search button {
+        margin-top: 30px;
+    }
+    /* ------------------------
+          WORD PART START
+    -------------------------- */
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    /* ------------------------
+          WORD PART START
+    -------------------------- */
+    #word-part {
+        padding: 60px 0px;
+    }
+    .word-heading img {
+        width: 100%;
+    }
+
+    .word-heading h1 {
+        font-size: 20px;
+    }
+
+    .word-heading p {
+        font-size: 16px;
+    }
+
+    .word-search i {
+        font-size: 16px;
+    }
+
+    .word-search input {
+        width: 100%;
+    }
+
+    .word-search button {
+        font-size: 16px;
+    }
+
+    .word-child {
+        width: 225px;
+    }
+    /* ------------------------
+          WORD PART START
+    -------------------------- */
+}
+/* ==============================================
+      WORD-THEME PAGE RESPONSIVE PART END
+================================================= */
+
+
+
+/* ==============================================
+      BLOG-LIST PAGE RESPONSIVE PART START
+================================================= */
+@media (max-width: 575px) {
+    .port-pagi {
+        margin-top: 0px;
+        margin-bottom: 30px !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .blog-list {
+        width: 275px;
+    }
+
+    .blog-btn li a {
+        margin-right: 2px;
+    }
+}
+/* ==============================================
+       BLOG-LIST PAGE RESPONSIVE PART END
+================================================= */
+
+
+
+/*=====================================
+        BLOG DETAIL PAGE PART START
+=======================================*/
+@media (max-width: 575px) {
+
+    .blog-detail-part {
+        padding: 20px 0px 30px;
+    }
+    
+    .detail-banner ul {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .detail-banner ul li {
+        margin-right: 0px;
+        margin: 5px 15px !important;
+    }
+    
+    .detail-banner ul li::after {
+        display: none;
+    }
+    
+    .detail-banner ul li i {
+        font-size: 14px;
+    }
+    
+    .detail-banner ul li p {
+        font-size: 14px;
+    }
+    
+    .detail-text {
+        text-align: center;
+    }
+    
+    .detail-text h1 {
+        font-size: 26px;
+    }
+    
+    .detail-text p {
+        font-size: 14px;
+        margin-top: 25px;
+    }
+    
+    .detail-inner {
+        display: inherit;
+        text-align: center;
+    }
+    
+    .detail-inner img {
+        width: 220px;
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+    
+    .detail-inner p {
+        font-size: 14px;
+    }
+    
+    .detail-sub {
+        text-align: center;
+    }
+    
+    .detail-sub li p {
+        font-size: 14px;
+    }
+    
+    .detail-tag {
+        flex-wrap: wrap;
+    }
+    
+    .detail-tag li a {
+        margin: 5px 5px;
+    }
+    
+    .detail-child {
+        display: inherit !important;
+        text-align: center;
+    }
+    
+    .blog-suggest {
+        padding: 50px 0px 20px;
+    }
+    
+    .detail-suggest-text {
+        margin-right: 0px;
+    }
+    
+    .detail-img {
+        width: 180px;
+        margin: 0 auto 25px;
+    }
+    
+    .detail-img img {
+        width: 100%;
+    }
+    
+    .detail-slider .dandik {
+        display: none !important;
+    }
+    
+    .detail-slider .bamdik {
+        display: none !important;
+    }
+    
+    .blog-comment {
+        padding: 50px 0px;
+    }
+    
+    .detail-comment h3 {
+        text-align: center;
+    }
+    
+    .comment-author {
+        justify-content: center;
+        align-items: flex-start !important;
+    }
+    
+    .comment-author img {
+        width: 65px;
+        height: 65px;
+        margin-right: 15px;
+    }
+    
+    .comment-head {
+        display: inherit;
+    }
+    
+    .comment-head h4 {
+        font-size: 14px;
+    }
+    
+    .comment-head h5 {
+        font-size: 12px;
+        letter-spacing: 0px;
+        margin-top: 5px;
+    }
+    
+    .comment p {
+        font-size: 14px;
+    }
+    
+    .comment-reply {
+        margin-top: 5px;
+    }
+    
+    .comment-reply a {
+        font-size: 14px;
+    }
+    
+    .comment-reply a i {
+        font-size: 12px;
+    }
+    
+    .detail-comment ul li:nth-child(2) {
+        padding-left: 50px !important;
+    }
+    
+    .blog-reply {
+        margin-left: 0px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .blog-reply input {
+        width: 100%;
+    }
+    
+    .blog-reply textarea {
+        width: 100%;
+    }
+    
+    .blog-reply button {
+        width: 100%;
+    }
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    
+    .blog-detail-part {
+        padding: 20px 0px 30px;
+    }
+    
+    .detail-banner ul {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .detail-banner ul li {
+        margin-right: 0px;
+        margin: 5px 15px !important;
+    }
+    
+    .detail-banner ul li::after {
+        display: none;
+    }
+    
+    .detail-banner ul li i {
+        font-size: 14px;
+    }
+    
+    .detail-banner ul li p {
+        font-size: 14px;
+    }
+    
+    .detail-text {
+        text-align: center;
+    }
+    
+    .detail-text h1 {
+        font-size: 26px;
+    }
+    
+    .detail-text p {
+        font-size: 14px;
+        margin-top: 25px;
+    }
+    
+    .detail-inner {
+        display: inherit;
+        text-align: center;
+    }
+    
+    .detail-inner img {
+        width: 220px;
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+    
+    .detail-inner p {
+        font-size: 14px;
+    }
+    
+    .detail-sub {
+        text-align: center;
+    }
+    
+    .detail-sub li p {
+        font-size: 14px;
+    }
+    
+    .detail-tag {
+        flex-wrap: wrap;
+    }
+    
+    .detail-tag li a {
+        margin: 5px 5px;
+    }
+    
+    .detail-child {
+        display: inherit !important;
+        text-align: center;
+    }
+    
+    .blog-suggest {
+        padding: 50px 0px 20px;
+    }
+    
+    .detail-suggest-text {
+        margin-right: 0px;
+    }
+    
+    .detail-img {
+        width: 180px;
+        margin: 0 auto 25px;
+    }
+    
+    .detail-img img {
+        width: 100%;
+    }
+    
+    .detail-slider .dandik {
+        display: none !important;
+    }
+    
+    .detail-slider .bamdik {
+        display: none !important;
+    }
+    
+    .blog-comment {
+        padding: 50px 0px;
+    }
+    
+    .detail-comment h3 {
+        text-align: center;
+    }
+    
+    .comment-author {
+        justify-content: center;
+        align-items: flex-start !important;
+    }
+    
+    .comment-author img {
+        width: 65px;
+        height: 65px;
+        margin-right: 15px;
+    }
+    
+    .comment-head {
+        display: inherit;
+    }
+    
+    .comment-head h4 {
+        font-size: 14px;
+    }
+    
+    .comment-head h5 {
+        font-size: 12px;
+        letter-spacing: 0px;
+        margin-top: 5px;
+    }
+    
+    .comment p {
+        font-size: 14px;
+    }
+    
+    .comment-reply {
+        margin-top: 5px;
+    }
+    
+    .comment-reply a {
+        font-size: 14px;
+    }
+    
+    .comment-reply a i {
+        font-size: 12px;
+    }
+    
+    .detail-comment ul li:nth-child(2) {
+        padding-left: 50px !important;
+    }
+    
+    .blog-reply {
+        margin-left: 0px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .blog-reply input {
+        width: 100%;
+    }
+    
+    .blog-reply textarea {
+        width: 100%;
+    }
+    
+    .blog-reply button {
+        width: 100%;
+    }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    .blog-detail-part {
+        padding: 20px 0px 30px;
+    }
+    
+    .detail-banner ul {
+        flex-wrap: wrap;
+    }
+    
+    .detail-banner ul li {
+        margin: 5px 20px 5px 0px !important;
+    }
+    
+    .detail-banner ul li::after {
+        display: none;
+    }
+    
+    .detail-banner ul li i {
+        font-size: 14px;
+    }
+    
+    .detail-banner ul li p {
+        font-size: 14px;
+    }
+    
+    .detail-text h1 {
+        font-size: 35px;
+    }
+    
+    .detail-text p {
+        font-size: 14px;
+        margin-top: 25px;
+    }
+    
+    .detail-inner {
+        display: inherit;
+    }
+    
+    .detail-inner img {
+        width: 220px;
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+    
+    .detail-inner p {
+        font-size: 14px;
+    }
+    
+    .detail-sub li p {
+        font-size: 14px;
+    }
+    
+    .detail-tag {
+        flex-wrap: wrap;
+    }
+    
+    .detail-tag li a {
+        margin: 5px 5px;
+    }
+    
+    .detail-child {
+        display: inherit !important;
+        text-align: center;
+        margin: 0px 15px;
+    }
+    
+    .blog-suggest {
+        padding: 50px 0px 20px;
+    }
+    
+    .detail-suggest-text {
+        margin-right: 0px;
+    }
+    
+    .detail-img {
+        width: 180px;
+        margin: 0 auto 25px;
+    }
+    
+    .detail-img img {
+        width: 100%;
+    }
+    
+    .detail-slider .dandik {
+        display: none !important;
+    }
+    
+    .detail-slider .bamdik {
+        display: none !important;
+    }
+    
+    .blog-comment {
+        padding: 50px 0px;
+    }
+    
+    .detail-comment h3 {
+        text-align: center;
+    }
+    
+    .comment-author {
+        justify-content: center;
+        align-items: flex-start !important;
+    }
+    
+    .blog-reply {
+        margin-left: 0px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .blog-reply input {
+        width: 100%;
+    }
+    
+    .blog-reply textarea {
+        width: 100%;
+    }
+    
+    .blog-reply button {
+        width: 100%;
+    }
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+    .blog-suggest {
+        padding: 50px 0px 20px;
+    }
+    
+    .detail-slider .dandik {
+        display: none !important;
+    }
+    
+    .detail-slider .bamdik {
+        display: none !important;
+    }
+    
+    .detail-tag {
+        flex-wrap: wrap;
+    }
+    
+    .detail-tag li a {
+        margin: 5px 5px;
+    }
+}
+/*=====================================
+        BLOG DETAIL PAGR PART END
+=======================================*/
+
+
+
+
+/*=====================================
+         GET PAGE PART START
+=======================================*/
+@media (max-width: 575px) {
+    
+    .sponsor-part {
+        padding: 30px 0px 70px;
+    }
+    
+    .sponsor-heading h1 {
+        font-size: 40px;
+    }
+    
+    .sponsor-form ul li {
+        display: block;
+    }
+    
+    .sponsor-input {
+        margin: 0px;
+        width: 100%;
+    }
+    
+    .sponsor-input:nth-child(1) {
+        margin-bottom: 50px;
+    }
+    
+    .sponsor-form ul li textarea {
+        width: 100%;
+    }
+    
+    .sponsor-form ul li button {
+        padding: 18px 45px;
+    }
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    
+    .sponsor-part {
+        padding: 30px 0px 70px;
+    }
+    
+    .sponsor-heading h1 {
+        font-size: 45px;
+    }
+    
+    .sponsor-form ul li {
+        display: block;
+    }
+    
+    .sponsor-input {
+        margin: 0px;
+    }
+    
+    .sponsor-input:nth-child(1) {
+        margin-bottom: 50px;
+    }
+    
+    .sponsor-form ul li textarea {
+        width: 100%;
+    }
+    
+    .sponsor-form ul li button {
+        padding: 18px 45px;
+    }
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    .sponsor-part {
+        padding: 30px 0px 70px;
+    }
+    
+    .sponsor-input {
+        width: 300px;
+        margin: 0px 25px;
+    }
+    
+    .sponsor-form ul li textarea {
+        width: 100%;
+    }
+    
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+    .sponsor-input {
+        width: 350px;
+        margin: 0px 35px;
+    }
+    
+    .sponsor-form ul li textarea {
+        width: 100%;
+    }
+}
+/*=====================================
+           GET PAGE PART END
+=======================================*/
