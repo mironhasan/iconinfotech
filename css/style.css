@@ -4055,5 +4055,69 @@ body {
 =======================================*/
 
 
+/*======================================
+        PRODUCT PAGE CSS START
+=======================================*/
+.product-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.product-menu button {
+    border: none;
+    outline: none;
+    background: none;
+    color: #999;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Heebo', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 0.3px;
+    margin: 8px 35px;
+    display: block;
+    position: relative;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.product-menu button:hover {
+    color: #6dc500;
+}
+
+.product-menu button.active {
+    color: #6dc500;
+}
+
+.product-menu button::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: -25px;
+    transform: translateY(-50%);
+    width: 8px;
+    height: 8px;
+    background: #6dc500;
+    border-radius: 50%;
+}
+/*======================================
+        PRODUCT PAGE CSS END
+=======================================*/
+
+
+
+
+
+
+
+
+
+
+
 
 
