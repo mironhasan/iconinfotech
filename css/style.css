@@ -1,7 +1,6 @@
 /*===================================
         COMMON CSS PART START
 ====================================*/
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Roboto:wght@400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800;900&display=swap');
 
 * {
@@ -40,6 +39,52 @@ body {
 }
 /*===================================
         COMMON CSS PART END
+====================================*/
+
+
+/*===================================
+       COLOR PICKER PART START
+====================================*/
+.hide-bar {
+    padding: 12px 15px;
+    background: #000;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    position: fixed;
+    top: 50%;
+    right: -65px;
+    transform: translateY(-50%);
+    border-radius: 3px 0px 0px 3px;
+    z-index: 3;
+    cursor: pointer;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+.hide-bar:hover {
+    right: 0px;
+}
+
+.hide-bar i {
+    position: absolute;
+    top: 50%;
+    left: -45px;
+    transform: translateY(-50%);
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 30px 0px 0px 30px;
+    background: #fff;
+    font-size: 18px;
+    color: #000;
+    box-shadow: -3px 0px 8px 0px rgba(0, 0, 0, 0.3);
+}
+/*===================================
+        COLOR PICKER PART END
 ====================================*/
 
 
@@ -83,7 +128,7 @@ body {
 ====================================*/
 .menu-part {
     position: absolute !important;
-    top: 15px;
+    top: 0px;
     left: 0px;
     width: 100%;
     background: transparent;
@@ -101,11 +146,6 @@ body {
     box-shadow: 0px 5px 15px rgba(85, 85, 85, 0.15);
 }
 
-.menu-fixed .get-btn a {
-    background: #6dc500;
-    color: #fff;
-}
-
 .menu-logo img {
     width: auto;
     height: 65px;
@@ -117,11 +157,11 @@ body {
 }
 
 .menu-part ul li.active a {
-    color: #609122;
+    color: #7dd213;
 }
 
 .menu-part ul li a {
-    color: #609122;
+    color: #555;
     font-size: 16px;
     font-weight: 500;
     font-family: 'Heebo', sans-serif;
@@ -134,26 +174,33 @@ body {
 }
 
 .menu-part ul li a:hover {
-    color: #6dc500;
+    color: #7dd213;
 }
 
 .drop-menu a {
+    color: #555 !important;
     font-size: 15px !important;
     font-weight: 400 !important;
     margin: 15px 0px !important;
 }
 
 .get-btn a {
-    color: #6dc500;
+    color: #fff;
     font-size: 16px;
     font-weight: 500;
     font-family: 'Heebo', sans-serif;
     text-transform: capitalize;
     padding: 15px 35px;
     border-radius: 50px;
-    background: #fff;
+    background-image: linear-gradient(#a1eb46, #7dd213);
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15);
     display: inline-block;
     margin-left: 30px;
+}
+
+.get-btn a:hover {
+    color: #fff;
+    text-decoration: none;
 }
 /*===================================
           MENU PART END
@@ -163,14 +210,14 @@ body {
 /*===================================
           BANNER PART START
 ====================================*/
-#banner-part {
-    background: #a1eb46;
+.banner-part {
+    background: #f7fff5;
     padding: 200px 0px 0px;
     position: relative;
     overflow: hidden;
 }
 
-#banner-part .container {
+.banner-part .container {
     position: relative;
 }
 
@@ -190,48 +237,6 @@ body {
     height: 100%;
 }
 
-.banner-shape-3 {
-    position: absolute;
-    top: -100px;
-    left: -50px;
-    width: 80px;
-    height: auto;
-    animation: shap-3 15s linear infinite;
-}
-
-@keyframes shap-3 {
-    0%{
-        transform: rotate(-120deg);
-    }25%{
-        transform: rotate(0deg);
-    }50%{
-        transform: rotate(120deg);
-    }75%{
-        transform: rotate(0deg);
-    }100%{
-        transform: rotate(-120deg);
-    }
-}
-
-.banner-shape-4 {
-    position: absolute;
-    bottom: 40px;
-    left: -40px;
-    width: 80px;
-    height: auto;
-    animation: shap-4 8s linear infinite;
-}
-
-@keyframes shap-4 {
-    0%{
-        transform: rotate(-45deg);
-    }50%{
-        transform: rotate(0deg);
-    }100%{
-        transform: rotate(-45deg);
-    }
-}
-
 .banner-content {
     margin-top: 43px;
 }
@@ -247,7 +252,7 @@ body {
 }
 
 .banner-content p {
-    color: #3d5272;
+    color: #555;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -267,36 +272,28 @@ body {
     padding: 15px 35px;
     border-radius: 30px;
     display: inline-block;
-    background: #fff;
-    border: 1.5px solid #a8e063;
-    transition: all linear .3s;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
 }
 
 .banner-btn a:nth-child(1) {
-    background-image: linear-gradient(#a8e063, #a1eb46);
-    box-shadow: 0px 5px 15px 0px #a8e063;
-}
-
-.banner-btn a:nth-child(1):hover {
-    color: #3d5272;
-    text-decoration: none;
-    box-shadow: 0px 10px 25px 0px #a8e063;
-}
-
-.banner-btn a:nth-child(2) {
-    color: #6dc500;
-    margin-left: 10px;
+    background-image: linear-gradient(#a1eb46, #7dd213);
     box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15);
 }
 
-.banner-btn a:nth-child(2):hover {
-    color: #3d5272;
+.banner-btn a:nth-child(1):hover {
+    color: #fff;
     text-decoration: none;
-    box-shadow: 0px 10px 25px 0px #a8e063;
+}
+
+.banner-btn a:nth-child(2) {
+    color: #fff;
+    background-image: linear-gradient(#3d5272, #31435f);
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15);
+    margin-left: 10px;
+}
+
+.banner-btn a:nth-child(2):hover {
+    color: #fff;
+    text-decoration: none;
 }
 
 .banner-img img {
@@ -324,7 +321,7 @@ body {
 /*===================================
           DOMAIN PART START
 ====================================*/
-#domain-part {
+.domain-part {
     background: #fffafa;
 }
 
@@ -341,7 +338,7 @@ body {
 }
 
 .domain-content p {
-    color: #6dc500;
+    color: #7dd213;
     font-size: 14px;
     font-weight: 500;
     font-family: 'Heebo', sans-serif;
@@ -399,7 +396,7 @@ body {
     line-height: 60px;
     text-align: center;
     border-radius: 50px 0px 0px 50px;;
-    background: #6dc500;
+    background-image: linear-gradient(#a1eb46, #7dd213);
 }
 
 .domain-input input {
@@ -447,7 +444,7 @@ body {
     height: 60px;
     line-height: 60px;
     text-align: center;
-    background: #6dc500;
+    background-image: linear-gradient(#a1eb46, #7dd213);
     border-radius: 50px;
     letter-spacing: 1px;
 }
@@ -484,7 +481,7 @@ body {
 /*===================================
           PRICE PART START
 ====================================*/
-#price-part {
+.price-part {
     background-color: #fff;
     padding: 150px 0px 30px;
 }
@@ -499,7 +496,7 @@ body {
 }
 
 .price-heading p {
-    color: #6dc500;
+    color: #7dd213;
     font-size: 14px;
     font-weight: 500;
     font-family: 'Heebo', sans-serif;
@@ -532,7 +529,7 @@ body {
 }
 
 .price-card:hover {
-    border: 2px solid #6dc500;
+    border: 2px solid #7dd213;
 }
 
 .price-card h3 {
@@ -546,15 +543,17 @@ body {
 }
 
 .price-card h4 {
-    color: #6dc500;
     font-size: 50px;
     font-weight: 700;
     font-family: 'Heebo', sans-serif;
     text-transform: capitalize;
+    background-image: linear-gradient(#a1eb46, #7dd213);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .price-card h5 {
-    color: #6dc500;
+    color: #7dd213;
     font-size: 18px;
     font-weight: 400;
     font-family: 'Heebo', sans-serif;
@@ -590,7 +589,7 @@ body {
 }
 
 .price-list li i {
-    color: #6dc500;
+    color: #7dd213;
     font-size: 14px;
     margin-right: 8px;
 }
@@ -605,7 +604,6 @@ body {
 .pur-btn {
     padding: 16px 70px;
     border-radius: 30px;
-    background-color: #6dc500;
     color: #fff;
     font-size: 16px;
     font-weight: 500;
@@ -613,7 +611,14 @@ body {
     text-transform: capitalize;
     display: inline-block;
     letter-spacing: 0.5px;
+    background-image: linear-gradient(#a1eb46, #7dd213);
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15);
     margin-top: 35px;
+}
+
+.pur-btn:hover {
+    color: #fff;
+    text-decoration: none;
 }
 /*===================================
           PRICE PART END
@@ -624,7 +629,7 @@ body {
 /*===================================
           ABOUT PART START
 ====================================*/
-#about-part {
+.about-part {
     background: #fff;
     padding: 120px 0px 0px;
     position: relative;
@@ -646,7 +651,7 @@ body {
 }
 
 .about-heading p {
-    color: #6dc500;
+    color: #7dd213;
     font-size: 14px;
     font-weight: 500;
     font-family: 'Heebo', sans-serif;
@@ -733,7 +738,8 @@ body {
     line-height: 50px;
     text-align: center;
     border-radius: 50%;
-    background: #6dc500;
+    background-image: linear-gradient(#a1eb46, #7dd213);
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15);
     color: #fff;
     font-size: 18px;
     text-shadow: 2px 3px 0px rgba(0, 0, 0, 0.15);
@@ -746,7 +752,7 @@ body {
 /*===================================
           SERVICE PART START
 ====================================*/
-#service-part {
+.service-part {
     background: #fff;
     padding: 135px 0px 120px;
     position: relative;
@@ -758,7 +764,7 @@ body {
 }
 
 .service-heading p {
-    color: #6dc500;
+    color: #7dd213;
     font-size: 14px;
     font-weight: 500;
     font-family: 'Heebo', sans-serif;
@@ -966,8 +972,8 @@ body {
 /*===================================
           SEO PART START
 ====================================*/
-#seo-part {
-    background-image: linear-gradient(rgba(9, 48, 40, 0.7), #6dc500);
+.seo-part {
+    background-image: linear-gradient(#a1eb46, #7dd213);
 }
 
 .seo-overlay {
@@ -980,7 +986,7 @@ body {
 }
 
 .seo-content p {
-    color: #6dc500;
+    color: #498300;
     font-size: 14px;
     font-weight: 500;
     font-family: 'Heebo', sans-serif;
@@ -1032,7 +1038,7 @@ body {
     font-family: 'Heebo', sans-serif;
     text-transform: capitalize;
     padding: 15px 30px;
-    background: #6dc500;
+    background-image: linear-gradient(#a1eb46, #7dd213);
     border-radius: 50px;
 }
 
@@ -1052,7 +1058,7 @@ body {
 /*===================================
           PORTFOLIO PART START
 ====================================*/
-#port-part {
+.port-part {
     background: #fff;
     padding: 146px 0px 0px;
 }
@@ -1062,7 +1068,7 @@ body {
 }
 
 .port-heading p {
-    color: #6dc500;
+    color: #7dd213;
     font-size: 14px;
     font-weight: 500;
     font-family: 'Heebo', sans-serif;
@@ -1108,7 +1114,7 @@ body {
     transform: translateY(-50%);
     width: 3px;
     height: 25px;
-    background: #6dc500;
+    background-image: linear-gradient(#a1eb46, #7dd213);
 }
 
 .port-menu button {
@@ -1132,11 +1138,11 @@ body {
 }
 
 .port-menu button:hover {
-    color: #6dc500;
+    color: #7dd213;
 }
 
 .port-menu button.active {
-    color: #6dc500;
+    color: #7dd213;
 }
 
 .port-menu button::after {
@@ -1147,7 +1153,7 @@ body {
     transform: translateY(-50%);
     width: 8px;
     height: 8px;
-    background: #6dc500;
+    background-image: linear-gradient(#a1eb46, #7dd213);
     border-radius: 50%;
 }
 
@@ -1177,7 +1183,7 @@ body {
     width: 0%;
     height: 100%;
     border-radius: 5px;
-    background: rgba(109, 197, 0, 0.9);
+    background-image: linear-gradient(rgba(161, 235, 70, 0.9), rgba(125, 210, 19, 0.9));
     visibility: hidden;
     opacity: 0;
     transition: all linear .3s;
@@ -1195,7 +1201,7 @@ body {
 
 .port-overlay a {
     display: inline-block;
-    color: #6dc500;
+    color: #7dd213;
     font-size: 20px;
     width: 50px;
     height: 50px;
@@ -1269,7 +1275,7 @@ body {
     text-transform: capitalize;
     padding: 16px 40px;
     border-radius: 30px;
-    background: #6dc500;
+    background-image: linear-gradient(#a1eb46, #7dd213);
     margin-top: 25px;
 }
 
@@ -1285,7 +1291,7 @@ body {
 /*===================================
           TEAM PART START
 ====================================*/
-#team-part {
+.team-part {
     background: #fff;
     padding: 90px 0px 0px;
 }
@@ -1295,7 +1301,7 @@ body {
 }
 
 .team-heading p {
-    color: #6dc500;
+    color: #7dd213;
     font-size: 14px;
     font-weight: 500;
     font-family: 'Heebo', sans-serif;
@@ -1346,7 +1352,7 @@ body {
     line-height: 40px;
     text-align: center;
     border-radius: 50%;
-    background: #6dc500;
+    background-image: linear-gradient(#a1eb46, #7dd213);
     color: #fff;
     font-size: 14px;
     text-shadow: 3px 5px 0px rgba(0, 0, 0, 0.15);
@@ -1410,7 +1416,7 @@ body {
     line-height: 40px;
     text-align: center;
     border-radius: 50%;
-    background: #6dc500;
+    background-image: linear-gradient(#a1eb46, #7dd213);
     color: #fff;
     font-size: 14px;
     text-shadow: 1px 3px 0px rgba(0, 0, 0, 0.15);
@@ -1425,7 +1431,7 @@ body {
     top: 35%;
     right: -60px;
     transform: translateY(-50%);
-    color: #6dc500;
+    color: #7dd213;
     font-size: 18px;
     width: 50px;
     height: 50px;
@@ -1448,7 +1454,7 @@ body {
     top: 35%;
     left: -60px;
     transform: translateY(-50%);
-    color: #6dc500;
+    color: #7dd213;
     font-size: 18px;
     width: 50px;
     height: 50px;
@@ -1469,7 +1475,7 @@ body {
 .team-parent .dandik:hover,
 .team-parent .bamdik:hover{
     color: #fff;
-    background: #6dc500;
+    background-image: linear-gradient(#a1eb46, #7dd213);
 }
 /*===================================
           TEAM PART END
@@ -1479,7 +1485,7 @@ body {
 /*===================================
           BLOG PART START
 ====================================*/
-#blog-part {
+.blog-part {
     background: #fff;
     padding: 70px 0px 0px;
 }
@@ -1489,7 +1495,7 @@ body {
 }
 
 .blog-heading p {
-    color: #6dc500;
+    color: #7dd213;
     font-size: 14px;
     font-weight: 500;
     font-family: 'Heebo', sans-serif;
@@ -1618,7 +1624,8 @@ body {
     text-transform: capitalize;
     padding: 16px 40px;
     border-radius: 30px;
-    background: #6dc500;
+    background-image: linear-gradient(#a1eb46, #7dd213);
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15);
     margin-top: 50px;
 }
 
@@ -1634,7 +1641,7 @@ body {
 /*===================================
           COMPANY PART START
 ====================================*/
-#company-part {
+.company-part {
     background: #fff;
     padding: 150px 0px 0px;
 }
@@ -1644,7 +1651,7 @@ body {
 }
 
 .company-heading p {
-    color: #6dc500;
+    color: #7dd213;
     font-size: 14px;
     font-weight: 500;
     font-family: 'Heebo', sans-serif;
@@ -1676,7 +1683,7 @@ body {
     top: 50%;
     right: -60px;
     transform: translateY(-50%);
-    color: #6dc500;
+    color: #7dd213;
     font-size: 18px;
     width: 50px;
     height: 50px;
@@ -1699,7 +1706,7 @@ body {
     top: 50%;
     left: -60px;
     transform: translateY(-50%);
-    color: #6dc500;
+    color: #7dd213;
     font-size: 18px;
     width: 50px;
     height: 50px;
@@ -1720,7 +1727,7 @@ body {
 .company-img .dandik:hover,
 .company-img .bamdik:hover{
     color: #fff;
-    background: #6dc500;
+    background-image: linear-gradient(#a1eb46, #7dd213);
 }
  /*===================================
           COMPANY PART END
@@ -1730,7 +1737,7 @@ body {
 /*===================================
           CONTACT PART START
 ====================================*/
-#contact-part {
+.contact-part {
     background: url(../images/contact-bg.png);
     background-repeat: no-repeat;
     background-position: bottom;
@@ -1743,7 +1750,7 @@ body {
 }
 
 .contact-heading p {
-    color: #6dc500;
+    color: #7dd213;
     font-size: 14px;
     font-weight: 500;
     font-family: 'Heebo', sans-serif;
@@ -1795,7 +1802,7 @@ body {
     line-height: 50px;
     text-align: center;
     border-radius: 50%;
-    background: #6dc500;
+    background-image: linear-gradient(#a1eb46, #7dd213);
     color: #fff;
     font-size: 18px;
     margin-right: 25px;
@@ -1864,7 +1871,7 @@ body {
     height: 50px;
     border-radius: 10px;
     padding-left: 15px;
-    background: #b6e27f;
+    background: #f0f0f0;
     border: 1px solid #ccc;
     margin-bottom: 25px;
     transition: all linear .3s;
@@ -1889,7 +1896,7 @@ body {
     border-radius: 10px;
     padding-left: 15px;
     padding-top: 10px;
-    background: #b6e27f;
+    background: #f0f0f0;
     border: 1px solid #ccc;
     resize: none;
     transition: all linear .3s;
@@ -1910,7 +1917,7 @@ body {
 
 .contact-input input:focus-within, 
 .contact-input textarea:focus-within {
-    border: 1px solid #6dc500;
+    border: 1px solid #7dd213;
 }
 
 .contact-input button {
@@ -1924,7 +1931,8 @@ body {
     letter-spacing: 0.5px;
     padding: 16px 40px;
     border-radius: 50px;
-    background: #6dc500;
+    background-image: linear-gradient(#a1eb46, #7dd213);
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15);
     margin-top: 35px;
     text-shadow: 3px 5px 0px rgba(0, 0, 0, 0.15);
 }
@@ -1936,7 +1944,7 @@ body {
 /*===================================
           FOOTER PART START
 ====================================*/
-#footer-part {
+.footer-part {
     background: #050629;
     padding: 100px 0px;
 }
@@ -1979,7 +1987,8 @@ body {
     line-height: 40px;
     text-align: center;
     border-radius: 50%;
-    background: #6dc500;
+    background-image: linear-gradient(#a1eb46, #7dd213);
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15);
     color: #fff;
     font-size: 14px;
     text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.15);
@@ -2004,7 +2013,7 @@ body {
     transform: translateY(-50%);
     width: 3px;
     height: 25px;
-    background: #6dc500;
+    background-image: linear-gradient(#a1eb46, #7dd213);
 }
 
 .footer-contact ul li {
@@ -2021,7 +2030,7 @@ body {
 }
 
 .footer-contact ul li a i {
-    color: #6dc500;
+    color: #7dd213;
     margin-right: 15px;
 }
 
@@ -2044,7 +2053,7 @@ body {
     transform: translateY(-50%);
     width: 3px;
     height: 25px;
-    background: #6dc500;
+    background-image: linear-gradient(#a1eb46, #7dd213);
 }
 
 .footer-blog ul li {
@@ -2073,7 +2082,7 @@ body {
 }
 
 .footer-text p {
-    color: #6dc500;
+    color: #fff;
     font-size: 13px;
     font-weight: 400;
     font-family: 'Heebo', sans-serif;
@@ -2126,7 +2135,7 @@ body {
 }
 
 .copy-part ul li a {
-    color: #6dc500;
+    color: #7dd213;
 }
 /*===================================
           COPYRIGHT PART END
@@ -4108,6 +4117,102 @@ body {
 /*======================================
         PRODUCT PAGE CSS END
 =======================================*/
+
+
+
+/*======================================
+        BLUECOLOR PART START
+=======================================*/
+.changeactive .navbar-collapse ul li a, 
+.changeactive .navbar-collapse ul li.active a,  
+.changeactive .banner-btn a:nth-child(2), 
+.changeactive .domain-content p, 
+.changeactive .price-heading p, 
+.changeactive .price-card h4, 
+.changeactive .price-card h5, 
+.changeactive .price-list li i,
+.changeactive .about-heading p,
+.changeactive .service-heading p,
+.changeactive .seo-content p,
+.changeactive .port-heading p,
+.changeactive .port-menu button.active,
+.changeactive .port-menu button:hover,
+.changeactive .team-parent .bamdik,
+.changeactive .team-parent .dandik,
+.changeactive .team-heading p,
+.changeactive .blog-heading p,
+.changeactive .company-heading p,
+.changeactive .company-img .bamdik,
+.changeactive .company-img .dandik,
+.changeactive .contact-heading p,
+.changeactive .footer-contact ul li a i,
+.changeactive .navbar-collapse ul li a:hover {
+    color: #7700a7;
+}
+
+
+.changeactive .get-btn a,
+.changeactive .domain-input i,
+.changeactive .domain-input button,
+.changeactive .pur-btn,
+.changeactive .about-icon li a i,
+.changeactive .seo-form button,
+.changeactive .port-menu h3::after,
+.changeactive .port-menu button::after,
+.changeactive .port-overlay,
+.changeactive .view-btn a,
+.changeactive .team-contact li a i,
+.changeactive .team-icon li a i,
+.changeactive .blog-more a,
+.changeactive .contact-info li i,
+.changeactive .contact-input button,
+.changeactive .footer-icon li a i,
+.changeactive .footer-contact h3::after,
+.changeactive .footer-blog h3::after,
+.changeactive .banner-btn a:nth-child(1) {
+    background: #7700a7;
+}
+
+.changeactive .get-btn a,
+.changeactive .banner-btn a:nth-child(1),
+.changeactive .banner-btn a:nth-child(2) {
+    box-shadow: 0px 5px 15px 0px #e8afff;
+}
+
+.changeactive .price-card:hover,
+.changeactive .banner-btn a {
+    border: 2px solid #7700a7;
+}
+/*======================================
+        BLUECOLOR PART END
+=======================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
