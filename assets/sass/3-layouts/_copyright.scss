@@ -1,0 +1,39 @@
+
+
+#copy__part {
+    background: $copy__bg;
+    padding: 25px 0px;
+
+    .container {
+        ul {
+            @include flex__center;
+
+            li {
+                color: $wh__color;
+                font-size: $xsm__size;
+                @include regular__typography;
+                text-transform: capitalize;
+                padding: 0px 20px;
+                letter-spacing: 0.5px;
+                position: relative;
+
+                &::after {
+                    position: absolute;
+                    content: "";
+                    top: 50%;
+                    right: 0px;
+                    transform: translateY(-50%);
+                    width: 1px;
+                    height: 15px;
+                    background: $wh__color;
+                }
+
+                &:last-child {
+                    &::after {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}

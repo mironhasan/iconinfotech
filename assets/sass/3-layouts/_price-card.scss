@@ -1,0 +1,99 @@
+
+
+
+.price__card {
+    text-align: center;
+    background: $wh__color;
+    border-radius: 10px;
+    padding: 45px 30px;
+    border: 2px solid $wh__color;
+    box-shadow: $lg__box__shadow;
+    @include cursor__transition;
+
+    &:hover {
+        border: 2px solid $brand__color;
+    }
+
+    h3 {
+        color: $heading__color;
+        font-size: $xxmd__size;
+        @include bold__typography;
+        text-transform: capitalize;
+        letter-spacing: 2px;
+        margin-bottom: 20px !important;
+    }
+
+    h4 {
+        font-size: $xlg__size;
+        @include bold__typography;
+        text-transform: capitalize;
+        background: $brand__gradient;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    h5 {
+        color: $brand__color;
+        font-size: $md__size;
+        @include regular__typography;
+        letter-spacing: 0.5px;
+        margin-bottom: 50px !important;
+        position: relative;
+
+        &::after {
+            position: absolute;
+            content: "";
+            bottom: -25px;
+            left: 0px;
+            width: 100%;
+            height: 1px;
+            background-color: $border__color;
+        }
+    }
+
+    .price__list {
+        width: 190px;
+        margin: 0 auto;
+
+        li {
+            @include flex__center;
+            justify-content: start;
+            margin-bottom: 15px !important;
+
+            &:last-child {
+                margin-bottom: 0px !important;
+            }
+
+            i {
+                color: $brand__color;
+                font-size: $xsm__size;
+                margin-right: 8px;
+            }
+
+            p {
+                color: $text__color;
+                font-size: $sm__size;
+                text-transform: capitalize;
+            }
+        }
+    }
+
+    .pur__btn {
+        padding: 16px 70px;
+        border-radius: 30px;
+        color: $wh__color;
+        font-size: $sm__size;
+        @include medium__typography;
+        text-transform: capitalize;
+        display: inline-block;
+        letter-spacing: 0.5px;
+        background-image: $brand__gradient;
+        box-shadow: $sm__box__shadow;
+        margin-top: 35px;
+
+        &:hover {
+            color: $wh__color;
+            text-decoration: none;
+        }
+    }
+}

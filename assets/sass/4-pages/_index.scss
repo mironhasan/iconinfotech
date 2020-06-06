@@ -1,0 +1,394 @@
+
+
+// =====================================
+//     BANNER SECTION OF INDEX PAGE
+//======================================
+#banner__part {
+    background: $banner__bg;
+    padding: 200px 0px 0px;
+    position: relative;
+    overflow: hidden;
+
+    .banner__shape__1 {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 450px;
+        height: 900px;
+    }
+    
+    .banner__shape__2 {
+        position: absolute;
+        top: 165px;
+        right: -100px;
+        width: auto;
+        height: 100%;
+    }
+
+    .container {
+        .banner__content {
+            margin-top: 43px;
+
+            h1 {
+                color: $heading__color;
+                font-size: $xxlg__size; 
+                @include bold__typography;
+                line-height: 68px;
+                text-transform: capitalize;
+                margin-bottom: 25px !important;
+            }
+
+            p {
+                color: $text__color;
+                font-size: $sm__size;
+                @include regular__typography;
+            }
+
+            .banner__btn {
+                margin-top: 45px;
+
+                .primary__btn {
+                    &:nth-child(2) {
+                        background: $btn__gradient;
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+
+        .banner__img {
+            img {
+                width: 100%;
+                height: auto;
+                animation: miron 8s linear infinite;
+
+                @keyframes miron {
+                    0%{
+                        transform: translateY(-50px);
+                    }
+                    50%{
+                        transform: translateY(0px);
+                    }
+                    100%{
+                        transform: translateY(-50px);
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+// =====================================
+//     DOMAIN SECTION OF INDEX PAGE
+//======================================
+#domain__part {
+    background: $domain__bg;
+
+    .domain__bg {
+        background: url(../images/domain-bg.png);
+        @include background__property;
+        padding: 100px 0px;
+
+        .container {
+            .domain__content {
+                text-align: center;
+
+                .domain__suggest {
+                    @include flex__center;
+                    margin-top: 45px;
+
+                    li {
+                        margin: 0px 25px;
+
+                        p {
+                            color: $heading__color;
+                            font-size: $md__size;
+                            @include medium__typography;
+                            text-transform: lowercase;
+                            letter-spacing: 0px;
+
+                            span {
+                                color: $text__color;
+                                font-weight: $regular__weight;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+// =====================================
+//     PRICE SECTION OF INDEX PAGE
+//======================================
+#price__part {
+    background: $wh__color;
+    padding: 150px 0px 30px;
+
+    .container {
+        .price__heading {
+            text-align: center;
+        }
+    }
+}
+
+
+
+// =====================================
+//     ABOUT SECTION OF INDEX PAGE
+//======================================
+#about__part {
+    background:$wh__color;
+    padding: 120px 0px 0px;
+    position: relative;
+
+    .about__shape__1 {
+        background: url(../images/about-shape-1.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 400px;
+        height: 100%;
+    }
+
+    .container {
+        .about__heading {
+            text-align: center;
+        }
+
+        .about__img {
+            @include flex__center;
+            flex-wrap: wrap;
+            position: relative;
+
+            &::after {
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+                background: $wh__color;
+                position: absolute;
+                content: "";
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            img {
+                width: 230px;
+                height: auto;
+                border-radius: 5px;
+                margin: 10px;
+            }
+        }
+
+        .about__text {
+            h3 {
+                color: $about__heading__color;
+                font-size: $xxxlg__size;
+                @include black__typography;
+                text-transform: uppercase;
+                margin-bottom: 20px !important;
+                line-height: 80px;
+            }
+
+            h4 {
+                width: 410px;
+                color: $heading__color;
+                font-size: $xxmd__size;
+                @include medium__typography;
+                text-transform: capitalize;
+                margin-bottom: 20px !important;
+                line-height: 36px;
+            }
+
+            p {
+                color: $text__color;
+                font-size: $sm__size;
+                @include regular__typography;
+                margin-bottom: 25px !important;
+            }
+        }
+
+        .about__icon {
+            li {
+                display: inline-block;
+                margin-right: 12px;
+
+                a {
+                    i {
+                        width: 45px;
+                        height: 45px;
+                        line-height: 45px;
+                        text-align: center;
+                        border-radius: 50%;
+                        background: $brand__gradient;
+                        box-shadow: $sm__box__shadow;
+                        color: $wh__color;
+                        font-size: $sm__size;
+                        text-shadow: $md__text__shadow;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+// =====================================
+//    SERVICE SECTION OF INDEX PAGE
+//======================================
+#service__part {
+    background: $wh__color;
+    padding: 135px 0px 120px;
+    position: relative;
+    overflow: hidden;
+
+    .container {
+        .service__heading {
+            text-align: center;
+        }
+
+        .service__parent {
+            @include flex__center;
+            flex-wrap: wrap;
+
+            .service__card {
+                &:nth-child(1) {
+                    &:hover {
+                        .service__icon {
+                            i {
+                                background-image: linear-gradient(#fd746c, #ff9068);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
+                                box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+                            }
+                        }
+                    }
+                    .service__icon {
+                        i {
+                            background-image: linear-gradient(#fd746c, #ff9068);
+                            box-shadow: 0px 10px 25px 0px rgba(255, 133, 86, 0.5);
+                        }
+                    }
+                }
+
+                &:nth-child(2) {
+                    &:hover {
+                        .service__icon {
+                            i {
+                                background-image: linear-gradient(#a8e063, #a1eb46);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
+                                box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+                            }
+                        }
+                    }
+                    .service__icon {
+                        i {
+                            background-image: linear-gradient(#a8e063, #a1eb46);
+                            box-shadow: 0px 10px 25px 0px rgba(168, 224, 99, 0.5);
+                        }
+                    }
+                }
+
+                &:nth-child(3) {
+                    &:hover {
+                        .service__icon {
+                            i {
+                                background-image: linear-gradient(#b37be3, #af82d6);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
+                                box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+                            }
+                        }
+                    }
+                    .service__icon {
+                        i {
+                            background-image: linear-gradient(#b37be3, #af82d6);
+                            box-shadow: 0px 10px 25px 0px rgba(189, 141, 230, 0.5);
+                        }
+                    }
+                }
+
+                &:nth-child(4) {
+                    &:hover {
+                        .service__icon {
+                            i {
+                                background-image: linear-gradient(#f5af19, #f8b729);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
+                                box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+                            }
+                        }
+                    }
+                    .service__icon {
+                        i {
+                            background-image: linear-gradient(#f5af19, #f8b729);
+                            box-shadow: 0px 10px 25px 0px rgba(248, 183, 41, 0.5);
+                        }
+                    }
+                }
+
+                &:nth-child(5) {
+                    &:hover {
+                        .service__icon {
+                            i {
+                                background-image: linear-gradient(#4dce7d, #49d47d);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
+                                box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+                            }
+                        }
+                    }
+                    .service__icon {
+                        i {
+                            background-image: linear-gradient(#4dce7d, #49d47d);
+                            box-shadow: 0px 10px 25px 0px rgba(77, 206, 125, 0.5);
+                        }
+                    }
+                }
+
+                &:nth-child(6) {
+                    &:hover {
+                        .service__icon {
+                            i {
+                                background-image: linear-gradient(#6a7abf, #6d7fcb);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
+                                box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+                            }
+                        }
+                    }
+                    .service__icon {
+                        i {
+                            background-image: linear-gradient(#6a7abf, #6d7fcb);
+                            box-shadow: 0px 10px 25px 0px rgba(106, 122, 191, 0.5);
+                        }
+                    }
+                }
+
+                h3 {
+                    color: $heading__color;
+                    font-size: $xxmd__size;
+                    @include bold__typography;
+                    text-transform: capitalize;
+                    margin-bottom: 32px !important;
+                }
+
+                p {
+                    color: $text__color;
+                    font-size: $sm__size;
+                    @include regular__typography;
+                }
+            }
+        }
+    }
+}

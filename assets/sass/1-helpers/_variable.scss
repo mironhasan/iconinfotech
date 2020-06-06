@@ -1,0 +1,65 @@
+
+
+
+
+// =====================================
+//       ALL TYPOGRAPHY VARIABLES
+//======================================
+// FONT FAMILY 
+$primary__family: 'Heebo', sans-serif;
+
+
+// FONT WEIGHT 
+$regular__weight: 400;
+$medium__weight: 500;
+$bold__weight: 700;
+$black__weight: 900;
+
+
+// FONT SIZE 
+$xxsm__size: 12px;
+$xxmd__size: 24px;
+$xxlg__size: 60px;
+$xxxlg__size: 70px;
+
+$xsm__size: 14px;
+$xmd__size: 22px;
+$xlg__size: 50px;
+
+$sm__size: 16px;
+$md__size: 18px;
+$lg__size: 35px;
+
+
+// =====================================
+//         ALL COLOR VARIABLES
+//======================================
+$brand__color: #7dd213;
+$heading__color: #3d5272;
+$about__heading__color: #cccccc;
+$text__color: #555555;
+$wh__color: #ffffff;
+$placeholder__color: #999999;
+$border__color: #dddddd;
+$banner__bg: #f3fdf3;
+$domain__bg: #fffafa;
+$footer__bg: #050629;
+$copy__bg: #020314;
+$brand__gradient: linear-gradient(#a1eb46, #7dd213);
+$btn__gradient: linear-gradient(#3d5272, #31435f);
+
+// HOVER COLOR
+
+
+
+// =====================================
+//         ALL SHADOW VARIABLES
+//======================================
+// BOX SHADOW
+$sm__box__shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15);
+$md__box__shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+$lg__box__shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.1);
+
+// TEXT SHADOW
+$sm__text__shadow: 1px 2px 0px rgba(0, 0, 0, 0.15);
+$md__text__shadow: 2px 3px 0px rgba(0, 0, 0, 0.15);

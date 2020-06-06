@@ -1,0 +1,148 @@
+
+
+#footer__part {
+    background: $footer__bg;
+    padding: 100px 0px;
+
+    .container {
+        .footer__logo {
+            margin-right: 30px;
+
+            p {
+                color: $wh__color;
+                font-size: $sm__size;
+                @include regular__typography;
+                text-transform: capitalize;
+                margin-top: 25px;
+            }
+
+            .footer__icon {
+                margin-top: 45px;
+
+                li {
+                    margin-right: 9px;
+                    display: inline-block;
+
+                    &:last-child {
+                        margin-right: 0px;
+                    }
+
+                    a {
+                        i {
+                            width: 40px;
+                            height: 40px;
+                            line-height: 40px;
+                            text-align: center;
+                            border-radius: 50%;
+                            color: $wh__color;
+                            font-size: $xsm__size;
+                            text-shadow: $sm__text__shadow;
+                            background: $brand__gradient;
+
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer__contact {
+            h3 {
+                color: $wh__color;
+                font-size: $xmd__size;
+                @include medium__typography;
+                text-transform: capitalize;
+                margin-bottom: 30px !important;
+                margin-left: 15px;
+                position: relative;
+
+                &::after {
+                    position: absolute;
+                    content: "";
+                    top: 50%;
+                    left: -15px;
+                    transform: translateY(-50%);
+                    width: 3px;
+                    height: 25px;
+                    background: $brand__gradient;
+                }
+            }
+
+            ul {
+                li {
+                    margin: 20px 0px !important;
+                    a {
+                        color: $wh__color;
+                        font-size: $sm__size;
+                        @include regular__typography;
+                        text-transform: capitalize;
+                        display: inline-block;
+
+                        i {
+                            color: $brand__color;
+                            margin-right: 15px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer__blog {
+            h3 {
+                color: $wh__color;
+                font-size: $xmd__size;
+                @include medium__typography;
+                text-transform: capitalize;
+                margin-left: 15px;
+                margin-bottom: 30px !important;
+                position: relative;
+                
+                &::after {
+                    position: absolute;
+                    content: "";
+                    top: 50%;
+                    left: -15px;
+                    transform: translateY(-50%);
+                    width: 3px;
+                    height: 25px;
+                    background: $brand__gradient;
+                }
+            }
+
+            ul {
+                li {
+                    display: flex;
+                    align-items: flex-start;
+                    margin-bottom: 20px !important;
+
+                    &:last-child {
+                        margin-bottom: 0px !important;
+                    }
+
+                    img {
+                        width: 75px;
+                        height: auto;
+                        border-radius: 5px;
+                        margin-right: 15px;
+                    }
+
+                    .footer__text {
+                        a {
+                            color: $wh__color;
+                            font-size: $sm__size;
+                            @include medium__typography;
+                            text-transform: capitalize;
+                        }
+
+                        p {
+                            color: $wh__color;
+                            font-size: $xsm__size;
+                            @include regular__typography;
+                            text-transform: capitalize;
+                            margin-top: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

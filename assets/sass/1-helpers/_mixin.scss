@@ -1,0 +1,62 @@
+
+
+
+
+// =====================================
+//       ALL TYPOGRAPHY MIXINS
+//======================================
+// REGULAR TYPOGRAPHY
+@mixin regular__typography {
+    font-weight: $regular__weight;
+    font-family: $primary__family;
+}
+
+// REGULAR TYPOGRAPHY
+@mixin medium__typography {
+    font-weight: $medium__weight;
+    font-family: $primary__family;
+}
+
+// BOLD TYPOGRAPHY
+@mixin bold__typography {
+    font-weight: $bold__weight;
+    font-family: $primary__family;
+}
+
+// BLACK TYPOGRAPHY
+@mixin black__typography {
+    font-weight: $black__weight;
+    font-family: $primary__family;
+}
+
+
+//=====================================
+//      TRANSITION BROWSER PREFIX
+//======================================
+@mixin cursor__transition {
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+
+// =====================================
+//         FLEX CENTER PROPERTY
+//======================================
+@mixin flex__center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+// =====================================
+//      BACKGROUND IMAGE PROPERTY
+//======================================
+@mixin background__property {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

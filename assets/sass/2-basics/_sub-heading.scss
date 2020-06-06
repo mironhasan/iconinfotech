@@ -1,0 +1,18 @@
+
+
+.sm__heading {
+    color: $brand__color;
+    font-size: $xsm__size;
+    @include medium__typography;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 5px !important;
+}
+
+.md__heading {
+    color: $heading__color;
+    font-size: $lg__size;
+    @include bold__typography;
+    text-transform: capitalize;
+    margin-bottom: 45px !important;
+}

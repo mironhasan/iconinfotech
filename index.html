@@ -7,14 +7,14 @@
         <!--=========================================
                      CSS LINK PART START
         ===========================================-->
-        <link rel="icon" href="images/logo.png">
-        <link rel="stylesheet" href="css/all.min.css">
-        <link rel="stylesheet" href="icon/flaticon.css">
-        <link rel="stylesheet" href="css/classic.min.css">
-        <link rel="stylesheet" href="css/slick.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/responsive.css">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="icon" href="assets/images/logo.png">
+        <link rel="stylesheet" href="assets/css/all.min.css">
+        <link rel="stylesheet" href="assets/icon/flaticon.css">
+        <link rel="stylesheet" href="assets/css/classic.min.css">
+        <link rel="stylesheet" href="assets/css/slick.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/sass/main.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
         <!--=========================================
                      CSS LINK PART END
         ===========================================-->
@@ -23,8 +23,8 @@
        <!--=========================================
                    COLOR PICKER PART START
         ===========================================-->
-       <div class="hide-bar">
-           <span class="color-picker"></span>
+       <div class="hide__bar">
+           <span class="color__picker"></span>
            <i class="fas fa-cog"></i>
        </div>
        <!--=========================================
@@ -36,8 +36,8 @@
                     PRELOADER PART START
         ===========================================-->
         <div class="preloader">
-            <div class="pre-img">
-                <img src="images/menu-logo.png" alt="menu-logo">
+            <div class="pre__img">
+                <img src="assets/images/menu-logo.png" alt="menu-logo">
             </div>
         </div>
         <!--=========================================
@@ -48,9 +48,9 @@
         <!--=========================================
                        MENU PART START
         ===========================================-->
-        <nav class="navbar navbar-expand-lg menu-part menu-head change-color">
+        <nav class="navbar navbar-expand-lg menu__part menu__head change__color">
             <div class="container">
-                <a class="navbar-brand menu-logo" href="index.html"><img src="images/menu-logo.png" alt="menu-logo"></a>
+                <a class="navbar-brand" href="index.html"><img class="brand__logo" src="assets/images/menu-logo.png" alt="menu-logo"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fas fa-bars"></i>
                 </button>
@@ -67,7 +67,7 @@
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 services
                             </a>
-                            <div class="dropdown-menu drop-menu" aria-labelledby="navbarDropdown">
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="software.html">software building</a>
                                 <a class="dropdown-item" href="design-develop.html">design &amp; development</a>
                                 <a class="dropdown-item" href="domain-host.html">domain &amp; hosting</a>
@@ -85,7 +85,7 @@
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Pages
                             </a>
-                            <div class="dropdown-menu drop-menu" aria-labelledby="navbarDropdown">
+                            <div class="dropdown-menu drop__menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="blog-list.html">blogs</a>
                                 <a class="dropdown-item" href="#team-part">team members</a>
                                 <a class="dropdown-item" href="#">career</a>
@@ -97,9 +97,7 @@
                             <a class="nav-link" href="#contact-part">contact us</a>
                         </li>
                     </ul>
-                    <div class="get-btn">
-                        <a href="get.html">get started</a>
-                    </div>
+                    <a class="primary__btn" href="get.html">get started</a>
                 </div>
             </div>
         </nav>
@@ -111,24 +109,24 @@
         <!--=========================================
                        BANNER PART START
         ===========================================-->
-        <section class="banner-part change-color">
-            <img class="banner-shape-1" src="images/banner-shape-1.png" alt="banner-shape-1">
-            <img class="banner-shape-2" src="images/banner-shape-2.png" alt="banner-shape-2">
+        <section id="banner__part" class="change__color">
+            <img class="banner__shape__1" src="assets/images/banner-shape-1.png" alt="banner-shape-1">
+            <img class="banner__shape__2" src="assets/images/banner-shape-2.png" alt="banner-shape-2">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-6">
-                        <div class="banner-content">
+                        <div class="banner__content">
                             <h1>We help business achieving goals.</h1>
                             <p>Our main goal is client satisfaction. We believe we are capable to provide the best solutions making the customers intention as our main objectives. We like listen to the customers instead of convincing them.</p>
-                            <div class="banner-btn">
-                                <a href="get.html">contact us</a>
-                                <a href="portfolio.html">demo work</a>
+                            <div class="banner__btn">
+                                <a class="primary__btn" href="get.html">contact us</a>
+                                <a class="primary__btn" href="portfolio.html">demo work</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6">
-                        <div class="banner-img">
-                            <img src="images/banner-img.png" alt="banner-img">
+                        <div class="banner__img">
+                            <img src="assets/images/banner-img.png" alt="banner-img">
                         </div>
                     </div>
                 </div>
@@ -142,17 +140,17 @@
         <!--=========================================
                        DOMAIN PART START
         ===========================================-->
-        <section class="domain-part change-color">
-            <div class="domain-bg">
+        <section id="domain__part" class="change__color">
+            <div class="domain__bg">
                 <div class="container">
-                    <div class="domain-content">
-                        <p>icon infotech ltd</p>
-                        <h2>looking for domain name?</h2>
-                        <form action="" method="">
-                            <div class="domain-input">
+                    <div class="domain__content">
+                        <p class="sm__heading">icon infotech ltd</p>
+                        <h2 class="md__heading">looking for domain name?</h2>
+                        <form action="" method="" class="search__form">
+                            <div class="search__input">
                                 <i class="fas fa-search"></i>
                                 <input type="text" placeholder="Search your domain name">
-                                <div class="domain-select">
+                                <div class="search__select">
                                     <select class="custom-select custom-select-lg">
                                         <option selected>.com</option>
                                         <option value="1">.net</option>
@@ -163,7 +161,7 @@
                                 <button type="button">search</button>
                             </div>
                         </form>
-                        <ul>
+                        <ul class="domain__suggest">
                             <li><p>.com <span>- $15</span></p></li>
                             <li><p>.net <span>- $12</span></p></li>
                             <li><p>.org <span>- $9</span></p></li>
@@ -182,21 +180,21 @@
         <!--=========================================
                       PRICE PART START
         ===========================================-->
-        <section class="price-part change-color">
+        <section id="price__part" class="change__color">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="price-heading">
-                            <p>pricing plane</p>
-                            <h2>choose hosting plan</h2>
+                        <div class="price__heading">
+                            <p class="sm__heading">pricing plane</p>
+                            <h2 class="md__heading">choose hosting plan</h2>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-12">
-                        <div class="price-card">
+                        <div class="price__card">
                             <h3>basic</h3>
                             <h4>$1.00</h4>
                             <h5>monthly</h5>
-                            <ul class="price-list">
+                            <ul class="price__list">
                                 <li>
                                     <i class="fas fa-check"></i>
                                     <p>1 Main Domain</p>
@@ -222,15 +220,15 @@
                                     <p>5 Email Accounts</p>
                                 </li>
                             </ul>
-                            <a class="pur-btn" href="#">purchase</a>
+                            <a class="pur__btn" href="#">purchase</a>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-12">
-                        <div class="price-card">
+                        <div class="price__card">
                             <h3>standard</h3>
                             <h4>$2.00</h4>
                             <h5>monthly</h5>
-                            <ul class="price-list">
+                            <ul class="price__list">
                                 <li>
                                     <i class="fas fa-check"></i>
                                     <p>1 Main Domain</p>
@@ -256,15 +254,15 @@
                                     <p>5 Email Accounts</p>
                                 </li>
                             </ul>
-                            <a class="pur-btn" href="#">purchase</a>
+                            <a class="pur__btn" href="#">purchase</a>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-12">
-                        <div class="price-card">
+                        <div class="price__card">
                             <h3>premium</h3>
                             <h4>$5.00</h4>
                             <h5>monthly</h5>
-                            <ul class="price-list">
+                            <ul class="price__list">
                                 <li>
                                     <i class="fas fa-check"></i>
                                     <p>1 Main Domain</p>
@@ -290,7 +288,7 @@
                                     <p>5 Email Accounts</p>
                                 </li>
                             </ul>
-                            <a class="pur-btn" href="#">purchase</a>
+                            <a class="pur__btn" href="#">purchase</a>
                         </div>
                     </div>
                 </div>
@@ -304,39 +302,37 @@
         <!--=========================================
                       ABOUT PART START
         ===========================================-->
-        <section class="about-part change-color">
-            <div class="about-shape-1"></div>
+        <section id="about__part" class="change__color">
+            <div class="about__shape__1"></div>
             <div class="container">
                 <div class="row">
                    <div class="col-lg-12">
                        <div class="about-heading">
-                           <p>icon about</p>
-                           <h2>some about comapny</h2>
+                           <p class="sm__heading">icon about</p>
+                           <h2 class="md__heading">some about comapny</h2>
                        </div>
                    </div>
                     <div class="col-lg-6 col-md-6">
-                        <div class="about-img">
-                            <img src="images/about-image-1.jpg" alt="about-img-1">
-                            <img src="images/about-image-2.jpg" alt="about-img-2">
-                            <img src="images/about-image-3.jpg" alt="about-img-3">
-                            <img src="images/about-image-1.jpg" alt="about-img-1">
+                        <div class="about__img">
+                            <img src="assets/images/about-image-1.jpg" alt="about-img-1">
+                            <img src="assets/images/about-image-2.jpg" alt="about-img-2">
+                            <img src="assets/images/about-image-3.jpg" alt="about-img-3">
+                            <img src="assets/images/about-image-1.jpg" alt="about-img-1">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6">
-                        <div class="about-content">
-                            <div class="about-text">
-                                <h3>18 years of experience.</h3>
-                                <h4>We Follow Intelligent Ideas Method To Deliver Solutions.</h4>
-                                <p>The software can grow with the requirements having just what is needed to automate at the starting while maturing gradually to fit the business as per market trend and corporate policy.With our wide range operations, years of experience and our tried and tested customer-focused philosophy, we can make your project a success.</p>
-                            </div>
-                            <ul class="about-icon">
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="#"><i class="fab fa-behance"></i></a></li>
-                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                            </ul>
+                        <div class="about__text">
+                            <h3>18 years of experience.</h3>
+                            <h4>We Follow Intelligent Ideas Method To Deliver Solutions.</h4>
+                            <p>The software can grow with the requirements having just what is needed to automate at the starting while maturing gradually to fit the business as per market trend and corporate policy.With our wide range operations, years of experience and our tried and tested customer-focused philosophy, we can make your project a success.</p>
                         </div>
+                        <ul class="about__icon">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                            <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -349,59 +345,59 @@
         <!--=========================================
                        SERVICE PART PART
         ===========================================-->
-        <section class="service-part change-color">
+        <section id="service__part" class="change__color">
             <div class="container">
-                <div class="service-heading">
-                    <p>icon services</p>
-                    <h2>we offers for you</h2>
+                <div class="service__heading">
+                    <p class="sm__heading">icon services</p>
+                    <h2 class="md__heading">we offers for you</h2>
                 </div>
-                <div class="service-parent">
-                    <div class="service-card">
-                        <div class="service-icon">
+                <div class="service__parent">
+                    <div class="service__card">
+                        <div class="service__icon">
                             <i class="flaticon-promotion"></i>
                         </div>
                         <h3>Digital Marketing</h3>
-                        <p>Promote your website Internationally in various platform like facebook, google and youtube</p>
+                        <p>Lorem ipsum dolor sit amet elit dicta nesciunt qui facilis dolores excepturi expedita sit dolorum voluptatum voluptas.</p>
                         <a href="digital.html"><i class="fas fa-long-arrow-alt-right"></i></a>
                     </div>
-                    <div class="service-card">
-                        <div class="service-icon">
+                    <div class="service__card">
+                        <div class="service__icon">
                             <i class="flaticon-cloud-storage"></i>
                         </div>
                         <h3>Domain &amp; Hosting</h3>
-                        <p>Icon InfoTech is a leading provider of Domain and shared web hosting in Worldwide service.</p>
+                        <p>Lorem ipsum dolor sit amet elit dicta nesciunt qui facilis dolores excepturi expedita sit dolorum voluptatum voluptas.</p>
                         <a href="domain-host.html"><i class="fas fa-long-arrow-alt-right"></i></a>
                     </div>
-                    <div class="service-card">
-                        <div class="service-icon">
+                    <div class="service__card">
+                        <div class="service__icon">
                             <i class="flaticon-configuration"></i>
                         </div>
                         <h3>Software Building</h3>
-                        <p>Promote your website Internationally in various platform like facebook, google and youtube</p>
+                        <p>Lorem ipsum dolor sit amet elit dicta nesciunt qui facilis dolores excepturi expedita sit dolorum voluptatum voluptas.</p>
                         <a href="software.html"><i class="fas fa-long-arrow-alt-right"></i></a>
                     </div>
-                    <div class="service-card">
-                        <div class="service-icon">
+                    <div class="service__card">
+                        <div class="service__icon">
                             <i class="flaticon-idea"></i>
                         </div>
                         <h3>Web Development</h3>
-                        <p>Promote your website Internationally in various platform like facebook, google and youtube</p>
+                        <p>Lorem ipsum dolor sit amet elit dicta nesciunt qui facilis dolores excepturi expedita sit dolorum voluptatum voluptas.</p>
                         <a href="develop.html"><i class="fas fa-long-arrow-alt-right"></i></a>
                     </div>
-                    <div class="service-card">
-                        <div class="service-icon">
+                    <div class="service__card">
+                        <div class="service__icon">
                             <i class="flaticon-computer"></i>
                         </div>
                         <h3>Web Design</h3>
-                        <p>Promote your website Internationally in various platform like facebook, google and youtube</p>
+                        <p>Lorem ipsum dolor sit amet elit dicta nesciunt qui facilis dolores excepturi expedita sit dolorum voluptatum voluptas.</p>
                         <a href="develop.html"><i class="fas fa-long-arrow-alt-right"></i></a>
                     </div>
-                    <div class="service-card">
-                        <div class="service-icon">
+                    <div class="service__card">
+                        <div class="service__icon">
                             <i class="flaticon-medal"></i>
                         </div>
                         <h3>wordpress theme</h3>
-                        <p>Promote your website Internationally in various platform like facebook, google and youtube</p>
+                        <p>Lorem ipsum dolor sit amet elit dicta nesciunt qui facilis dolores excepturi expedita sit dolorum voluptatum voluptas.</p>
                         <a href="word-theme.html"><i class="fas fa-long-arrow-alt-right"></i></a>
                     </div>
                 </div>
@@ -415,14 +411,14 @@
         <!--=========================================
                       SEO PART START
         ===========================================-->
-        <section class="seo-part change-color">
-            <div class="seo-overlay">
+        <section id="seo__part" class="change__color">
+            <div class="seo__overlay">
                 <div class="container">
-                    <div class="seo-content">
+                    <div class="seo__content">
                         <p>digital marketing</p>
                         <h2>Check Your Website SEO</h2>
                         <form action="" method="">
-                            <div class="seo-form">
+                            <div class="seo__form">
                                 <input type="text" placeholder="website url">
                                 <input type="text" placeholder="email address">
                                 <button type="button">check now</button>
@@ -440,17 +436,17 @@
         <!--=========================================
                       PORTFOLIO PART START
         ===========================================-->
-        <section class="port-part change-color">
+        <section id="port__part" class="change__color">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="port-heading">
+                        <div class="port__heading">
                             <p>icon portfolio</p>
                             <h2>recent works we did</h2>
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-5 col-md-4">
-                        <div class="port-menu">
+                        <div class="port__menu">
                             <h3>category menu</h3>
                             <button class="menu active" type="button" data-filter="all">all work</button>
                             <button class="menu" type="button" data-filter=".soft">software building</button>
@@ -459,68 +455,68 @@
                             <button class="menu" type="button" data-filter=".word">wordpress theme</button>
                             <button class="menu" type="button" data-filter=".digit">digital marketing</button>
                             <button class="menu" type="button" data-filter=".host">running hosting</button>
-                            <div class="view-btn">
+                            <div class="view__btn">
                                 <a href="portfolio.html">view more</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-9 col-sm-7 col-md-8">
-                        <div class="port-parent">
-                            <div class="port-img mix soft host" data-order="1">
-                                <img src="images/port-1.jpg" alt="port-1">
-                                <div class="port-overlay">
+                        <div class="port__parent">
+                            <div class="port__img mix soft host" data-order="1">
+                                <img src="assets/images/port-1.jpg" alt="port-1">
+                                <div class="port__overlay">
                                     <a href="#"><i class="fas fa-arrows-alt"></i></a>
-                                    <div class="port-cover">
+                                    <div class="port__cover">
                                         <h3>web development</h3>
                                         <p>largest e-commerce service</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="port-img mix devel soft" data-order="2">
-                                <img src="images/port-2.jpg" alt="port-2">
-                                <div class="port-overlay">
+                            <div class="port__img mix devel soft" data-order="2">
+                                <img src="assets/images/port-2.jpg" alt="port-2">
+                                <div class="port__overlay">
                                     <a href="#"><i class="fas fa-arrows-alt"></i></a>
-                                    <div class="port-cover">
+                                    <div class="port__cover">
                                         <h3>software building</h3>
                                         <p>largest e-commerce service</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="port-img mix desi host" data-order="3">
-                                <img src="images/port-3.jpg" alt="port-3">
-                                <div class="port-overlay">
+                            <div class="port__img mix desi host" data-order="3">
+                                <img src="assets/images/port-3.jpg" alt="port-3">
+                                <div class="port__overlay">
                                     <a href="#"><i class="fas fa-arrows-alt"></i></a>
-                                    <div class="port-cover">
+                                    <div class="port__cover">
                                         <h3>digital marketing</h3>
                                         <p>largest e-commerce service</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="port-img mix word soft" data-order="4">
-                                <img src="images/port-3.jpg" alt="port-3">
-                                <div class="port-overlay">
+                            <div class="port__img mix word soft" data-order="4">
+                                <img src="assets/images/port-3.jpg" alt="port-3">
+                                <div class="port__overlay">
                                     <a href="#"><i class="fas fa-arrows-alt"></i></a>
-                                    <div class="port-cover">
+                                    <div class="port__cover">
                                         <h3>digital marketing</h3>
                                         <p>largest e-commerce service</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="port-img mix desi digit" data-order="5">
-                                <img src="images/port-1.jpg" alt="port-1">
-                                <div class="port-overlay">
+                            <div class="port__img mix desi digit" data-order="5">
+                                <img src="assets/images/port-1.jpg" alt="port-1">
+                                <div class="port__overlay">
                                     <a href="#"><i class="fas fa-arrows-alt"></i></a>
-                                    <div class="port-cover">
+                                    <div class="port__cover">
                                         <h3>digital marketing</h3>
                                         <p>largest e-commerce service</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="port-img mix digit host" data-order="6">
-                                <img src="images/port-2.jpg" alt="port-2">
-                                <div class="port-overlay">
+                            <div class="port__img mix digit host" data-order="6">
+                                <img src="assets/images/port-2.jpg" alt="port-2">
+                                <div class="port__overlay">
                                     <a href="#"><i class="fas fa-arrows-alt"></i></a>
-                                    <div class="port-cover">
+                                    <div class="port__cover">
                                         <h3>digital marketing</h3>
                                         <p>largest e-commerce service</p>
                                     </div>
@@ -539,26 +535,26 @@
         <!--=========================================
                       TEAM PART START
         ===========================================-->
-        <section class="team-part change-color">
+        <section id="team__part" class="change__color">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="team-heading">
+                        <div class="team__heading">
                             <p>icon team</p>
                             <h2>meet our professionals</h2>
                         </div>
                     </div>
                 </div>
-                <div class="team-parent">
-                    <div class="team-child">
-                        <div class="team-img">
-                            <img src="images/team-1.jpg" alt="team-1">
+                <div class="team__parent">
+                    <div class="team__child">
+                        <div class="team__img">
+                            <img src="assets/images/team-1.jpg" alt="team-1">
                             <ul class="team-contact">
                                 <li><a href="#"><i class="fas fa-phone-alt"></i></a></li>
                                 <li><a href="#"><i class="fas fa-envelope"></i></a></li>
                             </ul>
                         </div>
-                        <div class="team-name">
+                        <div class="team__name">
                             <h3>abdul awal</h3>
                             <p>Founder &amp; MD</p>
                             <ul class="team-icon">
@@ -570,18 +566,18 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="team-child">
-                        <div class="team-img">
-                            <img src="images/team-2.jpg" alt="team-2">
-                            <ul class="team-contact">
+                    <div class="team__child">
+                        <div class="team__img">
+                            <img src="assets/images/team-2.jpg" alt="team-2">
+                            <ul class="team__contact">
                                 <li><a href="#"><i class="fas fa-phone-alt"></i></a></li>
                                 <li><a href="#"><i class="fas fa-envelope"></i></a></li>
                             </ul>
                         </div>
-                        <div class="team-name">
+                        <div class="team__name">
                             <h3>hasan prince</h3>
                             <p>Project Manager</p>
-                            <ul class="team-icon">
+                            <ul class="team__icon">
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                 <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
@@ -590,18 +586,18 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="team-child">
-                        <div class="team-img">
-                            <img src="images/team-3.jpg" alt="team-3">
-                            <ul class="team-contact">
+                    <div class="team__child">
+                        <div class="team__img">
+                            <img src="assets/images/team-3.jpg" alt="team-3">
+                            <ul class="team__contact">
                                 <li><a href="#"><i class="fas fa-phone-alt"></i></a></li>
                                 <li><a href="#"><i class="fas fa-envelope"></i></a></li>
                             </ul>
                         </div>
-                        <div class="team-name">
+                        <div class="team__name">
                             <h3>wahid ahmed</h3>
                             <p>Software Developer</p>
-                            <ul class="team-icon">
+                            <ul class="team__icon">
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                 <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
@@ -610,18 +606,18 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="team-child">
-                        <div class="team-img">
-                            <img src="images/team-4.jpg" alt="team-4">
-                            <ul class="team-contact">
+                    <div class="team__child">
+                        <div class="team__img">
+                            <img src="assets/images/team-4.jpg" alt="team-4">
+                            <ul class="team__contact">
                                 <li><a href="#"><i class="fas fa-phone-alt"></i></a></li>
                                 <li><a href="#"><i class="fas fa-envelope"></i></a></li>
                             </ul>
                         </div>
-                        <div class="team-name">
+                        <div class="team__name">
                             <h3>mahmudul hasan</h3>
                             <p>UI/UX &amp; Developer</p>
-                            <ul class="team-icon">
+                            <ul class="team__icon">
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                 <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
@@ -630,18 +626,18 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="team-child">
-                        <div class="team-img">
-                            <img src="images/team-5.jpg" alt="team-5">
-                            <ul class="team-contact">
+                    <div class="team__child">
+                        <div class="team__img">
+                            <img src="assets/images/team-5.jpg" alt="team-5">
+                            <ul class="team__contact">
                                 <li><a href="#"><i class="fas fa-phone-alt"></i></a></li>
                                 <li><a href="#"><i class="fas fa-envelope"></i></a></li>
                             </ul>
                         </div>
-                        <div class="team-name">
+                        <div class="team__name">
                             <h3>Irfan ahmed</h3>
                             <p>Digital Marketer</p>
-                            <ul class="team-icon">
+                            <ul class="team__icon">
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                 <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
@@ -650,18 +646,18 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="team-child">
-                        <div class="team-img">
-                            <img src="images/team-6.jpg" alt="team-6">
-                            <ul class="team-contact">
+                    <div class="team__child">
+                        <div class="team__img">
+                            <img src="assets/images/team-6.jpg" alt="team-6">
+                            <ul class="team__contact">
                                 <li><a href="#"><i class="fas fa-phone-alt"></i></a></li>
                                 <li><a href="#"><i class="fas fa-envelope"></i></a></li>
                             </ul>
                         </div>
-                        <div class="team-name">
+                        <div class="team__name">
                             <h3>bashir hridoy</h3>
                             <p>Web Developer</p>
-                            <ul class="team-icon">
+                            <ul class="team__icon">
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                 <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
@@ -670,18 +666,18 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="team-child">
-                        <div class="team-img">
-                            <img src="images/team-7.jpg" alt="team-7">
-                            <ul class="team-contact">
+                    <div class="team__child">
+                        <div class="team__img">
+                            <img src="assets/images/team-7.jpg" alt="team-7">
+                            <ul class="team__contact">
                                 <li><a href="#"><i class="fas fa-phone-alt"></i></a></li>
                                 <li><a href="#"><i class="fas fa-envelope"></i></a></li>
                             </ul>
                         </div>
-                        <div class="team-name">
+                        <div class="team__name">
                             <h3>shahin parvez</h3>
                             <p>SEO Expert</p>
-                            <ul class="team-icon">
+                            <ul class="team__icon">
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                 <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
@@ -701,22 +697,22 @@
         <!--=========================================
                       BLOG PART START
         ===========================================-->
-        <section class="blog-part change-color">
+        <section id="blog__part" class="change__color">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="blog-heading">
+                        <div class="blog__heading">
                             <p>icon blogs</p>
                             <h2>our latest news</h2>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
-                        <div class="blog-card">
-                            <div class="blog-img">
-                                <img src="images/blog-1.jpg" alt="blog-1">
+                        <div class="blog__card">
+                            <div class="blog__img">
+                                <img src="assets/images/blog-1.jpg" alt="blog-1">
                             </div>
-                            <div class="blog-content">
-                                <ul class="blog-head">
+                            <div class="blog__content">
+                                <ul class="blog__head">
                                     <li>
                                         <i class="far fa-user"></i>
                                         <p>admin</p>
@@ -726,11 +722,11 @@
                                         <p>02 feb 2020</p>
                                     </li>
                                 </ul>
-                                <div class="blog-text">
+                                <div class="blog__text">
                                     <h3>how to run a successfull business meeting</h3>
                                     <p>Investig ationes demons trave runt lectores legere liusry quod ii legunt saepius</p>
                                 </div>
-                                <ul class="blog-btn">
+                                <ul class="blog__btn">
                                     <li>
                                         <a href="blog-details.html">read more</a>
                                         <i class="fas fa-long-arrow-alt-right"></i>
@@ -745,12 +741,12 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
-                        <div class="blog-card">
-                            <div class="blog-img">
-                                <img src="images/blog-2.jpg" alt="blog-2">
+                        <div class="blog__card">
+                            <div class="blog__img">
+                                <img src="assets/images/blog-2.jpg" alt="blog-2">
                             </div>
-                            <div class="blog-content">
-                                <ul class="blog-head">
+                            <div class="blog__content">
+                                <ul class="blog__head">
                                     <li>
                                         <i class="far fa-user"></i>
                                         <p>admin</p>
@@ -760,11 +756,11 @@
                                         <p>02 feb 2020</p>
                                     </li>
                                 </ul>
-                                <div class="blog-text">
+                                <div class="blog__text">
                                     <h3>how to run a successfull business meeting</h3>
                                     <p>Investig ationes demons trave runt lectores legere liusry quod ii legunt saepius</p>
                                 </div>
-                                <ul class="blog-btn">
+                                <ul class="blog__btn">
                                     <li>
                                         <a href="blog-details.html">read more</a>
                                         <i class="fas fa-long-arrow-alt-right"></i>
@@ -779,12 +775,12 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
-                        <div class="blog-card">
-                            <div class="blog-img">
-                                <img src="images/blog-3.jpg" alt="blog-3">
+                        <div class="blog__card">
+                            <div class="blog__img">
+                                <img src="assets/images/blog-3.jpg" alt="blog-3">
                             </div>
-                            <div class="blog-content">
-                                <ul class="blog-head">
+                            <div class="blog__content">
+                                <ul class="blog__head">
                                     <li>
                                         <i class="far fa-user"></i>
                                         <p>admin</p>
@@ -794,11 +790,11 @@
                                         <p>02 feb 2020</p>
                                     </li>
                                 </ul>
-                                <div class="blog-text">
+                                <div class="blog__text">
                                     <h3>how to run a successfull business meeting</h3>
                                     <p>Investig ationes demons trave runt lectores legere liusry quod ii legunt saepius</p>
                                 </div>
-                                <ul class="blog-btn">
+                                <ul class="blog__btn">
                                     <li>
                                         <a href="blog-details.html">read more</a>
                                         <i class="fas fa-long-arrow-alt-right"></i>
@@ -813,7 +809,7 @@
                         </div>
                     </div>
                     <div class="col-lg-12">
-                        <div class="blog-more">
+                        <div class="blog__more">
                             <a href="blog-list.html">view more blogs</a>
                         </div>
                     </div>
@@ -828,27 +824,27 @@
         <!--=========================================
                        COMPANY PART PART
         ===========================================-->
-        <section class="company-part change-color">
+        <section id="company__part" class="change__color">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="company-heading">
+                        <div class="company__heading">
                             <p>icon companies</p>
                             <h2>more concern of ours</h2>
                         </div>
-                        <div class="company-img">
-                            <a href="#"><img src="images/compa-6.jpg" alt="compa-6"></a>
-                            <a href="#"><img src="images/compa-7.jpg" alt="compa-7"></a>
-                            <a href="#"><img src="images/compa-8.jpg" alt="compa-8"></a>
-                            <a href="#"><img src="images/compa-9.jpg" alt="compa-9"></a>
-                            <a href="#"><img src="images/compa-10.jpg" alt="compa-10"></a>
-                            <a href="#"><img src="images/compa-1.png" alt="compa-1"></a>
-                            <a href="#"><img src="images/compa-2.jpg" alt="compa-2"></a>
-                            <a href="#"><img src="images/compa-3.jpg" alt="compa-3"></a>
-                            <a href="#"><img src="images/compa-4.jpg" alt="compa-4"></a>
-                            <a href="#"><img src="images/compa-5.jpg" alt="compa-5"></a>
-                            <a href="#"><img src="images/compa-11.jpg" alt="compa-11"></a>
-                            <a href="#"><img src="images/compa-12.jpg" alt="compa-12"></a>
+                        <div class="company__img">
+                            <a href="#"><img src="assets/images/compa-6.jpg" alt="compa-6"></a>
+                            <a href="#"><img src="assets/images/compa-7.jpg" alt="compa-7"></a>
+                            <a href="#"><img src="assets/images/compa-8.jpg" alt="compa-8"></a>
+                            <a href="#"><img src="assets/images/compa-9.jpg" alt="compa-9"></a>
+                            <a href="#"><img src="assets/images/compa-10.jpg" alt="compa-10"></a>
+                            <a href="#"><img src="assets/images/compa-1.png" alt="compa-1"></a>
+                            <a href="#"><img src="assets/images/compa-2.jpg" alt="compa-2"></a>
+                            <a href="#"><img src="assets/images/compa-3.jpg" alt="compa-3"></a>
+                            <a href="#"><img src="assets/images/compa-4.jpg" alt="compa-4"></a>
+                            <a href="#"><img src="assets/images/compa-5.jpg" alt="compa-5"></a>
+                            <a href="#"><img src="assets/images/compa-11.jpg" alt="compa-11"></a>
+                            <a href="#"><img src="assets/images/compa-12.jpg" alt="compa-12"></a>
                         </div>
                     </div>
                 </div>
@@ -862,32 +858,32 @@
         <!--=========================================
                       CONTACT PART START
         ===========================================-->
-        <section class="contact-part change-color">
+        <section id="contact__part" class="change__color">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="contact-heading">
+                        <div class="contact__heading">
                             <p>contact info</p>
                             <h2>share your need</h2>
                         </div>
-                        <ul class="contact-info">
+                        <ul class="contact__info">
                             <li>
                                 <i class="fas fa-phone-alt"></i>
-                                <div class="info-text">
+                                <div class="info__text">
                                     <h4>phone number</h4>
                                     <p>+880247112702</p>
                                 </div>
                             </li>
                             <li>
                                 <i class="fas fa-envelope"></i>
-                                <div class="info-text">
+                                <div class="info__text">
                                     <h4>email adress</h4>
                                     <p>info@icon-infotech.net</p>
                                 </div>
                             </li>
                             <li>
                                 <i class="fas fa-map-marker-alt"></i>
-                                <div class="info-text">
+                                <div class="info__text">
                                     <h4>area location</h4>
                                     <p>Shadharan Bima Tower (Level 7), <span>37/A Dilkhusha C/A</span></p>
                                 </div>
@@ -895,16 +891,16 @@
                         </ul>
                     </div>
                     <div class="col-lg-5 col-md-5">
-                        <div class="contact-content">
+                        <div class="contact__content">
                             <h3>Get Advice From Our Professionals.</h3>
                             <p>Icon Infotech Ltd (IIL) is an IT enabled services providing company offering special services and solutions to a wide range of customers.</p>
-                            <img src="images/contact-img.png" alt="contact-img">
+                            <img src="assets/images/contact-img.png" alt="contact-img">
                         </div>
                     </div>
                     <div class="col-lg-7 col-md-7">
                         <form action="" method="">
-                            <div class="contact-input">
-                                <div class="name-input">
+                            <div class="contact__input">
+                                <div class="name__input">
                                     <input type="text" placeholder="your name">
                                     <input type="email" placeholder="your email">
                                 </div>
@@ -925,15 +921,15 @@
         <!--=========================================
                       FOOTER PART START
         ===========================================-->
-        <section class="footer-part change-color">
-            <div class="footer-overlay">
+        <section id="footer__part" class="change__color">
+            <div class="footer__overlay">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-4 col-sm-12 col-md-12">
-                            <div class="footer-logo">
-                                <a href="#"><img src="images/footer-logo.png" alt="footerlogo"></a>
+                            <div class="footer__logo">
+                                <a href="#"><img class="brand__logo" src="assets/images/footer-logo.png" alt="footerlogo"></a>
                                 <p>Monotnec deplos copertve chanvae to anding crorate Qhanin Unique Qnderwhe on Premum Converenc With Uheing Mutmeda with Nquel Undehele Mandnge theme with Qhanin Unque Qnderwhe.</p>
-                                <ul class="footer-icon">
+                                <ul class="footer__icon">
                                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                     <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                     <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
@@ -943,7 +939,7 @@
                             </div>
                         </div>
                         <div class="col-lg-2 col-sm-6 col-md-3">
-                            <div class="footer-contact">
+                            <div class="footer__contact">
                                 <h3>links</h3>
                                 <ul>
                                     <li><a href="index.html"><i class="fas fa-angle-double-right"></i>home</a></li>
@@ -956,7 +952,7 @@
                             </div>
                         </div>
                         <div class="col-lg-2 col-sm-6 col-md-3">
-                            <div class="footer-contact">
+                            <div class="footer__contact">
                                 <h3>support</h3>
                                 <ul>
                                     <li><a href="#team-part"><i class="fas fa-angle-double-right"></i>team</a></li>
@@ -969,26 +965,26 @@
                             </div>
                         </div>
                         <div class="col-lg-4 col-sm-12 col-md-6">
-                            <div class="footer-blog">
+                            <div class="footer__blog">
                                 <h3>recent post</h3>
                                 <ul>
                                     <li>
-                                        <img src="images/footer-blog-1.jpg" alt="footer-blog-1">
-                                        <div class="footer-text">
+                                        <img src="assets/images/footer-blog-1.jpg" alt="footer-blog-1">
+                                        <div class="footer__text">
                                             <a href="blog-list.html">it is a long established fact that reader will ...</a>
                                             <p>02 february 2020</p>
                                         </div>
                                     </li>
                                     <li>
-                                        <img src="images/footer-blog-1.jpg" alt="footer-blog-1">
-                                        <div class="footer-text">
+                                        <img src="assets/images/footer-blog-1.jpg" alt="footer-blog-1">
+                                        <div class="footer__text">
                                             <a href="blog-list.html">it is a long established fact that reader will ...</a>
                                             <p>02 february 2020</p>
                                         </div>
                                     </li>
                                     <li>
-                                        <img src="images/footer-blog-1.jpg" alt="footer-blog-1">
-                                        <div class="footer-text">
+                                        <img src="assets/images/footer-blog-1.jpg" alt="footer-blog-1">
+                                        <div class="footer__text">
                                             <a href="blog-list.html">it is a long established fact that reader will ...</a>
                                             <p>02 february 2020</p>
                                         </div>
@@ -1008,7 +1004,7 @@
         <!--=========================================
                       COPYRIGHT PART START
         ===========================================-->
-        <section class="copy-part change-color">
+        <section id="copy__part" class="change__color">
             <div class="container">
                 <ul>
                     <li>&copy; copyright 2020</li>
@@ -1025,13 +1021,13 @@
         <!--=========================================
                      JS LINK PART START
         ===========================================-->
-        <script src="js/jquery-1.12.4.min.js"></script>
-        <script src="js/popper.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/slick.min.js"></script>
-        <script src="js/mixitup.min.js"></script>
-        <script src="js/pickr.min.js"></script>
-        <script src="js/main.js"></script>
+        <script src="assets/js/jquery-1.12.4.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/slick.min.js"></script>
+        <script src="assets/js/mixitup.min.js"></script>
+        <script src="assets/js/pickr.min.js"></script>
+        <script src="assets/js/main.js"></script>
         <!--=========================================
                      JS LINK PART END
         ===========================================-->

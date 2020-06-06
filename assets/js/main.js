@@ -2,7 +2,7 @@
 // for preloader none when complete load
 window.addEventListener("load", function(){
     var preload = document.querySelector(".preloader");
-    preload.classList.add("finish-load");
+    preload.classList.add("finish__load");
 });
 
 
@@ -10,9 +10,9 @@ window.addEventListener("load", function(){
 $(window).on("scroll", function(){
     var scrolling = $(this).scrollTop();
     if (scrolling > 130){
-        $(".menu-head").addClass("menu-fixed");
+        $(".menu__head").addClass("menu__fixed");
     }else{
-        $(".menu-head").removeClass("menu-fixed");
+        $(".menu__head").removeClass("menu__fixed");
     }
 });
 
@@ -214,7 +214,7 @@ var mixer = mixitup('.port-parent');
 
 // Simple example, see optional options for more configuration.
 const pickr = Pickr.create({
-    el: '.color-picker',
+    el: '.color__picker',
     theme: 'classic', // or 'monolith', or 'nano'
     default: '#ffffff',
 
@@ -255,7 +255,7 @@ const pickr = Pickr.create({
 pickr.on('change', (color, instance) => {
     const rgbaColor = color.toRGBA().toString();
     console.log(rgbaColor)
-    document.querySelector('.change-color').style.backgroundColor = rgbaColor;
+    document.querySelector('.change__color').style.backgroundColor = rgbaColor;
 })
 
 //COLOR PICKER JS PART END

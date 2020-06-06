@@ -1,0 +1,42 @@
+
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+
+
+ul,
+ol {
+    list-style: none;
+}
+
+button:focus {
+    outline: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+span,
+label {
+    margin-bottom: 0px !important;
+}
+
+p {
+    line-height: 28px;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,56 @@
+
+
+
+//========================================
+//          1 - HELPERS FOLDER
+//========================================
+@import "1-helpers/_font.scss";
+@import "1-helpers/_common.scss";
+@import "1-helpers/_variable.scss";
+@import "1-helpers/_mixin.scss";
+
+
+//=======================================
+//          2 - BASICS FOLDER
+//=======================================
+@import "2-basics/_logo.scss";
+@import "2-basics/_button.scss";
+@import "2-basics/_search-bar.scss";
+@import "2-basics/_sub-heading.scss";
+
+
+//=======================================
+//          3 - LAYOUTS FOLDER
+//=======================================
+@import "3-layouts/_colorpicker.scss";
+@import "3-layouts/_preloader.scss";
+@import "3-layouts/_navbar.scss";
+@import "3-layouts/_price-card.scss";
+@import "3-layouts/_service-card.scss";
+@import "3-layouts/_footer.scss";
+@import "3-layouts/_copyright.scss";
+
+
+//=======================================
+//           4 - PAGES FOLDER
+//=======================================
+@import "4-pages/_index.scss";
+
+
+//=======================================
+//         5 - RESPONSIVE FOLDER
+//=======================================
+// XTRA LARGE DEVICE
+@import "5-responsive/xlg-device/_index.scss";
+
+// LARGE DEVICE
+@import "5-responsive/lg-device/_index.scss";
+
+// MEDIUM DEVICE
+@import "5-responsive/md-device/_index.scss";
+
+// SMALL DEVICE
+@import "5-responsive/sm-device/_index.scss";
+
+// XTRA SMALL DEVICE
+@import "5-responsive/xsm-device/_index.scss";

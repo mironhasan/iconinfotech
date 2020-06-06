@@ -1,0 +1,65 @@
+
+
+.menu__part {
+    position: absolute !important;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background: transparent;
+    padding: 15px 15px !important;
+    z-index: 1;
+
+    .container {
+        .navbar-collapse {
+            .navbar-nav {
+                .nav-item {
+                    margin-left: 18px;
+
+                    .nav-link {
+                        color: $text__color;
+                        font-size: $sm__size;
+                        @include medium__typography;
+                        text-transform: capitalize;
+                        @include cursor__transition;
+
+                        &:hover {
+                            color: $brand__color;
+                        }
+                    }
+
+                    .dropdown-menu {
+                        .dropdown-item {
+                            color: $text__color !important;
+                            font-size: $xsm__size !important;
+                            @include regular__typography;
+                            text-transform: capitalize;
+                            margin: 15px 0px !important;
+                        }
+                    }
+                }
+
+                .active {
+                    .nav-link {
+                        color: $brand__color;
+                    }
+                }
+            }
+
+            .primary__btn {
+                margin-left: 30px;
+            }
+        }
+    }
+}
+
+
+// MENU FIXED WHEN SCROLL
+.menu__fixed {
+    position: fixed !important;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background: $wh__color;
+    z-index: 999;
+    box-shadow: $sm__box__shadow;
+}
