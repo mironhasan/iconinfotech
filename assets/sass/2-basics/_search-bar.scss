@@ -73,3 +73,50 @@
         }
     }
 }
+
+
+
+
+// seo search form of index page
+.seo__form {
+    display: inline-block;
+
+    .seo__input {
+        @include flex__center;
+        border-radius: 50px;
+        background: $wh__color;
+        padding: 10px 10px;
+        box-shadow: $sm__box__shadow;
+
+        input {
+            width: 270px;
+            height: 45px;
+            border: none;
+            padding-left: 15px;
+            border-right: 1px solid $border__color;
+
+            &::placeholder {
+                color: $placeholder__color;
+                font-size: $xsm__size;
+                @include medium__typography;
+                text-transform: capitalize;
+                letter-spacing: 0.5px;
+            }
+
+            &:nth-child(2) {
+                border-right: none;
+            }
+        }
+
+        button {
+            border: none;
+            color: $wh__color;
+            font-size: $sm__size;
+            @include medium__typography;
+            text-transform: capitalize;
+            padding: 15px 30px;
+            background: $brand__gradient;
+            border-radius: 50px;
+        }
+    }
+}

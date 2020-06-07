@@ -1,0 +1,103 @@
+
+
+
+.team__card {
+    margin: 0px 15px;
+
+    .team__img {
+        position: relative;
+
+        img {
+            width: 250px;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .team__contact {
+            position: absolute;
+            bottom: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 105px;
+
+            li {
+                display: inline-block;
+                margin: 0px 5px;
+
+                a {
+                    i {
+                        width: 40px;
+                        height: 40px;
+                        line-height: 40px;
+                        text-align: center;
+                        border-radius: 50%;
+                        background: $brand__gradient;
+                        color: $wh__color;
+                        font-size: $xsm__size;
+                        text-shadow: $md__text__shadow;
+                    }
+                }
+            }
+        }
+    }
+
+    .team__name {
+        position: relative;
+        text-align: center;
+        margin: 46px 0px 70px 0px;
+
+        h3 {
+            color: $heading__color;
+            font-size: $xmd__size;
+            @include bold__typography;
+            text-transform: capitalize;
+        }
+
+        p {
+            color: #777;
+            font-size: 15px;
+            @include medium__typography;
+            letter-spacing: 0.3px;
+            margin-top: 5px;
+        }
+
+        .team__icon {
+            position: absolute;
+            bottom: -30px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 248px;
+            visibility: hidden;
+            opacity: 0;
+            @include flex__center;
+            @include cursor__transition;
+
+            li {
+                display: inline-block;
+                margin: 0px 3px;
+
+                a {
+                    i {
+                        width: 40px;
+                        height: 40px;
+                        line-height: 40px;
+                        text-align: center;
+                        border-radius: 50%;
+                        background: $brand__gradient;
+                        color: $wh__color;
+                        font-size: $xsm__size;
+                        text-shadow: $sm__text__shadow;
+                    }
+                }
+            }
+        }
+    }
+
+    &:hover {
+        .team__icon {
+            visibility: visible;
+            bottom: -50px;
+            opacity: 1;
+        }
+    }
+}
