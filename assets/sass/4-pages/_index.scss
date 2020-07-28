@@ -471,6 +471,32 @@
 }
 
 
+// =====================================
+//      COMPANY PART OF INDEX PAGE
+//======================================
+#company__part {
+    background: $company__bg;
+    padding: 100px 0px 50px;
+
+    .container {
+        .company__img {
+            margin-bottom: 50px;
+
+            a {
+                margin: 0px 50px;
+            }
+            
+            ul {
+                li {
+                    button {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
 
 // =====================================
 //    PORTFOLIO SECTION OF INDEX PAGE
@@ -485,6 +511,36 @@
 
             .port__card {
                 margin: 0px 15px;
+            }
+
+            ul {
+                li {
+                    button {
+                        display: none;
+                    }
+                }
+            }
+
+            .dandik {
+                @include slider__arrow;
+                top: 35%;
+                right: -60px;
+
+                &:hover{
+                    color: $wh__color;
+                    background: $brand__gradient;
+                }
+            }
+
+            .bamdik{
+                @include slider__arrow;
+                top: 35%;
+                left: -60px;
+
+                &:hover{
+                    color: $wh__color;
+                    background: $brand__gradient;
+                }
             }
         }
 
@@ -501,7 +557,7 @@
 //======================================
 #team__part {
     background: $wh__color;
-    padding: 90px 0px 0px;
+    padding: 150px 0px 0px;
 
     .container {
         .team__parent {
@@ -514,22 +570,9 @@
             }
 
             .dandik {
-                position: absolute;
-                top: 35%;
+                @include slider__arrow;
+                top: 30%;
                 right: -60px;
-                transform: translateY(-50%);
-                color: $brand__color;
-                font-size: $md__size;
-                width: 50px;
-                height: 50px;
-                line-height: 50px;
-                text-align: center;
-                border-radius: 50%;
-                background: $wh__color;
-                box-shadow: $sm__box__shadow;
-                cursor: pointer;
-                z-index: 1;
-                @include cursor__transition;
 
                 &:hover{
                     color: $wh__color;
@@ -538,27 +581,117 @@
             }
 
             .bamdik{
-                position: absolute;
-                top: 35%;
+                @include slider__arrow;
+                top: 30%;
                 left: -60px;
-                transform: translateY(-50%);
-                color: $brand__color;
-                font-size: $md__size;
-                width: 50px;
-                height: 50px;
-                line-height: 50px;
-                text-align: center;
-                border-radius: 50%;
-                background: $wh__color;
-                box-shadow: $sm__box__shadow;
-                cursor: pointer;
-                z-index: 1;
-                @include cursor__transition;
 
                 &:hover{
                     color: $wh__color;
                     background: $brand__gradient;
                 }
+            }
+        }
+    }
+}
+
+
+
+// =====================================
+//      BLOG SECTION OF INDEX PAGE
+//======================================
+#blog__part {
+    background: $wh__color;
+    padding: 70px 0px 0px;
+
+    .container {
+        .blog__more {
+            text-align: center;
+
+            a {
+                display: inline-block;
+                color: $wh__color;
+                font-size: $md__size;
+                @include medium__typography;
+                text-transform: capitalize;
+                padding: 16px 40px;
+                border-radius: 30px;
+                background: $brand__gradient;
+                box-shadow: $sm__box__shadow;
+                margin-top: 50px;
+
+                &:hover {
+                    color: $wh__color;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+
+
+// =====================================
+//    NEWSLETTER PART OF INDEX PAGE
+//======================================
+#news__part {
+    padding: 80px 0px;
+    background: $news__gradient;
+
+    .container {
+        @include flex__center;
+        justify-content: space-between;
+
+        .news__content {
+            h3 {
+                color: $heading__color;
+                font-size: $lg__size;
+                @include bold__typography;
+                text-transform: capitalize;
+                margin-bottom: 13px !important;
+            }
+
+            p {
+                width: 500px;
+                color: $text__color;
+                font-size: $sm__size;
+                @include regular__typography;
+            }
+        }
+
+        .news__form {
+            padding: 5px;
+            border-radius: 50px;
+            background: $wh__color;
+            @include flex__center;
+            box-shadow: $sm__box__shadow;
+
+            input {
+                border: none;
+                width: 350px;
+                height: 60px;
+                padding-left: 15px;
+                border-radius: 50px 0px 0px 50px;
+
+                &::placeholder {
+                    color: #bbb;
+                    font-size: $xsm__size;
+                    @include regular__typography;
+                    text-transform: capitalize;
+                }
+            }
+
+            button {
+                border: none;
+                outline: none;
+                height: 60px;
+                line-height: 55px;
+                padding: 0px 30px;
+                border-radius: 8px 50px 50px 8px;
+                background: $brand__gradient;
+                color: $wh__color;
+                font-size: $md__size;
+                @include regular__typography;
+                text-transform: capitalize;
             }
         }
     }

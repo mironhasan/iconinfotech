@@ -1,0 +1,96 @@
+
+
+
+.blog__card {
+    background: $wh__color;
+    border-radius: 10px;
+    box-shadow: $lg__box__shadow;
+
+    .blog__img {
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+    }
+
+    .blog__content {
+        padding: 23px 25px 20px;
+
+        .blog__head {
+            @include flex__center;
+            justify-content: space-between;
+
+            li {
+                display: flex;
+                align-items: baseline;
+
+                i {
+                    color: $gray__color;
+                    font-size: $xsm__size;
+                    margin-right: 8px;
+                }
+
+                p {
+                    color: $gray__color;
+                    font-size: $xsm__size;
+                    @include regular__typography;
+                    text-transform: capitalize;
+                    letter-spacing: 0.5px;
+                }
+            }
+        }
+
+        .blog__text {
+            h3 {
+                color: $heading__color;
+                font-size: $xmd__size;
+                @include bold__typography;
+                margin-top: 20px;
+            }
+
+            p {
+                color: $gray__color;
+                font-size: $sm__size;
+                @include regular__typography;
+                margin-top: 15px;
+            }
+        }
+
+        .blog__btn {
+            @include flex__center;
+            justify-content: space-between;
+            margin-top: 30px;
+
+            li {
+                display: flex;
+                align-items: baseline;
+
+                i {
+                    color: $gray__color;
+                    font-size: $xsm__size;
+                    margin-right: 5px;
+                }
+
+                p {
+                    color: $gray__color;
+                    font-size: $xsm__size;
+                    @include regular__typography;
+                    text-transform: capitalize;
+                    letter-spacing: 0.5px;
+                    margin-right: 8px;
+                }
+
+                a {
+                    color: $gray__color;
+                    font-size: $xsm__size;
+                    @include regular__typography;
+                    text-transform: capitalize;
+                    display: inline-block;
+                    letter-spacing: 0.5px;
+                    margin-right: 8px;
+                }
+            }
+        }
+    }
+}

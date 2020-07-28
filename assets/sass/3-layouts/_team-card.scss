@@ -8,7 +8,7 @@
         position: relative;
 
         img {
-            width: 250px;
+            width: 100%;
             height: auto;
             border-radius: 5px;
         }
@@ -44,7 +44,7 @@
     .team__name {
         position: relative;
         text-align: center;
-        margin: 46px 0px 70px 0px;
+        margin: 35px 0px 70px 0px;
 
         h3 {
             color: $heading__color;
@@ -58,7 +58,7 @@
             font-size: 15px;
             @include medium__typography;
             letter-spacing: 0.3px;
-            margin-top: 5px;
+            margin-top: 2px;
         }
 
         .team__icon {
@@ -66,7 +66,6 @@
             bottom: -30px;
             left: 50%;
             transform: translateX(-50%);
-            width: 248px;
             visibility: hidden;
             opacity: 0;
             @include flex__center;
@@ -74,7 +73,7 @@
 
             li {
                 display: inline-block;
-                margin: 0px 3px;
+                margin: 0px 5px;
 
                 a {
                     i {

@@ -1,0 +1,54 @@
+
+
+
+#inner__banner__part {
+    background: $banner__bg;
+    padding: 95px 0px;
+    position: relative;
+    overflow: hidden;
+
+    .inner__banner__shape {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 350px;
+        height: 850px;
+    }
+    
+    .container {
+        .inner__banner__content {
+            text-align: center;
+            margin-top: 90px;
+
+            h1 {
+                color: $heading__color;
+                font-size: 45px;
+                @include bold__typography;
+                text-transform: capitalize;
+                letter-spacing: 5px;
+            }
+            
+            ul {
+                @include flex__center;
+                margin-top: 20px;
+
+                li {
+                    a {
+                        color: $text__color;
+                        font-size: $sm__size;
+                        @include medium__typography;
+                        text-transform: capitalize;
+                        display: inline-block;
+                        @include cursor__transition;
+                    }
+
+                    i {
+                        color: $text__color;
+                        font-size: $xsm__size;
+                        margin: 0px 15px;
+                    }
+                }
+            }
+        }
+    }
+}

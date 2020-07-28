@@ -60,3 +60,34 @@
     background-position: center;
     background-size: cover;
 }
+
+
+// =====================================
+//        SLIDER ARROW PROPERTY
+//======================================
+@mixin slider__arrow {
+    position: absolute;
+    transform: translateY(-50%);
+    color: $brand__color;
+    font-size: $md__size;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    background: $wh__color;
+    box-shadow: $sm__box__shadow;
+    cursor: pointer;
+    z-index: 1;
+     @include cursor__transition;
+}
+
+
+// =====================================
+//     INPUT PLACEHOLDER PROPERTY
+//======================================
+@mixin place__property {
+    font-size: $xsm__size;
+    @include medium__typography;
+    text-transform: capitalize;
+}

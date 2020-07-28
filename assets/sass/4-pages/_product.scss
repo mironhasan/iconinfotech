@@ -1,0 +1,79 @@
+
+
+
+#product__part {
+    background: $wh__color;
+    padding: 150px 0px 0px;
+
+    .container {
+        max-width: 1250px;
+
+        .product__content {
+            text-align: center;
+
+            h1 {
+                color: $heading__color;
+                font-size: $lg__size;
+                @include bold__typography;
+                text-transform: capitalize;
+                margin-bottom: 22px !important;
+            }
+
+            p {
+                color: $gray__color;
+                font-size: $md__size;
+                @include regular__typography;
+            }
+
+            .product__form {
+                margin-top: 45px;
+            }
+
+            .product__menu {
+                @include flex__center;
+                flex-wrap: wrap;
+                margin-top: 30px;
+
+                button {
+                    border: none;
+                    outline: none;
+                    background: none;
+                    color: $gray__color;
+                    font-size: $sm__size;
+                    @include medium__typography;
+                    text-transform: capitalize;
+                    margin: 8px 35px;
+                    display: block;
+                    position: relative;
+                    @include cursor__transition;
+
+                    &::after {
+                        position: absolute;
+                        content: "";
+                        top: 50%;
+                        left: -25px;
+                        transform: translateY(-50%);
+                        width: 8px;
+                        height: 8px;
+                        background: $brand__gradient;
+                        border-radius: 50%;
+                    }
+                    
+                    &:hover {
+                        color: $brand__color;
+                    }
+                }
+
+                button.active {
+                    color: $brand__color;
+                }
+            }
+        }
+
+        .product__parent {
+            @include flex__center;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+    }
+}

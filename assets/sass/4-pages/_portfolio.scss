@@ -1,0 +1,13 @@
+
+
+
+.inner__port__parent {
+    @include flex__center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+
+    .port__card {
+        width: 370px;
+        margin: 0px 15px;
+    }
+}

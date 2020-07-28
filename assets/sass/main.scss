@@ -15,8 +15,9 @@
 //=======================================
 @import "2-basics/_logo.scss";
 @import "2-basics/_button.scss";
-@import "2-basics/_search-bar.scss";
+@import "2-basics/_form.scss";
 @import "2-basics/_sub-heading.scss";
+@import "2-basics/_pagination.scss";
 
 
 //=======================================
@@ -29,14 +30,20 @@
 @import "3-layouts/_service-card.scss";
 @import "3-layouts/_portfolio-card.scss";
 @import "3-layouts/_team-card.scss";
+@import "3-layouts/_blog-card.scss";
+@import "3-layouts/_contact.scss";
 @import "3-layouts/_footer.scss";
 @import "3-layouts/_copyright.scss";
+@import "3-layouts/_inner-banner.scss";
+@import "3-layouts/_product-card.scss";
 
 
 //=======================================
 //           4 - PAGES FOLDER
 //=======================================
 @import "4-pages/_index.scss";
+@import "4-pages/_product.scss";
+@import "4-pages/_portfolio.scss";
 
 
 //=======================================

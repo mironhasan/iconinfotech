@@ -2,7 +2,7 @@
 
 #footer__part {
     background: $footer__bg;
-    padding: 100px 0px;
+    padding: 100px 0px 50px;
 
     .container {
         .footer__logo {
@@ -143,6 +143,15 @@
                     }
                 }
             }
+        }
+
+        .footer__card {
+            @include flex__center;
+            justify-content: space-between;
+            padding: 50px;
+            border-radius: 8px;
+            background: $brand__gradient;
+            margin-top: 50px;
         }
     }
 }

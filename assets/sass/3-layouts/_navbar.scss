@@ -28,12 +28,34 @@
                     }
 
                     .dropdown-menu {
+                        border: none;
+                        padding: 0px;
+                        width: 220px;
+                        border-top: 2px solid $brand__color;
+                        box-shadow: $sm__box__shadow;
+
                         .dropdown-item {
-                            color: $text__color !important;
+                            color: $gray__color !important;
                             font-size: $xsm__size !important;
-                            @include regular__typography;
+                            @include medium__typography;
                             text-transform: capitalize;
-                            margin: 15px 0px !important;
+                            padding: 15px 25px;
+                            border-bottom: 1px solid #eee;
+                            
+                            &:last-child {
+                                border-bottom: none;
+                            }
+
+                            &:hover {
+                                color: $wh__color !important;
+                                background: $brand__gradient;
+                            }
+                        }
+                    }
+
+                    .dropdown-toggle {
+                        &::after {
+                            margin-left: 0px;
                         }
                     }
                 }

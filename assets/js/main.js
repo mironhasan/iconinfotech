@@ -24,48 +24,44 @@ $(".nav-item").on("click", function(){
 });
 
 
-
-
-$('.portparent').slick({
+//blog part slider js
+$('.port__parent').slick({
   dots: true,
   infinite: true,
-  speed: 1000,
   autoplay: false,
   arrows: true,
-  fade: false,
-  slidesToShow: 4,
-  slidesToScroll: 1,
+  speed: 1000,
   prevArrow: '<i class="fas fa-long-arrow-alt-right dandik"></i>',
   nextArrow: '<i class="fas fa-long-arrow-alt-left bamdik"></i>',
+  slidesToShow: 3,
+  slidesToScroll: 1,
   responsive: [
     {
-      breakpoint: 1024,
+      breakpoint: 991,
       settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToShow: 2,
+        slidesToScroll: 1,
         infinite: true,
         dots: true
       }
     },
     {
-      breakpoint: 600,
+      breakpoint: 767,
       settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
+        slidesToShow: 1,
+        slidesToScroll: 1,
       }
     },
     {
-      breakpoint: 480,
+      breakpoint: 575,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
       }
     }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
   ]
 });
+
 	
 
 
@@ -113,12 +109,12 @@ $('.team__parent').slick({
 
 
 // for team section slider
-$('.team-parent').slick({
+$('.company__img').slick({
   dots: true,
   infinite: true,
   speed: 1000,
-  autoplay: false,
-  arrows: true,
+  autoplay: true,
+  arrows: false,
   fade: false,
   slidesToShow: 4,
   slidesToScroll: 1,
@@ -155,14 +151,14 @@ $('.team-parent').slick({
 
 
 
-$('.web-slider').slick({
+$('.feedback__qoute').slick({
   dots: true,
   infinite: true,
   speed: 1000,
   autoplay: false,
   arrows: true,
   fade: false,
-  slidesToShow: 4,
+  slidesToShow: 2,
   slidesToScroll: 1,
   prevArrow: '<i class="fas fa-long-arrow-alt-right dandik"></i>',
   nextArrow: '<i class="fas fa-long-arrow-alt-left bamdik"></i>',

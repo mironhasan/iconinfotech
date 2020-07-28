@@ -6,12 +6,12 @@
     background: $wh__color;
     border-radius: 10px;
     padding: 45px 30px;
-    border: 2px solid $wh__color;
+    border: 2px dotted $wh__color;
     box-shadow: $lg__box__shadow;
     @include cursor__transition;
 
     &:hover {
-        border: 2px solid $brand__color;
+        border: 2px dotted $brand__color;
     }
 
     h3 {

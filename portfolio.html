@@ -3,28 +3,41 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Portfolio - Icon infotech limited</title>
+        <title>Portfolio Page</title>
         <!--=========================================
                      CSS LINK PART START
         ===========================================-->
-        <link rel="icon" href="images/logo.png">
-        <link rel="stylesheet" href="css/all.min.css">
-        <link rel="stylesheet" href="icon/flaticon.css">
-        <link rel="stylesheet" href="css/slick.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/responsive.css">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="icon" href="assets/images/logo.png">
+        <link rel="stylesheet" href="assets/css/all.min.css">
+        <link rel="stylesheet" href="assets/icon/flaticon.css">
+        <link rel="stylesheet" href="assets/css/classic.min.css">
+        <link rel="stylesheet" href="assets/css/slick.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/sass/main.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
         <!--=========================================
                      CSS LINK PART END
         ===========================================-->
     </head>
     <body>
        <!--=========================================
+                   COLOR PICKER PART START
+        ===========================================-->
+       <div class="hide__bar">
+           <span class="color__picker"></span>
+           <i class="fas fa-cog"></i>
+       </div>
+       <!--=========================================
+                    COLOR PICKER PART END
+        ===========================================-->
+      
+      
+       <!--=========================================
                     PRELOADER PART START
         ===========================================-->
         <div class="preloader">
-            <div class="pre-img">
-                <img src="images/menu-logo.png" alt="menu-logo">
+            <div class="pre__img">
+                <img src="assets/images/menu-logo.png" alt="menu-logo">
             </div>
         </div>
         <!--=========================================
@@ -35,9 +48,9 @@
         <!--=========================================
                        MENU PART START
         ===========================================-->
-        <nav class="navbar navbar-expand-lg menu-part menu-head">
+        <nav class="navbar navbar-expand-lg menu__part menu__head change__color">
             <div class="container">
-                <a class="navbar-brand menu-logo" href="index.html"><img src="images/menu-logo.png" alt="menu-logo"></a>
+                <a class="navbar-brand" href="index.html"><img class="brand__logo" src="assets/images/menu-logo.png" alt="menu-logo"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fas fa-bars"></i>
                 </button>
@@ -48,15 +61,15 @@
                             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#about-part">about us</a>
+                            <a class="nav-link" href="#about-part">company</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 services
                             </a>
-                            <div class="dropdown-menu drop-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="software.html">software building</a>
-                                <a class="dropdown-item" href="design-develop.html">design &amp; development</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="software.html">software development</a>
+                                <a class="dropdown-item" href="design-develop.html">web solution</a>
                                 <a class="dropdown-item" href="domain-host.html">domain &amp; hosting</a>
                                 <a class="dropdown-item" href="digital.html">digital marketing</a>
                                 <a class="dropdown-item" href="word-theme.html">wordpress theme</a>
@@ -66,315 +79,295 @@
                             <a class="nav-link" href="portfolio.html">portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="product.html">our product</a>
+                            <a class="nav-link" href="product.html">product</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Pages
+                                blogs
                             </a>
-                            <div class="dropdown-menu drop-menu" aria-labelledby="navbarDropdown">
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="blog-list.html">blogs</a>
-                                <a class="dropdown-item" href="#">team members</a>
+                                <a class="dropdown-item" href="#team-part">team members</a>
                                 <a class="dropdown-item" href="#">career</a>
-                                <a class="dropdown-item" href="#">company</a>
+                                <a class="dropdown-item" href="#about-part">company</a>
                                 <a class="dropdown-item" href="#">privacy policy</a>
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact-part">contact us</a>
+                            <a class="nav-link" href="#contact-part">contact</a>
                         </li>
                     </ul>
-                    <div class="get-btn">
-                        <a href="get.html">get started</a>
-                    </div>
+                    <a class="primary__btn" href="get.html">get started</a>
                 </div>
             </div>
         </nav>
         <!--=========================================
                        MENU PART END
         ===========================================-->
-        
+
         
         <!--=========================================
                        BANNER PART START
         ===========================================-->
-        <section id="soft-banner">
-            <img class="soft-shape-1" src="images/banner-shape-1.png" alt="banner-shape-1">
+        <section id="inner__banner__part">
+            <img class="inner__banner__shape" src="assets/images/banner-shape-1.png" alt="shape-1">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="soft-content">
-                            <h1>portfolio</h1>
-                            <ul>
-                                <li><a href="./index.html">home page</a></li>
-                                <li><i class="fas fa-exchange-alt"></i></li>
-                                <li><a href="./portfolio.html">portfolio</a></li>
-                            </ul>
-                        </div>
-                    </div>
+                <div class="inner__banner__content">
+                    <h1>our portfolio</h1>
+                    <ul>
+                        <li><a href="./index.html">home page</a></li>
+                        <li><i class="fas fa-exchange-alt"></i></li>
+                        <li><a href="product.html">portfolio page</a></li>
+                    </ul>
                 </div>
             </div>
         </section>
         <!--=========================================
                        BANNER PART END
         ===========================================-->
-        
-        
+
+
         <!--=========================================
-                      PORTFOLIO PART START
+                       PRODUCT PART START
         ===========================================-->
-        <section id="port-part">
+        <section id="product__part">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="port-heading">
-                            <p>icon portfolio</p>
-                            <h2>recent works we did</h2>
+                        <div class="product__content">
+                            <h1>see our best activities</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit officia omnis sunt aute.</p>
+                            <form action="" method="" class="product__form">
+                                <div class="product__search">
+                                    <i class="fas fa-search"></i>
+                                    <input type="text" placeholder="Search for portfolio...">
+                                    <button type="button">search</button>
+                                </div>
+                            </form>
+                            <div class="product__menu">
+                                <button class="menu active" type="button" data-filter="all">all product <span>(287)</span></button>
+                                <button class="menu" type="button" data-filter=".soft">software <span>(18)</span></button>
+                                <button class="menu" type="button" data-filter=".host">plugins <span>(23)</span></button>
+                                <button class="menu" type="button" data-filter=".html">html theme <span>(31)</span></button>
+                                <button class="menu" type="button" data-filter=".word">wordpress theme <span>(27)</span></button>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-5 col-md-4">
-                        <div class="port-menu">
-                            <h3>category menu</h3>
-                            <button class="menu active" type="button" data-filter="all">all work</button>
-                            <button class="menu" type="button" data-filter=".soft">software building</button>
-                            <button class="menu" type="button" data-filter=".devel">web development</button>
-                            <button class="menu" type="button" data-filter=".desi">web design</button>
-                            <button class="menu" type="button" data-filter=".word">wordpress theme</button>
-                            <button class="menu" type="button" data-filter=".digit">digital marketing</button>
-                            <button class="menu" type="button" data-filter=".host">running hosting</button>
-                            <div class="view-btn">
-                                <a href="#">view more</a>
+                    <div class="col-lg-12">
+                        <div class="inner__port__parent">
+                            <div class="port__card">
+                                <div class="port__img">
+                                    <img src="assets/images/port-1.jpg" alt="port-1">
+                                    <div class="port__overlay">
+                                        <ul class="port__cover">
+                                            <li><a href="#">purchase item</a></li>
+                                            <li><a href="#">live preview</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="port__content">
+                                    <h3>commercial Website</h3>
+                                    <p>reactjs | nodejs</p>
+                                </div>
+                            </div>
+                            <div class="port__card">
+                                <div class="port__img">
+                                    <img src="assets/images/port-2.jpg" alt="port-2">
+                                    <div class="port__overlay">
+                                        <ul class="port__cover">
+                                            <li><a href="#">purchase item</a></li>
+                                            <li><a href="#">live preview</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="port__content">
+                                    <h3>commercial Website</h3>
+                                    <p>reactjs | nodejs</p>
+                                </div>
+                            </div>
+                            <div class="port__card">
+                                <div class="port__img">
+                                    <img src="assets/images/port-3.jpg" alt="port-3">
+                                    <div class="port__overlay">
+                                        <ul class="port__cover">
+                                            <li><a href="#">purchase item</a></li>
+                                            <li><a href="#">live preview</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="port__content">
+                                    <h3>commercial Website</h3>
+                                    <p>reactjs | nodejs</p>
+                                </div>
+                            </div>
+                            <div class="port__card">
+                                <div class="port__img">
+                                    <img src="assets/images/port-4.jpg" alt="port-4">
+                                    <div class="port__overlay">
+                                        <ul class="port__cover">
+                                            <li><a href="#">purchase item</a></li>
+                                            <li><a href="#">live preview</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="port__content">
+                                    <h3>commercial Website</h3>
+                                    <p>reactjs | nodejs</p>
+                                </div>
+                            </div>
+                            <div class="port__card">
+                                <div class="port__img">
+                                    <img src="assets/images/port-5.jpg" alt="port-5">
+                                    <div class="port__overlay">
+                                        <ul class="port__cover">
+                                            <li><a href="#">purchase item</a></li>
+                                            <li><a href="#">live preview</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="port__content">
+                                    <h3>commercial Website</h3>
+                                    <p>reactjs | nodejs</p>
+                                </div>
+                            </div>
+                            <div class="port__card">
+                                <div class="port__img">
+                                    <img src="assets/images/port-6.jpg" alt="port-6">
+                                    <div class="port__overlay">
+                                        <ul class="port__cover">
+                                            <li><a href="#">purchase item</a></li>
+                                            <li><a href="#">live preview</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="port__content">
+                                    <h3>commercial Website</h3>
+                                    <p>reactjs | nodejs</p>
+                                </div>
+                            </div>
+                            <div class="port__card">
+                                <div class="port__img">
+                                    <img src="assets/images/port-7.jpg" alt="port-7">
+                                    <div class="port__overlay">
+                                        <ul class="port__cover">
+                                            <li><a href="#">purchase item</a></li>
+                                            <li><a href="#">live preview</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="port__content">
+                                    <h3>commercial Website</h3>
+                                    <p>reactjs | nodejs</p>
+                                </div>
+                            </div>
+                            <div class="port__card">
+                                <div class="port__img">
+                                    <img src="assets/images/port-8.jpg" alt="port-8">
+                                    <div class="port__overlay">
+                                        <ul class="port__cover">
+                                            <li><a href="#">purchase item</a></li>
+                                            <li><a href="#">live preview</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="port__content">
+                                    <h3>commercial Website</h3>
+                                    <p>reactjs | nodejs</p>
+                                </div>
+                            </div>
+                            <div class="port__card">
+                                <div class="port__img">
+                                    <img src="assets/images/port-9.jpg" alt="port-9">
+                                    <div class="port__overlay">
+                                        <ul class="port__cover">
+                                            <li><a href="#">purchase item</a></li>
+                                            <li><a href="#">live preview</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="port__content">
+                                    <h3>commercial Website</h3>
+                                    <p>reactjs | nodejs</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-9 col-sm-7 col-md-8">
-                        <div class="port-parent">
-                            <div class="port-img mix soft host" data-order="1">
-                                <img src="images/port-1.jpg" alt="port-1">
-                                <div class="port-overlay">
-                                    <a href="#"><i class="fas fa-arrows-alt"></i></a>
-                                    <div class="port-cover">
-                                        <h3>web development</h3>
-                                        <p>largest e-commerce service</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="port-img mix devel soft" data-order="2">
-                                <img src="images/port-2.jpg" alt="port-2">
-                                <div class="port-overlay">
-                                    <a href="#"><i class="fas fa-arrows-alt"></i></a>
-                                    <div class="port-cover">
-                                        <h3>software building</h3>
-                                        <p>largest e-commerce service</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="port-img mix desi host" data-order="3">
-                                <img src="images/port-3.jpg" alt="port-3">
-                                <div class="port-overlay">
-                                    <a href="#"><i class="fas fa-arrows-alt"></i></a>
-                                    <div class="port-cover">
-                                        <h3>digital marketing</h3>
-                                        <p>largest e-commerce service</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="port-img mix word soft" data-order="4">
-                                <img src="images/port-3.jpg" alt="port-3">
-                                <div class="port-overlay">
-                                    <a href="#"><i class="fas fa-arrows-alt"></i></a>
-                                    <div class="port-cover">
-                                        <h3>digital marketing</h3>
-                                        <p>largest e-commerce service</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="port-img mix desi digit" data-order="5">
-                                <img src="images/port-1.jpg" alt="port-1">
-                                <div class="port-overlay">
-                                    <a href="#"><i class="fas fa-arrows-alt"></i></a>
-                                    <div class="port-cover">
-                                        <h3>digital marketing</h3>
-                                        <p>largest e-commerce service</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="port-img mix digit host" data-order="6">
-                                <img src="images/port-2.jpg" alt="port-2">
-                                <div class="port-overlay">
-                                    <a href="#"><i class="fas fa-arrows-alt"></i></a>
-                                    <div class="port-cover">
-                                        <h3>digital marketing</h3>
-                                        <p>largest e-commerce service</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="port-img mix soft host" data-order="7">
-                                <img src="images/port-1.jpg" alt="port-1">
-                                <div class="port-overlay">
-                                    <a href="#"><i class="fas fa-arrows-alt"></i></a>
-                                    <div class="port-cover">
-                                        <h3>web development</h3>
-                                        <p>largest e-commerce service</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="port-img mix devel soft" data-order="8">
-                                <img src="images/port-2.jpg" alt="port-2">
-                                <div class="port-overlay">
-                                    <a href="#"><i class="fas fa-arrows-alt"></i></a>
-                                    <div class="port-cover">
-                                        <h3>software building</h3>
-                                        <p>largest e-commerce service</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="port-img mix desi host" data-order="9">
-                                <img src="images/port-3.jpg" alt="port-3">
-                                <div class="port-overlay">
-                                    <a href="#"><i class="fas fa-arrows-alt"></i></a>
-                                    <div class="port-cover">
-                                        <h3>digital marketing</h3>
-                                        <p>largest e-commerce service</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="port-img mix word soft" data-order="10">
-                                <img src="images/port-3.jpg" alt="port-3">
-                                <div class="port-overlay">
-                                    <a href="#"><i class="fas fa-arrows-alt"></i></a>
-                                    <div class="port-cover">
-                                        <h3>digital marketing</h3>
-                                        <p>largest e-commerce service</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="port-img mix desi digit" data-order="11">
-                                <img src="images/port-1.jpg" alt="port-1">
-                                <div class="port-overlay">
-                                    <a href="#"><i class="fas fa-arrows-alt"></i></a>
-                                    <div class="port-cover">
-                                        <h3>digital marketing</h3>
-                                        <p>largest e-commerce service</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="port-img mix digit host" data-order="12">
-                                <img src="images/port-2.jpg" alt="port-2">
-                                <div class="port-overlay">
-                                    <a href="#"><i class="fas fa-arrows-alt"></i></a>
-                                    <div class="port-cover">
-                                        <h3>digital marketing</h3>
-                                        <p>largest e-commerce service</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div aria-label="Page navigation example">
-                            <ul class="pagination port-pagi">
-                                <li class="page-item"><a class="page-link" href="#"><i class="fas fa-angle-double-left"></i></a></li>
-                                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                <li class="page-item"><a class="page-link" href="#"><i class="fas fa-angle-double-right"></i></a></li>
-                            </ul>
-                        </div>
+                        <ul class="pagination">
+                            <li class="page-item">
+                              <a class="page-link" href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                              </a>
+                            </li>
+                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">...</a></li>
+                            <li class="page-item"><a class="page-link" href="#">18</a></li>
+                            <li class="page-item">
+                              <a class="page-link" href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                              </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </section>
         <!--=========================================
-                      PORTFOLIO PART END
+                       PRODUCT PART END
         ===========================================-->
-        
-        
-        <!--=========================================
-                       COMPANY PART PART
-        ===========================================-->
-        <section id="company-part">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="company-heading">
-                            <p>icon companies</p>
-                            <h2>more concern of ours</h2>
-                        </div>
-                        <div class="company-img">
-                            <a href="#"><img src="images/compa-6.jpg" alt="compa-6"></a>
-                            <a href="#"><img src="images/compa-7.jpg" alt="compa-7"></a>
-                            <a href="#"><img src="images/compa-8.jpg" alt="compa-8"></a>
-                            <a href="#"><img src="images/compa-9.jpg" alt="compa-9"></a>
-                            <a href="#"><img src="images/compa-10.jpg" alt="compa-10"></a>
-                            <a href="#"><img src="images/compa-1.png" alt="compa-1"></a>
-                            <a href="#"><img src="images/compa-2.jpg" alt="compa-2"></a>
-                            <a href="#"><img src="images/compa-3.jpg" alt="compa-3"></a>
-                            <a href="#"><img src="images/compa-4.jpg" alt="compa-4"></a>
-                            <a href="#"><img src="images/compa-5.jpg" alt="compa-5"></a>
-                            <a href="#"><img src="images/compa-11.jpg" alt="compa-11"></a>
-                            <a href="#"><img src="images/compa-12.jpg" alt="compa-12"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--=========================================
-                       COMPANY PART END
-        ===========================================-->
-        
+
         
         <!--=========================================
                       CONTACT PART START
         ===========================================-->
-        <section id="contact-part">
+        <section id="contact__part" class="change__color">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="contact-heading">
-                            <p>contact info</p>
-                            <h2>share your need</h2>
+                        <div class="sub__heading">
+                            <p class="sm__heading">contact info</p>
+                            <h2 class="md__heading">share your need</h2>
                         </div>
-                        <ul class="contact-info">
+                        <ul class="contact__info">
                             <li>
                                 <i class="fas fa-phone-alt"></i>
-                                <div class="info-text">
+                                <div class="info__text">
                                     <h4>phone number</h4>
-                                    <p>+880247112702</p>
+                                    <p>(+880)1838288389</p>
                                 </div>
                             </li>
                             <li>
                                 <i class="fas fa-envelope"></i>
-                                <div class="info-text">
+                                <div class="info__text">
                                     <h4>email adress</h4>
-                                    <p>info@icon-infotech.net</p>
+                                    <p>mironbonny1994@gmail.com</p>
                                 </div>
                             </li>
                             <li>
                                 <i class="fas fa-map-marker-alt"></i>
-                                <div class="info-text">
+                                <div class="info__text">
                                     <h4>area location</h4>
-                                    <p>Shadharan Bima Tower (Level 7), <span>37/A Dilkhusha C/A</span></p>
+                                    <p>1420 Fatullah, Narayanganj</p>
                                 </div>
                             </li>
                         </ul>
                     </div>
-                    <div class="col-lg-5">
-                        <div class="contact-content">
+                    <div class="col-lg-5 col-md-5">
+                        <div class="contact__content">
                             <h3>Get Advice From Our Professionals.</h3>
                             <p>Icon Infotech Ltd (IIL) is an IT enabled services providing company offering special services and solutions to a wide range of customers.</p>
-                            <img src="images/contact-img.png" alt="contact-img">
+                            <img src="assets/images/contact-img.png" alt="contact-img">
                         </div>
                     </div>
-                    <div class="col-lg-7">
-                        <form action="" method="">
-                            <div class="contact-input">
-                                <div class="name-input">
-                                    <input type="text" placeholder="your name">
-                                    <input type="email" placeholder="your email">
-                                </div>
-                                <input type="text" placeholder="your subject">
-                                <textarea placeholder="your message"></textarea>
-                                <button type="button"><i class="fas fa-paper-plane"></i> send message</button>
+                    <div class="col-lg-7 col-md-7">
+                        <form action="" method="" class="contact__form">
+                            <div class="contact__input">
+                                <input type="text" placeholder="your name">
+                                <input type="email" placeholder="your email">
                             </div>
+                            <input type="text" placeholder="your subject">
+                            <textarea placeholder="your message"></textarea>
+                            <button class="primary__btn" type="button"><i class="fas fa-paper-plane"></i> send message</button>
                         </form>
                     </div>
                 </div>
@@ -383,20 +376,40 @@
         <!--=========================================
                       CONTACT PART END
         ===========================================-->
+
+
+        <!--=========================================
+                    NEWSLETTER PART START
+        ===========================================-->
+        <section id="news__part">
+            <div class="container">
+                <div class="news__content">
+                    <h3>Get The Latest News Daily!</h3>
+                    <p>News letter dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Enter your email</p>
+                </div>
+                <form action="" method="" class="news__form">
+                    <input type="email" placeholder="Email address">
+                    <button>subscribe</button>
+                </form>
+            </div>
+        </section>
+        <!--=========================================
+                     NEWSLETTER PART END
+        ===========================================-->
         
         
         <!--=========================================
                       FOOTER PART START
         ===========================================-->
-        <section id="footer-part">
-            <div class="footer-overlay">
+        <section id="footer__part" class="change__color">
+            <div class="footer__overlay">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-4 col-md-12">
-                            <div class="footer-logo">
-                                <a href="#"><img src="images/footer-logo.png" alt="footerlogo"></a>
+                        <div class="col-lg-4 col-sm-12 col-md-12">
+                            <div class="footer__logo">
+                                <a href="#"><img class="brand__logo" src="assets/images/footer-logo.png" alt="footerlogo"></a>
                                 <p>Monotnec deplos copertve chanvae to anding crorate Qhanin Unique Qnderwhe on Premum Converenc With Uheing Mutmeda with Nquel Undehele Mandnge theme with Qhanin Unque Qnderwhe.</p>
-                                <ul class="footer-icon">
+                                <ul class="footer__icon">
                                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                     <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                     <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
@@ -405,24 +418,24 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-md-3">
-                            <div class="footer-contact">
+                        <div class="col-lg-2 col-sm-6 col-md-3">
+                            <div class="footer__contact">
                                 <h3>links</h3>
                                 <ul>
                                     <li><a href="index.html"><i class="fas fa-angle-double-right"></i>home</a></li>
-                                    <li><a href="#"><i class="fas fa-angle-double-right"></i>about</a></li>
-                                    <li><a href="#"><i class="fas fa-angle-double-right"></i>services</a></li>
+                                    <li><a href="#about-part"><i class="fas fa-angle-double-right"></i>about</a></li>
+                                    <li><a href="#service-part"><i class="fas fa-angle-double-right"></i>services</a></li>
                                     <li><a href="portfolio.html"><i class="fas fa-angle-double-right"></i>portfolio</a></li>
                                     <li><a href="blog-list.html"><i class="fas fa-angle-double-right"></i>blogs</a></li>
                                     <li><a href="#contact-part"><i class="fas fa-angle-double-right"></i>contact us</a></li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-md-3">
-                            <div class="footer-contact">
+                        <div class="col-lg-2 col-sm-6 col-md-3">
+                            <div class="footer__contact">
                                 <h3>support</h3>
                                 <ul>
-                                    <li><a href="#"><i class="fas fa-angle-double-right"></i>team</a></li>
+                                    <li><a href="#team-part"><i class="fas fa-angle-double-right"></i>team</a></li>
                                     <li><a href="#"><i class="fas fa-angle-double-right"></i>condition</a></li>
                                     <li><a href="#"><i class="fas fa-angle-double-right"></i>clients</a></li>
                                     <li><a href="#"><i class="fas fa-angle-double-right"></i>career</a></li>
@@ -431,27 +444,27 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="footer-blog">
+                        <div class="col-lg-4 col-sm-12 col-md-6">
+                            <div class="footer__blog">
                                 <h3>recent post</h3>
                                 <ul>
                                     <li>
-                                        <img src="images/footer-blog-1.jpg" alt="footer-blog-1">
-                                        <div class="footer-text">
+                                        <img src="assets/images/footer-blog-1.jpg" alt="footer-blog-1">
+                                        <div class="footer__text">
                                             <a href="blog-list.html">it is a long established fact that reader will ...</a>
                                             <p>02 february 2020</p>
                                         </div>
                                     </li>
                                     <li>
-                                        <img src="images/footer-blog-1.jpg" alt="footer-blog-1">
-                                        <div class="footer-text">
+                                        <img src="assets/images/footer-blog-1.jpg" alt="footer-blog-1">
+                                        <div class="footer__text">
                                             <a href="blog-list.html">it is a long established fact that reader will ...</a>
                                             <p>02 february 2020</p>
                                         </div>
                                     </li>
                                     <li>
-                                        <img src="images/footer-blog-1.jpg" alt="footer-blog-1">
-                                        <div class="footer-text">
+                                        <img src="assets/images/footer-blog-1.jpg" alt="footer-blog-1">
+                                        <div class="footer__text">
                                             <a href="blog-list.html">it is a long established fact that reader will ...</a>
                                             <p>02 february 2020</p>
                                         </div>
@@ -459,6 +472,16 @@
                                 </ul>
                             </div>
                         </div>
+                    </div>
+                    <div class="footer__card">
+                        <a href="#"><img src="assets/images/card-1.png" alt="card-1"></a>
+                        <a href="#"><img src="assets/images/card-2.png" alt="card-2"></a>
+                        <a href="#"><img src="assets/images/card-3.png" alt="card-3"></a>
+                        <a href="#"><img src="assets/images/card-4.png" alt="card-4"></a>
+                        <a href="#"><img src="assets/images/card-5.png" alt="card-5"></a>
+                        <a href="#"><img src="assets/images/card-6.png" alt="card-6"></a>
+                        <a href="#"><img src="assets/images/card-7.png" alt="card-7"></a>
+                        <a href="#"><img src="assets/images/card-8.png" alt="card-8"></a>
                     </div>
                 </div>
             </div>
@@ -471,7 +494,7 @@
         <!--=========================================
                       COPYRIGHT PART START
         ===========================================-->
-        <section class="copy-part">
+        <section id="copy__part" class="change__color">
             <div class="container">
                 <ul>
                     <li>&copy; copyright 2020</li>
@@ -482,29 +505,24 @@
         </section>
         <!--=========================================
                       COPYRIGHT PART END
-        ===========================================-->        
+        ===========================================-->
         
         
         <!--=========================================
                      JS LINK PART START
         ===========================================-->
-        <script src="js/jquery-1.12.4.min.js"></script>
-        <script src="js/popper.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/slick.min.js"></script>
-        <script src="js/mixitup.min.js"></script>
-        <script src="js/main.js"></script>
+        <script src="assets/js/jquery-1.12.4.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/slick.min.js"></script>
+        <!-- <script src="assets/js/mixitup.min.js"></script> -->
+        <!-- <script src="assets/js/pickr.min.js"></script> -->
+        <script src="assets/js/main.js"></script>
         <!--=========================================
                      JS LINK PART END
         ===========================================-->
     </body>
 </html>
-
-
-
-
-
-
 
 
 
