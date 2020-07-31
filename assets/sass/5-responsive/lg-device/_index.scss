@@ -1,0 +1,87 @@
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar__logo {
+        display: none;
+    }
+
+    .primary__btn {
+        width: auto !important;
+        padding: 13px 35px !important;
+        font-size: 16px;
+    }
+
+    #banner__part {
+        padding: 120px 0px 50px;
+
+        .banner__shape__1 {
+            width: 40%;
+            height: auto;
+        }
+
+        .banner__shape__2 {
+            top: 100px;
+            right: -30%;
+        }
+
+        .container {
+            .banner__content {
+                margin-top: 30px;
+
+                h1 {
+                    font-size: 50px;
+                    line-height: 58px;
+                }
+
+                .banner__btn {
+                    .primary__btn {
+                        font-size: 16px;
+                    }
+                }
+            }
+
+            .banner__img {
+                margin-top: 30px;
+            }
+        }
+    }
+
+    .about__img img {
+        width: 205px !important;
+    }
+
+    .testi__says {
+        width: 270px !important;
+    }
+
+    .news__content {
+        width: 350px;
+
+        p {
+            width: 100% !important
+        }
+    }
+
+    .port__parent {
+        .dandik {
+            right: 0px !important;
+        }
+
+        .bamdik {
+            left: 0px !important;
+        }
+    }
+
+    .team__parent {
+        .dandik {
+            right: 0px !important;
+        }
+
+        .bamdik {
+            left: 0px !important;
+        }
+    }
+
+
+
+}

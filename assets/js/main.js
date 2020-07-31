@@ -37,6 +37,15 @@ $('.port__parent').slick({
   slidesToScroll: 1,
   responsive: [
     {
+      breakpoint: 1199,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
       breakpoint: 991,
       settings: {
         slidesToShow: 2,
@@ -48,7 +57,7 @@ $('.port__parent').slick({
     {
       breakpoint: 767,
       settings: {
-        slidesToShow: 1,
+        slidesToShow: 2,
         slidesToScroll: 1,
       }
     },
@@ -62,48 +71,6 @@ $('.port__parent').slick({
   ]
 });
 
-	
-
-
-
-// for company section slider
-$('.team__parent').slick({
-  dots: true,
-  infinite: true,
-  speed: 1000,
-  autoplay: false,
-  arrows: true,
-  fade: false,
-  slidesToShow: 4,
-  slidesToScroll: 1,
-  prevArrow: '<i class="fas fa-long-arrow-alt-right dandik"></i>',
-  nextArrow: '<i class="fas fa-long-arrow-alt-left bamdik"></i>',
-  responsive: [
-    {
-      breakpoint: 991,
-      settings: {
-        slidesToShow: 6,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 767,
-      settings: {
-        slidesToShow: 4,
-        slidesToScroll: 1,
-      }
-    },
-    {
-      breakpoint: 575,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3
-      }
-    }
-  ]
-});
 
 
 
@@ -124,7 +91,7 @@ $('.company__img').slick({
     {
       breakpoint: 991,
       settings: {
-        slidesToShow: 3,
+        slidesToShow: 4,
         slidesToScroll: 1,
         infinite: true,
         dots: true
@@ -133,14 +100,14 @@ $('.company__img').slick({
     {
       breakpoint: 767,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 4,
         slidesToScroll: 1,
       }
     },
     {
       breakpoint: 575,
       settings: {
-        slidesToShow: 1,
+        slidesToShow: 2,
         slidesToScroll: 1
       }
     }
@@ -231,6 +198,95 @@ $('.detail-slider').slick({
   ]
 });
 
+
+
+$('.testi__slider').slick({
+  dots: true,
+  infinite: true,
+  speed: 1000,
+  autoplay: true,
+  arrows: false,
+  fade: false,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  prevArrow: '<i class="fas fa-long-arrow-alt-right dandik"></i>',
+  nextArrow: '<i class="fas fa-long-arrow-alt-left bamdik"></i>',
+  responsive: [
+    {
+      breakpoint: 991,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+      }
+    },
+    {
+      breakpoint: 575,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+  ]
+});
+
+
+
+// FOR TEAM SECTION OF INDEX PAGE
+$('.team__parent').slick({
+  dots: true,
+  infinite: true,
+  speed: 1000,
+  autoplay: false,
+  arrows: true,
+  fade: false,
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  prevArrow: '<i class="fas fa-long-arrow-alt-right dandik"></i>',
+  nextArrow: '<i class="fas fa-long-arrow-alt-left bamdik"></i>',
+  responsive: [
+    {
+      breakpoint: 1199,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 991,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+      }
+    },
+    {
+      breakpoint: 575,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+  ]
+});
 
 
 

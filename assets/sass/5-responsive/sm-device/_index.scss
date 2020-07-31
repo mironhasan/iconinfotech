@@ -1,0 +1,714 @@
+
+
+
+
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    // =====================================
+    //     NAVBER SECTION OF INDEX PAGE
+    //======================================
+        .menu__part {
+            .container {
+                .navbar-brand {
+                    .logo__icon {
+                        width: 32px;
+                        height: 32px;
+                        line-height: 30px;
+                        span {
+                            font-size: 22px;
+                        }
+                    }
+    
+                    .navbar__logo {
+                        height: 30px;
+                    }
+                }
+    
+                .navbar-collapse {
+                    background: #f6fff5;
+                    text-align: center;
+                    padding: 25px 0px;
+    
+                    .navbar-nav {
+                        margin-right: 0px;
+    
+                        .nav-item {
+                            margin-left: 0px;
+    
+                            .dropdown-menu {
+                                width: 100%;
+                            }
+    
+                            .nav-link {
+                                padding: 12px 0px;
+                            }
+                        }
+                    }
+    
+                    .primary__btn {
+                        width: 120px;
+                        margin: 0px 8px;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    
+    // =====================================
+    //     BANNER SECTION OF INDEX PAGE
+    //======================================
+        #banner__part {
+            padding: 120px 0px 50px;
+    
+            .banner__shape__1 {
+                width: 40%;
+                height: auto;
+            }
+    
+            .banner__shape__2 {
+                top: 100px;
+                right: -30%;
+            }
+    
+            .container {
+                .banner__content {
+                    text-align: center;
+                    margin-top: 0px;
+    
+                    .banner__respons__img {
+                        display: block;
+    
+                        img {
+                            width: 100%;
+                            height: auto;
+                            animation: miron 8s linear infinite;
+            
+                            @keyframes miron {
+                                0%{
+                                    transform: translateY(-50px);
+                                }
+                                50%{
+                                    transform: translateY(0px);
+                                }
+                                100%{
+                                    transform: translateY(-50px);
+                                }
+                            }
+                        }
+                    }
+    
+                    h1 {
+                        font-size: 34px;
+                        line-height: 42px;
+                    }
+    
+                    .banner__btn {
+                        .primary__btn {
+                            padding: 13px 28px;
+                            font-size: 16px;
+                        }
+                    }
+                }
+    
+                .banner__img {
+                    display: none;
+                }
+            }
+        }
+    
+    // =====================================
+    //     DOMAIN SECTION OF INDEX PAGE
+    //======================================
+    #domain__part {
+        .domain__bg {
+            padding: 50px 0px;
+    
+            .container {
+                .sub__heading {
+                    .md__heading {
+                        font-size: 26px;
+                        margin-bottom: 30px !important;
+                    }
+                }
+        
+                .domain__content {
+                    .domain__form {
+                        display: block;
+        
+                        .domain__input {
+                            width: 100%;
+                            flex-direction: column;
+                            border-radius: 8px;
+                            padding: 30px 15px;
+        
+                            i {
+                                display: none;
+                            }
+        
+                            input {
+                                width: 100%;
+                                height: 55px;
+                                border-radius: 30px;
+                                box-shadow: $sm__box__shadow;
+        
+                                &::placeholder {
+                                    font-size: 14px;
+                                }
+                            }
+    
+                            .domain__select {
+                                display: none;
+                            }
+        
+                            button {
+                                font-size: 16px;
+                                height: 52px;
+                                line-height: 52px;
+                                margin-top: 25px;
+                            }
+                        }
+                    }
+        
+                    .domain__suggest {
+                        margin-top: 30px !important;
+        
+                        li {
+                            margin: 0px 15px !important;
+            
+                            p {
+                                font-size: 16px !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    // =====================================
+    //     PRICE SECTION OF INDEX PAGE
+    //======================================
+    #price__part {
+        padding: 50px 0px;
+    
+        .container {
+            .sub__heading {
+                .md__heading {
+                    font-size: 26px;
+                    margin-bottom: 30px !important;
+                }
+            }
+    
+            .price__card {
+                width: 400px;
+                margin: 0 auto 30px;
+    
+                .pur__btn {
+                    padding: 14px 55px;
+                }
+            }
+        }
+    }
+    
+    // =====================================
+    //     ABOUT SECTION OF INDEX PAGE
+    //======================================
+    #about__part {
+        padding: 0px;
+    
+        .about__shape__1 {
+            display: none;
+        }
+    
+        .container {
+            .sub__heading {
+                .md__heading {
+                    font-size: 26px;
+                    margin-bottom: 30px !important;
+                }
+            }
+    
+            .about__img {
+    
+                &::after {
+                    width: 60px;
+                    height: 60px;
+                }
+    
+                img {
+                    width: 235px;
+                }
+            }
+    
+            .about__text {
+                text-align: center;
+                margin-top: 30px;
+    
+                h3 {
+                    font-size: 42px;
+                    line-height: 50px;
+                }
+    
+                h4 {
+                    width: 100%;
+                    font-size: 24px;
+                    line-height: 32px;
+                }
+            }
+    
+            .about__icon {
+                text-align: center;
+    
+                li {
+                    margin: 0px 5px;
+    
+                    a {
+                        i {
+                            width: 40px;
+                            height: 40px;
+                            font-size: 14px;
+                            line-height: 40px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    // =====================================
+    //    SERVICE SECTION OF INDEX PAGE
+    //======================================
+    #service__part {
+        padding: 60px 0px;
+    
+        .container {
+            .sub__heading {
+                .md__heading {
+                    font-size: 26px;
+                    margin-bottom: 30px !important;
+                }
+            }
+    
+            .service__parent {
+                .service__card {
+                    width: 235px;
+                    margin: 30px 10px;
+                    padding: 35px 25px;
+    
+                    h3 {
+                        font-size: 22px;
+                    }
+    
+                    a {
+                        i {
+                            width: 48px;
+                            height: 48px;
+                            line-height: 48px;
+                            font-size: 16px;
+                        }
+                    }
+    
+                    .service__icon {
+                        i {
+                            width: 60px;
+                            height: 60px;
+                            line-height: 60px;
+                            font-size: 28px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    // =====================================
+    //      SEO SECTION OF INDEX PAGE
+    //======================================
+    #seo__part {
+        .seo__overlay {
+            padding: 60px 0px;
+    
+            .sub__heading {
+                .md__heading {
+                    font-size: 26px;
+                    margin-bottom: 30px !important;
+                }
+            }
+    
+            .seo__content {
+                .seo__form {
+                    display: block;
+    
+                    .seo__input {
+                        width: 100%;
+                        flex-direction: column;
+                        border-radius: 25px;
+                        padding: 30px 15px;
+    
+                        input {
+                            width: 100%;
+                            height: 55px;
+                            border-radius: 30px;
+                            box-shadow: $sm__box__shadow;
+                            margin-bottom: 20px;
+    
+                            &::placeholder {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    // =====================================
+    //     COMPANY SECTION OF INDEX PAGE
+    //======================================
+    #company__part {
+        padding: 40px 0px;
+    
+        .container {
+            .company__img {
+                margin-bottom: 0px;
+    
+                a {
+                    margin: 0px 18px;
+    
+                    img {
+                        width: auto;
+                        height: 35px;
+                    }
+                }
+            }
+        }
+    }
+    
+    // =====================================
+    //   PORTFOLIO SECTION OF INDEX PAGE
+    //======================================
+    #port__part {
+        padding: 60px 0px 0px;
+    
+        .container {
+            .sub__heading {
+                .md__heading {
+                    font-size: 26px;
+                    margin-bottom: 30px !important;
+                }
+            }
+    
+            .port__parent {
+                .dandik {
+                    right: 0px;
+                    width: 40px;
+                    height: 40px;
+                    line-height: 40px;
+                    font-size: 16px;
+                }
+    
+                .bamdik {
+                    left: 0px;
+                    width: 40px;
+                    height: 40px;
+                    line-height: 40px;
+                    font-size: 16px;
+                }
+    
+                .port__card {
+                    .port__content {
+                        width: 80%;
+                    }
+                }
+            }
+    
+            .port__btn {
+                .primary__btn {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    
+    // =====================================
+    //   TESTIMONIAL SECTION OF INDEX PAGE
+    //======================================
+    #testi__part {
+        padding: 60px 0px 0px;
+    
+        .container {
+            .sub__heading {
+                .md__heading {
+                    font-size: 26px;
+                    margin-bottom: 30px !important;
+                }
+            }
+    
+            .testi__slider {
+                margin-top: 30px;
+    
+                .slick-dots {
+                    bottom: -25px;
+                }
+    
+                .testi__card {
+                    .testi__says {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    
+    // =====================================
+    //     TEAM SECTION OF INDEX PAGE
+    //======================================
+    #team__part {
+        padding: 80px 0px 0px;
+    
+        .container {
+            .sub__heading {
+                .md__heading {
+                    font-size: 26px;
+                    margin-bottom: 30px !important;
+                }
+            }
+    
+            .team__parent {
+                .dandik {
+                    right: 0px;
+                    width: 40px;
+                    height: 40px;
+                    line-height: 40px;
+                    font-size: 16px;
+                }
+    
+                .bamdik {
+                    left: 0px;
+                    width: 40px;
+                    height: 40px;
+                    line-height: 40px;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    
+    // =====================================
+    //     BLOG SECTION OF INDEX PAGE
+    //======================================
+    #blog__part {
+        padding: 0px;
+    
+        .container {
+            .sub__heading {
+                .md__heading {
+                    font-size: 26px;
+                    margin-bottom: 30px !important;
+                }
+            }
+    
+            .blog__card {
+                width: 400px;
+                margin: 0 auto 30px;
+            }
+    
+            .blog__more {
+                a {
+                    font-size: 16px;
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+    
+    // =====================================
+    //     CONTACT SECTION OF INDEX PAGE
+    //======================================
+    #contact__part {
+        padding: 60px 0px;
+    
+        .container {
+            .sub__heading {
+                .md__heading {
+                    font-size: 26px;
+                    margin-bottom: 30px !important;
+                }
+            }
+    
+            .contact__info {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 30px !important;
+    
+                li {
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 25px !important;
+    
+                    i {
+                        margin: 0px 0px 15px;
+                    }
+    
+                    .info__text {
+                        text-align: center;
+                    }
+                }
+            }
+    
+            .contact__content {
+                text-align: center;
+    
+                img {
+                    width: 400px;
+                    height: auto;
+                    margin: 0 auto;
+                }
+            }
+    
+            .contact__form {
+                margin-top: 50px;
+                text-align: center;
+    
+                .contact__input {
+                    display: block;
+    
+                    input {
+                        &:nth-child(1) {
+                            margin-right: 0px;
+                        }
+                    }
+                }
+    
+                .primary__btn {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    
+    // =====================================
+    //     NEWS SECTION OF INDEX PAGE
+    //======================================
+    #news__part {
+        padding: 60px 0px;
+    
+        .container {
+            flex-direction: column;
+    
+            .news__content {
+                width: 100%;
+                text-align: center;
+    
+                h3 {
+                    font-size: 24px;
+                }
+    
+                p {
+                    width: 100%;
+                }
+            }
+    
+            .news__form {
+                width: 100%;
+                display: block;
+                flex-direction: column;
+                border-radius: 25px;
+                padding: 30px 15px;
+                text-align: center;
+                margin-top: 30px;
+    
+                input {
+                    width: 100%;
+                    height: 55px;
+                    border-radius: 30px;
+                    box-shadow: $sm__box__shadow;
+                    margin-bottom: 20px;
+    
+                    &::placeholder {
+                        font-size: 14px;
+                    }
+                }
+    
+                button {
+                    border-radius: 30px;
+                    font-size: 16px;
+                    height: 50px;
+                    line-height: 50px;
+                }
+            }
+        }
+    }
+    
+    // =====================================
+    //     FOOTER SECTION OF INDEX PAGE
+    //======================================
+    #footer__part {
+        padding: 60px 0px 50px;
+    
+        .container {
+            .footer__logo {
+                margin-right: 0px;
+                text-align: center;
+    
+                .navbar-brand {
+                    width: 180px;
+                    margin: 0 auto;
+                }
+            }
+    
+            .footer__contact {
+                margin-top: 30px;
+    
+                h3 {
+                    display: inline-block;
+                    margin-bottom: 0px !important;
+                }
+    
+                ul {
+                    width: 120px;
+                    margin: 0 auto;
+    
+                    li {
+                        text-align: left;
+                    }
+                }
+            }
+    
+            .footer__blog {
+                margin-top: 30px;
+    
+                ul {
+                    width: 290px;
+                    margin: 0 auto;
+    
+                    li {
+                        img {
+                            width: 120px;
+                        }
+                    }
+                }
+            }
+    
+            .footer__card {
+                justify-content: center;
+                flex-wrap: wrap;
+                padding: 15px;
+    
+                a {
+                    margin: 0px 12px;
+                }
+            }
+        }
+    }
+    
+    
+    } // 576px - 767px 
+    
+    
+    
+    

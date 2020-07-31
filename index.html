@@ -3,11 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Icon infotech limited</title>
+        <title>Tinythree - home page</title>
         <!--=========================================
                      CSS LINK PART START
         ===========================================-->
-        <link rel="icon" href="assets/images/logo.png">
+        <link rel="icon" href="assets/images/icon_logo.png">
         <link rel="stylesheet" href="assets/css/all.min.css">
         <link rel="stylesheet" href="assets/icon/flaticon.css">
         <link rel="stylesheet" href="assets/css/classic.min.css">
@@ -21,25 +21,13 @@
     </head>
     <body>
        <!--=========================================
-                   COLOR PICKER PART START
-        ===========================================-->
-       <div class="hide__bar">
-           <span class="color__picker"></span>
-           <i class="fas fa-cog"></i>
-       </div>
-       <!--=========================================
-                    COLOR PICKER PART END
-        ===========================================-->
-      
-      
-       <!--=========================================
                     PRELOADER PART START
         ===========================================-->
-        <div class="preloader">
+        <!-- <div class="preloader">
             <div class="pre__img">
                 <img src="assets/images/menu-logo.png" alt="menu-logo">
             </div>
-        </div>
+        </div> -->
         <!--=========================================
                     PRELOADER PART END
         ===========================================-->
@@ -50,7 +38,10 @@
         ===========================================-->
         <nav class="navbar navbar-expand-lg menu__part menu__head change__color">
             <div class="container">
-                <a class="navbar-brand" href="index.html"><img class="brand__logo" src="assets/images/menu-logo.png" alt="menu-logo"></a>
+                <a class="navbar-brand" href="index.html">
+                    <div class="logo__icon"><span>T</span></div>
+                    <img class="navbar__logo" src="assets/images/logo.png" alt="logo">
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fas fa-bars"></i>
                 </button>
@@ -60,23 +51,30 @@
                         <li class="nav-item active">
                             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about-part">company</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                company
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="about.html">about us</a>
+                                <a class="dropdown-item" href="team.html">team members</a>
+                                <a class="dropdown-item" href="#">testimonials</a>
+                                <a class="dropdown-item" href="#">privacy policy</a>
+                                <a class="dropdown-item" href="career.html">career</a>
+                            </div>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 services
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="domain.html">domain</a>
+                                <a class="dropdown-item" href="hosting.html">hosting</a>
+                                <a class="dropdown-item" href="web.html">web solution</a>
                                 <a class="dropdown-item" href="software.html">software development</a>
-                                <a class="dropdown-item" href="design-develop.html">web solution</a>
-                                <a class="dropdown-item" href="domain-host.html">domain &amp; hosting</a>
+                                <a class="dropdown-item" href="wordpress.html">wordpress theme</a>
                                 <a class="dropdown-item" href="digital.html">digital marketing</a>
-                                <a class="dropdown-item" href="word-theme.html">wordpress theme</a>
                             </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html">portfolio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="product.html">product</a>
@@ -86,18 +84,16 @@
                                 blogs
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="blog-list.html">blogs</a>
-                                <a class="dropdown-item" href="#team-part">team members</a>
-                                <a class="dropdown-item" href="#">career</a>
-                                <a class="dropdown-item" href="#about-part">company</a>
-                                <a class="dropdown-item" href="#">privacy policy</a>
+                                <a class="dropdown-item" href="blog-list.html">blog list</a>
+                                <a class="dropdown-item" href="blog-details.html">blog details</a>
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact-part">contact</a>
+                            <a class="nav-link" href="contact.html">contact</a>
                         </li>
                     </ul>
-                    <a class="primary__btn" href="get.html">get started</a>
+                    <a class="primary__btn" href="login.html">login</a>
+                    <a class="primary__btn" href="signup.html">signup</a>
                 </div>
             </div>
         </nav>
@@ -114,8 +110,11 @@
             <img class="banner__shape__2" src="assets/images/banner-shape-2.png" alt="banner-shape-2">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-sm-12 col-md-6 col-lg-6">
                         <div class="banner__content">
+                            <div class="banner__respons__img">
+                                <img src="assets/images/banner-img.png" alt="banner-img">
+                            </div>
                             <h1>We help business achieving goals.</h1>
                             <p>Our main goal is client satisfaction. We believe we are capable to provide the best solutions making the customers intention as our main objectives. We like listen to the customers instead of convincing them.</p>
                             <div class="banner__btn">
@@ -124,7 +123,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-sm-12 col-md-6 col-lg-6">
                         <div class="banner__img">
                             <img src="assets/images/banner-img.png" alt="banner-img">
                         </div>
@@ -144,7 +143,7 @@
             <div class="domain__bg">
                 <div class="container">
                     <div class="sub__heading">
-                        <p class="sm__heading">icon infotech ltd</p>
+                        <p class="sm__heading">Tinythree</p>
                         <h2 class="md__heading">looking for domain name?</h2>
                     </div>
                     <div class="domain__content">
@@ -191,10 +190,10 @@
                             <h2 class="md__heading">choose hosting plan</h2>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-12">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="price__card">
                             <h3>basic</h3>
-                            <h4>$1.00</h4>
+                            <h4>$1.00</h4> 
                             <h5>monthly</h5>
                             <ul class="price__list">
                                 <li>
@@ -225,7 +224,7 @@
                             <a class="pur__btn" href="#">purchase</a>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-12">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="price__card">
                             <h3>standard</h3>
                             <h4>$2.00</h4>
@@ -259,7 +258,7 @@
                             <a class="pur__btn" href="#">purchase</a>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-12">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <div class="price__card">
                             <h3>premium</h3>
                             <h4>$5.00</h4>
@@ -310,7 +309,7 @@
                 <div class="row">
                    <div class="col-lg-12">
                        <div class="sub__heading">
-                           <p class="sm__heading">icon about</p>
+                           <p class="sm__heading">Tinythree about</p>
                            <h2 class="md__heading">some about comapny</h2>
                        </div>
                    </div>
@@ -350,7 +349,7 @@
         <section id="service__part" class="change__color">
             <div class="container">
                 <div class="sub__heading">
-                    <p class="sm__heading">icon services</p>
+                    <p class="sm__heading">Tinythree services</p>
                     <h2 class="md__heading">we offers for you</h2>
                 </div>
                 <div class="service__parent">
@@ -457,12 +456,12 @@
         
         
         <!--=========================================
-                      PORTFOLIO PART START
+                      PRODUCT PART START
         ===========================================-->
         <section id="port__part" class="change__color">
             <div class="container">
                 <div class="sub__heading">
-                    <p class="sm__heading">icon portfolio</p>
+                    <p class="sm__heading">Tinythree product</p>
                     <h2 class="md__heading">recent case studies</h2>
                 </div>
                 <div class="port__parent">
@@ -533,8 +532,86 @@
             </div>
         </section>
         <!--=========================================
-                      PORTFOLIO PART END
+                      PRODUCT PART END
         ===========================================-->
+
+
+    <!--===================================
+            TESTIMONIAL PART START
+    =====================================-->
+    <section id="testi__part">
+        <div class="container">
+            <div class="sub__heading">
+                <p class="sm__heading">Testimonials</p>
+                <h2 class="md__heading">what client says</h2>
+            </div>
+            <div class="testi__slider">
+                <div class="testi__card">
+                    <div class="testi__says">
+                        <i class="fas fa-quote-left"></i>
+                        <p class="testi__text">I have a strong coxatrose joint disease caused by worn cartilage in my left hip</p>
+                    </div>
+                    <div class="testi__author">
+                        <div class="testi__author__item">
+                            <img src="assets/images/testi_1.png" alt="testi_1">
+                        </div>
+                        <div class="testi__author__item">
+                            <h3>Blaise Matuidi</h3>
+                            <h4>Research Student</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="testi__card">
+                    <div class="testi__says">
+                        <i class="fas fa-quote-left"></i>
+                        <p class="testi__text">What I learned during Strategic Thinking program gave me exactly what</p>
+                    </div>
+                    <div class="testi__author">
+                        <div class="testi__author__item">
+                            <img src="assets/images/testi_1.png" alt="testi_1">
+                        </div>
+                        <div class="testi__author__item">
+                            <h3>Mario Mandžukić</h3>
+                            <h4>Postgraduate Student</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="testi__card">
+                    <div class="testi__says">
+                        <i class="fas fa-quote-left"></i>
+                        <p class="testi__text">I have a strong coxatrose joint disease caused by worn cartilage in my left hip</p>
+                    </div>
+                    <div class="testi__author">
+                        <div class="testi__author__item">
+                            <img src="assets/images/testi_2.png" alt="testi_2">
+                        </div>
+                        <div class="testi__author__item">
+                            <h3>Blaise Matuidi</h3>
+                            <h4>Research Student</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="testi__card">
+                    <div class="testi__says">
+                        <i class="fas fa-quote-left"></i>
+                        <p class="testi__text">People program enabled me to be a fuller me, using differe skills and behaviors...</p>
+                    </div>
+                    <div class="testi__author">
+                        <div class="testi__author__item">
+                            <img src="assets/images/testi_3.png" alt="testi_3">
+                        </div>
+                        <div class="testi__author__item">
+                            <h3>Mario Mandžukić</h3>
+                            <h4>Postgraduate Student</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--===================================
+             TESTIMONAIL PART END
+    =====================================-->
         
         
         <!--=========================================
@@ -545,7 +622,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="sub__heading">
-                            <p class="sm__heading">icon team</p>
+                            <p class="sm__heading">Tinythree team</p>
                             <h2 class="md__heading">meet our professionals</h2>
                         </div>
                     </div>
@@ -660,7 +737,7 @@
                             </ul>
                         </div>
                         <div class="team__name">
-                            <h3>Irfan ahmed</h3>
+                            <h3>shahin parvez</h3>
                             <p>Digital Marketer</p>
                             <ul class="team__icon">
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -687,7 +764,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="sub__heading">
-                            <p class="sm__heading">icon blogs</p>
+                            <p class="sm__heading">Tinythree blogs</p>
                             <h2 class="md__heading">our latest news</h2>
                         </div>
                     </div>
@@ -896,7 +973,10 @@
                     <div class="row">
                         <div class="col-lg-4 col-sm-12 col-md-12">
                             <div class="footer__logo">
-                                <a href="#"><img class="brand__logo" src="assets/images/footer-logo.png" alt="footerlogo"></a>
+                                <a class="navbar-brand" href="index.html">
+                                    <div class="logo__icon"><span>T</span></div>
+                                    <img class="navbar__logo" src="assets/images/footer_logo.png" alt="footer_logo">
+                                </a>
                                 <p>Monotnec deplos copertve chanvae to anding crorate Qhanin Unique Qnderwhe on Premum Converenc With Uheing Mutmeda with Nquel Undehele Mandnge theme with Qhanin Unque Qnderwhe.</p>
                                 <ul class="footer__icon">
                                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -987,8 +1067,8 @@
             <div class="container">
                 <ul>
                     <li>&copy; copyright 2020</li>
-                    <li>all rights reserved by <a href="#">icon infotech ltd</a></li>
-                    <li>developed by <a href="#">icon infotech ltd</a></li>
+                    <li>all rights reserved by <a href="#">mironitem</a></li>
+                    <li>developed by <a href="#">miron mahmud</a></li>
                 </ul>
             </div>
         </section>

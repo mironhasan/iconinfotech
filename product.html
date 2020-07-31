@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Product Page</title>
+        <title>Tinythree - Product Page</title>
         <!--=========================================
                      CSS LINK PART START
         ===========================================-->
@@ -60,23 +60,30 @@
                         <li class="nav-item active">
                             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about-part">company</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                company
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="about.html">about us</a>
+                                <a class="dropdown-item" href="team.html">team members</a>
+                                <a class="dropdown-item" href="#">testimonials</a>
+                                <a class="dropdown-item" href="#">privacy policy</a>
+                                <a class="dropdown-item" href="career.html">career</a>
+                            </div>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 services
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="domain.html">domain</a>
+                                <a class="dropdown-item" href="hosting.html">hosting</a>
+                                <a class="dropdown-item" href="web.html">web solution</a>
                                 <a class="dropdown-item" href="software.html">software development</a>
-                                <a class="dropdown-item" href="design-develop.html">web solution</a>
-                                <a class="dropdown-item" href="domain-host.html">domain &amp; hosting</a>
+                                <a class="dropdown-item" href="wordpress.html">wordpress theme</a>
                                 <a class="dropdown-item" href="digital.html">digital marketing</a>
-                                <a class="dropdown-item" href="word-theme.html">wordpress theme</a>
                             </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html">portfolio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="product.html">product</a>
@@ -86,18 +93,16 @@
                                 blogs
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="blog-list.html">blogs</a>
-                                <a class="dropdown-item" href="#team-part">team members</a>
-                                <a class="dropdown-item" href="#">career</a>
-                                <a class="dropdown-item" href="#about-part">company</a>
-                                <a class="dropdown-item" href="#">privacy policy</a>
+                                <a class="dropdown-item" href="blog-list.html">blog list</a>
+                                <a class="dropdown-item" href="blog-details.html">blog details</a>
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact-part">contact</a>
+                            <a class="nav-link" href="contact.html">contact</a>
                         </li>
                     </ul>
-                    <a class="primary__btn" href="get.html">get started</a>
+                    <a class="primary__btn" href="login.html">login</a>
+                    <a class="primary__btn" href="signup.html">signup</a>
                 </div>
             </div>
         </nav>
@@ -135,12 +140,12 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="product__content">
-                            <h1>choose our digital products</h1>
+                            <h1>see our best activities</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit officia omnis sunt aute.</p>
                             <form action="" method="" class="product__form">
                                 <div class="product__search">
                                     <i class="fas fa-search"></i>
-                                    <input type="text" placeholder="Search for product...">
+                                    <input type="text" placeholder="Search for portfolio...">
                                     <button type="button">search</button>
                                 </div>
                             </form>
@@ -154,245 +159,140 @@
                         </div>
                     </div>
                     <div class="col-lg-12">
-                        <div class="product__parent">
-                            <div class="product__card mix soft host" data-order="1">
-                                <div class="product__img">
-                                    <img src="assets/images/word-1.jpg" alt="word-1">
-                                    <div class="product__overlay">
-                                        <ul>
+                        <div class="inner__port__parent">
+                            <div class="port__card">
+                                <div class="port__img">
+                                    <img src="assets/images/port-1.jpg" alt="port-1">
+                                    <div class="port__overlay">
+                                        <ul class="port__cover">
                                             <li><a href="#">purchase item</a></li>
                                             <li><a href="#">live preview</a></li>
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="product__name">
-                                    <h3>office management</h3>
-                                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                                <div class="port__content">
+                                    <h3>commercial Website</h3>
+                                    <p>reactjs | nodejs</p>
                                 </div>
                             </div>
-                            <div class="product__card mix html host" data-order="2">
-                                <div class="product__img">
-                                    <img src="assets/images/word-2.jpg" alt="word-2">
-                                    <div class="product__overlay">
-                                        <ul>
+                            <div class="port__card">
+                                <div class="port__img">
+                                    <img src="assets/images/port-2.jpg" alt="port-2">
+                                    <div class="port__overlay">
+                                        <ul class="port__cover">
                                             <li><a href="#">purchase item</a></li>
                                             <li><a href="#">live preview</a></li>
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="product__name">
-                                    <h3>corporate theme</h3>
-                                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                                <div class="port__content">
+                                    <h3>commercial Website</h3>
+                                    <p>reactjs | nodejs</p>
                                 </div>
                             </div>
-                            <div class="product__card mix soft host" data-order="3">
-                                <div class="product__img">
-                                    <img src="assets/images/word-3.jpg" alt="word-3">
-                                    <div class="product__overlay">
-                                        <ul>
+                            <div class="port__card">
+                                <div class="port__img">
+                                    <img src="assets/images/port-3.jpg" alt="port-3">
+                                    <div class="port__overlay">
+                                        <ul class="port__cover">
                                             <li><a href="#">purchase item</a></li>
                                             <li><a href="#">live preview</a></li>
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="product__name">
-                                    <h3>sequrity software</h3>
-                                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                                <div class="port__content">
+                                    <h3>commercial Website</h3>
+                                    <p>reactjs | nodejs</p>
                                 </div>
                             </div>
-                            <div class="product__card mix word html" data-order="4">
-                                <div class="product__img">
-                                    <img src="assets/images/word-4.jpg" alt="word-4">
-                                    <div class="product__overlay">
-                                        <ul>
-                                            <li><a href="#">purchase theme</a></li>
-                                            <li><a href="#">live preview</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="product__name">
-                                    <h3>bakery</h3>
-                                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
-                                </div>
-                            </div>
-                            <div class="product__card mix host html" data-order="5">
-                                <div class="product__img">
-                                    <img src="assets/images/word-5.jpg" alt="word-5">
-                                    <div class="product__overlay">
-                                        <ul>
-                                            <li><a href="#">purchase theme</a></li>
-                                            <li><a href="#">live preview</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="product__name">
-                                    <h3>e-commerce</h3>
-                                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
-                                </div>
-                            </div>
-                            <div class="product__card mix word soft" data-order="6">
-                                <div class="product__img">
-                                    <img src="assets/images/word-6.jpg" alt="word-6">
-                                    <div class="product__overlay">
-                                        <ul>
+                            <div class="port__card">
+                                <div class="port__img">
+                                    <img src="assets/images/port-4.jpg" alt="port-4">
+                                    <div class="port__overlay">
+                                        <ul class="port__cover">
                                             <li><a href="#">purchase item</a></li>
                                             <li><a href="#">live preview</a></li>
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="product__name">
-                                    <h3>car race</h3>
-                                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                                <div class="port__content">
+                                    <h3>commercial Website</h3>
+                                    <p>reactjs | nodejs</p>
                                 </div>
                             </div>
-                            <div class="product__card mix html soft" data-order="7">
-                                <div class="product__img">
-                                    <img src="assets/images/word-7.jpg" alt="word-7">
-                                    <div class="product__overlay">
-                                        <ul>
+                            <div class="port__card">
+                                <div class="port__img">
+                                    <img src="assets/images/port-5.jpg" alt="port-5">
+                                    <div class="port__overlay">
+                                        <ul class="port__cover">
                                             <li><a href="#">purchase item</a></li>
                                             <li><a href="#">live preview</a></li>
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="product__name">
-                                    <h3>ios software</h3>
-                                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                                <div class="port__content">
+                                    <h3>commercial Website</h3>
+                                    <p>reactjs | nodejs</p>
                                 </div>
                             </div>
-                            <div class="product__card mix soft word" data-order="8">
-                                <div class="product__img">
-                                    <img src="assets/images/word-8.jpg" alt="word-8">
-                                    <div class="product__overlay">
-                                        <ul>
+                            <div class="port__card">
+                                <div class="port__img">
+                                    <img src="assets/images/port-6.jpg" alt="port-6">
+                                    <div class="port__overlay">
+                                        <ul class="port__cover">
                                             <li><a href="#">purchase item</a></li>
                                             <li><a href="#">live preview</a></li>
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="product__name">
-                                    <h3>entertainment</h3>
-                                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                                <div class="port__content">
+                                    <h3>commercial Website</h3>
+                                    <p>reactjs | nodejs</p>
                                 </div>
                             </div>
-                            <div class="product__card mix soft host" data-order="1">
-                                <div class="product__img">
-                                    <img src="assets/images/word-1.jpg" alt="word-1">
-                                    <div class="product__overlay">
-                                        <ul>
+                            <div class="port__card">
+                                <div class="port__img">
+                                    <img src="assets/images/port-7.jpg" alt="port-7">
+                                    <div class="port__overlay">
+                                        <ul class="port__cover">
                                             <li><a href="#">purchase item</a></li>
                                             <li><a href="#">live preview</a></li>
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="product__name">
-                                    <h3>office management</h3>
-                                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                                <div class="port__content">
+                                    <h3>commercial Website</h3>
+                                    <p>reactjs | nodejs</p>
                                 </div>
                             </div>
-                            <div class="product__card mix html host" data-order="2">
-                                <div class="product__img">
-                                    <img src="assets/images/word-2.jpg" alt="word-2">
-                                    <div class="product__overlay">
-                                        <ul>
+                            <div class="port__card">
+                                <div class="port__img">
+                                    <img src="assets/images/port-8.jpg" alt="port-8">
+                                    <div class="port__overlay">
+                                        <ul class="port__cover">
                                             <li><a href="#">purchase item</a></li>
                                             <li><a href="#">live preview</a></li>
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="product__name">
-                                    <h3>corporate theme</h3>
-                                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                                <div class="port__content">
+                                    <h3>commercial Website</h3>
+                                    <p>reactjs | nodejs</p>
                                 </div>
                             </div>
-                            <div class="product__card mix soft host" data-order="3">
-                                <div class="product__img">
-                                    <img src="assets/images/word-3.jpg" alt="word-3">
-                                    <div class="product__overlay">
-                                        <ul>
+                            <div class="port__card">
+                                <div class="port__img">
+                                    <img src="assets/images/port-9.jpg" alt="port-9">
+                                    <div class="port__overlay">
+                                        <ul class="port__cover">
                                             <li><a href="#">purchase item</a></li>
                                             <li><a href="#">live preview</a></li>
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="product__name">
-                                    <h3>sequrity software</h3>
-                                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
-                                </div>
-                            </div>
-                            <div class="product__card mix word html" data-order="4">
-                                <div class="product__img">
-                                    <img src="assets/images/word-4.jpg" alt="word-4">
-                                    <div class="product__overlay">
-                                        <ul>
-                                            <li><a href="#">purchase theme</a></li>
-                                            <li><a href="#">live preview</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="product__name">
-                                    <h3>bakery</h3>
-                                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
-                                </div>
-                            </div>
-                            <div class="product__card mix host html" data-order="5">
-                                <div class="product__img">
-                                    <img src="assets/images/word-5.jpg" alt="word-5">
-                                    <div class="product__overlay">
-                                        <ul>
-                                            <li><a href="#">purchase theme</a></li>
-                                            <li><a href="#">live preview</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="product__name">
-                                    <h3>e-commerce</h3>
-                                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
-                                </div>
-                            </div>
-                            <div class="product__card mix word soft" data-order="6">
-                                <div class="product__img">
-                                    <img src="assets/images/word-6.jpg" alt="word-6">
-                                    <div class="product__overlay">
-                                        <ul>
-                                            <li><a href="#">purchase item</a></li>
-                                            <li><a href="#">live preview</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="product__name">
-                                    <h3>car race</h3>
-                                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
-                                </div>
-                            </div>
-                            <div class="product__card mix html soft" data-order="7">
-                                <div class="product__img">
-                                    <img src="assets/images/word-7.jpg" alt="word-7">
-                                    <div class="product__overlay">
-                                        <ul>
-                                            <li><a href="#">purchase item</a></li>
-                                            <li><a href="#">live preview</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="product__name">
-                                    <h3>ios software</h3>
-                                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
-                                </div>
-                            </div>
-                            <div class="product__card mix soft word" data-order="8">
-                                <div class="product__img">
-                                    <img src="assets/images/word-8.jpg" alt="word-8">
-                                    <div class="product__overlay">
-                                        <ul>
-                                            <li><a href="#">purchase item</a></li>
-                                            <li><a href="#">live preview</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="product__name">
-                                    <h3>entertainment</h3>
-                                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                                <div class="port__content">
+                                    <h3>commercial Website</h3>
+                                    <p>reactjs | nodejs</p>
                                 </div>
                             </div>
                         </div>

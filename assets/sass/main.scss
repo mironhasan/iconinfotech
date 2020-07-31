@@ -49,17 +49,17 @@
 //=======================================
 //         5 - RESPONSIVE FOLDER
 //=======================================
-// XTRA LARGE DEVICE
-@import "5-responsive/xlg-device/_index.scss";
-
-// LARGE DEVICE
-@import "5-responsive/lg-device/_index.scss";
-
-// MEDIUM DEVICE
-@import "5-responsive/md-device/_index.scss";
+// XTRA SMALL DEVICE
+@import "5-responsive/xsm-device/_index.scss";
 
 // SMALL DEVICE
 @import "5-responsive/sm-device/_index.scss";
 
-// XTRA SMALL DEVICE
-@import "5-responsive/xsm-device/_index.scss";
+// MEDIUM DEVICE
+@import "5-responsive/md-device/_index.scss";
+
+// LARGE DEVICE
+@import "5-responsive/lg-device/_index.scss";
+
+// XTRA LARGE DEVICE
+@import "5-responsive/xlg-device/_index.scss";

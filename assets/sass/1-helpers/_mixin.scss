@@ -53,6 +53,16 @@
 
 
 // =====================================
+//         FLEX START PROPERTY
+//======================================
+@mixin flex__start {
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+}
+
+
+// =====================================
 //      BACKGROUND IMAGE PROPERTY
 //======================================
 @mixin background__property {
